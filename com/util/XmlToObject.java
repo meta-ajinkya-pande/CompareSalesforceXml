@@ -1,8 +1,7 @@
 package com.util;
 
 import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
+import java.io.FileInputStream;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -32,7 +31,9 @@ public class XmlToObject<T> {
             JAXBContext jaxbContext = JAXBContext.newInstance(getMyType());
             jaxbUnmarshaller = jaxbContext.createUnmarshaller();
             for (int i = 0; i < fileContents.length; i++) {
-                T object = (T) jaxbUnmarshaller.unmarshal(fileContents[i]);
+                System.out.println(fileContents[i]);
+                FileInputStream is = new FileInputStream(fileContents[i]);
+                T object = (T) jaxbUnmarshaller.unmarshal(is);
                 objectMap.put(fileContents[i].getName(), object);
             }
         } else {

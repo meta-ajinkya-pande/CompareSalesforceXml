@@ -1,0 +1,148 @@
+System Administrator Package Support.profile Comparision File
+
+ApplicationVisiblities(Not in Repo but in Org) /
+	standard__AllTabSet
+	standard__Insights
+	standard__LightningInstrumentation
+
+FieldPermissions(Not in Repo but in Org) /
+	Apttus__APTS_Agreement__c.Bid_Currency_MVP_del__c
+	Apttus__APTS_Agreement__c.Bid_Currency_del__c
+	Apttus__APTS_Agreement__c.Email_Body_del__c
+	Apttus__APTS_Agreement__c.Email_Subject_del__c
+	Apttus__APTS_Agreement__c.Is_Cloned_del__c
+	Case.Language
+	Event.CSM_QI_CTI_Phone__c
+	Opportunity.PIC_Offering_Type__c
+	Task.MQL_Job_Aid__c
+	pse__Project_Task__c.Preparation_Due_Date__c
+
+FieldPermissions(Not in Repo but in Org and package field) /
+	Account.LID__LinkedIn_Company_Id__c
+	Contact.LID__Languages__c
+	Contact.LID__Level__c
+	Contact.LID__LinkedIn_Company_Id__c
+	Contact.LID__LinkedIn_Member_Token__c
+	Contact.LID__No_longer_at_Company__c
+	Contact.LID__Session_Id__c
+	Event.LID__Date_Sent__c
+	Event.LID__URL__c
+	Lead.LID__LinkedIn_Company_Id__c
+	Lead.LID__LinkedIn_Member_Token__c
+	Opportunity.LID__CurrentGenerators__c
+	Opportunity.LID__DeliveryInstallationStatus__c
+	Opportunity.LID__Is_Influenced__c
+	Opportunity.LID__LinkedIn_Company_Id__c
+	Opportunity.LID__MainCompetitors__c
+	Opportunity.LID__My_DateTime__c
+	Opportunity.LID__My_Geolocation__c
+	Opportunity.LID__OrderNumber__c
+	Opportunity.LID__TrackingNumber__c
+	Task.LID__Date_Sent__c
+	Task.LID__URL__c
+	dsfs__DocuSign_Envelope__c.dsfs__BulkSendErrorMessage__c
+	dsfs__DocuSign_Envelope__c.dsfs__BulkSendError__c
+	dsfs__DocuSign_Envelope__c.dsfs__Job__c
+
+LayoutAssignment(Not in Repo but in Org) /
+	Account_Directory__c-Account Directory Layout
+	Admin_Time_Entry_Data__c-Admin Time Entry Data Layout
+	Agreement_Contacts__c-AGR Contacts_PL01_CLM_GCE Agreement Contacts Layout
+	Agreement_Email_Alert__c-Agreement Email Alert Layout
+	Box_Folder__mdt-Box Folder Layout
+	Box_Object__mdt-Box Object Layout
+	Box_Parent_Folder__mdt-Box Parent Folder Layout
+	CDA_Negotiator__c-CDA Negotiator Layout
+	CPQ_RM_Record_Type__mdt-CPQ RM Record Type Layout
+	CSM_QI_Announcement_Account_Relationship__c-CSM Announcement Account Relationship Layout
+	CSM_QI_Announcement_Product_Relationship__c-CSM Announcement Product Relationship Layout
+	CSM_QI_Announcement__c-CSM QI Announcement Layout
+	CSM_QI_Favorite_Record__c-Favorite Record Layout
+	CSM_QI_Frequency__c-Frequency Layout
+	ChannelProgramLevel-Formato Nivel de programa de canal
+	Clinical_Visit_Frequency_Data__c-Clinical Visit Frequency Data Layout
+	Component_Field__mdt-Component Field Layout
+	ContactPointAddress-Contact Point Address Layout
+	ContactPointEmail-Contact Point Email Layout
+	ContactPointPhone-Contact Point Phone Layout
+	ContactPointTypeConsent-Contact Point Type Consent Layout
+	Country_Input__c-Country Input Layout
+	Country_Sales_Head__c-Country Sales Head Layout
+	Custom_Sales_Path_Configuration__mdt-Custom Sales Path Configuration Layout
+	Fail_Sharing_Log__c-Failed Sharing Log Layout
+	Finance_IQVIA_Legal_Entity__c-Finance IQVIA Legal Entity Layout
+	Finance_IQVIA_Legal_Entity__c-Finance IQVIA Legal Entity Layout
+	Finance_IQVIA_Legal_Entity__c-Finance IQVIA Legal Entity Layout
+	FlowInterview-Flow Interview Layout
+	OpportunityContactRole-Opportunity Contact Role Layout
+	Opportunity_AIML_Result__c-Opportunity AIML Result Layout
+	Outlook-Outlook Layout
+	QuickText-Quick Text Layout
+	SObject_Sharing__c-SObject Sharing Layout
+	SiteIframeWhiteListUrl-Whitelisted Domains for Inline Frames Layout
+	Task-Task Layout
+	Task-Task Layout
+	Task-Task Layout
+	Task-Task Layout
+	Task-Task Layout
+	Task-Task Layout
+	Team_Sharing__c-Team Sharing Layout
+	Territory_Sharing__c-Territory Sharing Layout
+	Timeline__c-Timeline Layout
+	User_Locale_Mapping__mdt-User Locale Mapping Layout
+	User_Timezone_Mapping__mdt-User Timezone Mapping Layout
+	pse_Proj_c__x-Project Layout
+
+ObjectPermissions(Difference in Repo and Org)) /
+	Account
+	Asset
+	Campaign
+	Case
+	Contact
+	Contract
+	ContractLineItem
+	Entitlement
+	EntitlementContact
+	Idea
+	Lead
+	LiveAgentSession
+	LiveChatTranscript
+	Macro
+	Opportunity
+	Order
+	Pricebook2
+	Product2
+	ProfileSkill
+	ProfileSkillEndorsement
+	ProfileSkillUser
+	Quote
+	SWAT_Intake__c
+	ServiceContract
+	SocialPost
+	Solution
+
+ObjectPermissions(Not in Repo but in Org) /
+	Account_Directory__c
+	CDA_Negotiator__c
+	CSM_QI_Announcement_Account_Relationship__c
+	CSM_QI_Announcement_Product_Relationship__c
+	CSM_QI_Announcement__c
+	CSM_QI_Favorite_Record__c
+	Country_Sales_Head__c
+	Opportunity_AIML_Result__c
+	PSA_Related_System__c
+	PSA_Related_Systems_Service_Lines__c
+	Project_Related_System__c
+	QuickText
+	pse_Proj_c__x
+
+RecordTypeVisibilities(Not in Repo but in Org) /
+	Task.LID__General_Task_LinkedIn
+	Task.LID__InMail
+	Task.LID__LinkedIn_Call
+	Task.LID__Message
+	Task.LID__PointDrive_Presentation_Created
+	Task.LID__PointDrive_Presentation_Viewed
+
+TabVisibilities(Not in Repo but in Org) /
+	standard-QuickText

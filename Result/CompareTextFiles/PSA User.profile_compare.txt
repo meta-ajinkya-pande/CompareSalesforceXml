@@ -1,0 +1,157 @@
+PSA User.profile Comparision File
+
+FieldPermissions(Not in Repo but in Org) /
+	Account.AccountCountry__c
+	Case.Language
+	Finance_IQVIA_Legal_Entity__c.City__c
+	Finance_IQVIA_Legal_Entity__c.Postal__c
+	Knowledge__kav.Pillar__c
+	Product2.Enable_Regional_Hierarchy__c
+	Product2.Hierarchy_Global_Code_Description__c
+	Product2.ProductGroup__c
+	ServiceNow_Group__c.SystemType__c
+
+FieldPermissions(Not in Repo but in Org and package field) /
+	Account.LID__LinkedIn_Company_Id__c
+	Contact.LID__Languages__c
+	Contact.LID__Level__c
+	Contact.LID__LinkedIn_Company_Id__c
+	Contact.LID__LinkedIn_Member_Token__c
+	Contact.LID__No_longer_at_Company__c
+	Contact.LID__Session_Id__c
+	Event.LID__Date_Sent__c
+	Event.LID__URL__c
+	Lead.LID__LinkedIn_Company_Id__c
+	Lead.LID__LinkedIn_Member_Token__c
+	Opportunity.LID__CurrentGenerators__c
+	Opportunity.LID__DeliveryInstallationStatus__c
+	Opportunity.LID__Is_Influenced__c
+	Opportunity.LID__LinkedIn_Company_Id__c
+	Opportunity.LID__MainCompetitors__c
+	Opportunity.LID__My_DateTime__c
+	Opportunity.LID__My_Geolocation__c
+	Opportunity.LID__OrderNumber__c
+	Opportunity.LID__TrackingNumber__c
+	Task.LID__Date_Sent__c
+	Task.LID__URL__c
+	dsfs__DocuSign_Envelope__c.dsfs__BulkSendErrorMessage__c
+	dsfs__DocuSign_Envelope__c.dsfs__BulkSendError__c
+	dsfs__DocuSign_Envelope__c.dsfs__Job__c
+
+LayoutAssignment(Not in Repo but in Org) /
+	Account_Dashboards_Reports_Category_RS__c-Account Dashboards Reports Category RS Layout
+	Account_Directory__c-Account Directory Layout
+	Account_Report_Note__c-Account Report Note Layout
+	Address__c-Address Layout
+	Admin_Time_Entry_Data__c-Admin Time Entry Data Layout
+	Agency_Program_Financials__c-Agency Program Financials Address Layout
+	Agency_Program_Financials__c-Agency Program Financials Address Layout
+	Agency_Program_Financials__c-Agency Program Financials Address Layout
+	Agreement_Contacts__c-AGR Contacts_PL01_CLM_GCE Agreement Contacts Layout
+	Agreement_Contacts__c-AGR Contacts_PL01_CLM_GCE Agreement Contacts Layout
+	Agreement_Contacts__c-AGR Contacts_PL01_CLM_GCE Agreement Contacts Layout
+	Agreement_Email_Alert__c-Agreement Email Alert Layout
+	Box_Folder__mdt-Box Folder Layout
+	Box_Object__mdt-Box Object Layout
+	Box_Parent_Folder__mdt-Box Parent Folder Layout
+	CDA_Negotiator__c-CDA Negotiator Layout
+	CPQ_RM_Record_Type__mdt-CPQ RM Record Type Layout
+	CSM_Chat_History__c-CSM Chat History Layout
+	CSM_QI_Announcement_Account_Relationship__c-CSM Announcement Account Relationship Layout
+	CSM_QI_Announcement_Product_Relationship__c-CSM Announcement Product Relationship Layout
+	CSM_QI_Announcement__c-CSM QI Announcement Layout
+	CSM_QI_CAPA__c-CSM DATA CAPA Layout
+	CSM_QI_CaseAutomationScheduler__c-CSM Case Automation Scheduler Layout
+	CSM_QI_Favorite_Record__c-Favorite Record Layout
+	CSM_QI_Frequency__c-Frequency Layout
+	CSM_RecordType_Based_Picklist_Setting__mdt-RecordType Based Picklist Setting Layout
+	ChannelProgramLevel-Formato Nivel de programa de canal
+	Clinical_Visit_Frequency_Data__c-Clinical Visit Frequency Data Layout
+	Component_Field__mdt-Component Field Layout
+	ContactPointAddress-Contact Point Address Layout
+	ContactPointEmail-Contact Point Email Layout
+	ContactPointPhone-Contact Point Phone Layout
+	ContactPointTypeConsent-Contact Point Type Consent Layout
+	Contact_Address_Crosswalk__c-Contact Address Crosswalk Layout
+	Corrective_Action__c-Corrective Action Layout
+	Country_Input__c-Country Input Layout
+	Country_Sales_Head__c-Country Sales Head Layout
+	Custom_Sales_Path_Configuration__mdt-Custom Sales Path Configuration Layout
+	Dashboards_Category_Relationship__c-Dashboards Category Relationship Layout
+	Dashboards_Reports_Category__c-Dashboards Reports Category Layout
+	Drug__c-Drug Layout
+	Error_Log__c-Error Log Layout
+	Fail_Sharing_Log__c-Failed Sharing Log Layout
+	Finance_IQVIA_Legal_Entity__c-Finance IQVIA Legal Entity Layout
+	Finance_IQVIA_Legal_Entity__c-Finance IQVIA Legal Entity Layout
+	Finance_IQVIA_Legal_Entity__c-Finance IQVIA Legal Entity Layout
+	FlowInterview-Flow Interview Layout
+	Formulation__c-Formulation Layout
+	Invoice__c-Invoice Layout
+	Knowledge_Account_RelationShip__c-Knowledge Account RelationShip Layout
+	Log_History__c-Log History Layout
+	OCE_Agreement_Approval_Notification__c-Agreement Approval Notification Layout
+	OCE_Agreement_Approval_Range__mdt-Agreement Approval Range Layout
+	OCE_Bundle_Clone_Settings__mdt-OCE Bundle Clone Settings Layout
+	OCE_Delivery_Country_Code_Mapping__mdt-OCE Delivery Country Code Mapping Layout
+	OCE_Regions_Data__mdt-OCE Regions Data Layout
+	OCE_Subscription_AddOn__c-Subscription AddOn Layout
+	OCE_Subscription_Fee_Summary__c-Subscription Fee Summary Layout
+	OCE_Subscription_Term__c-Subscription Term Layout
+	OCE_Subscription_Type__c-Subscription Type Layout
+	OWF_RR_Grade_Level_Setting__mdt-OWF_RR_Grade_Level_Setting Layout
+	OpportunityContactRole-Opportunity Contact Role Layout
+	Opportunity_AIML_Result__c-Opportunity AIML Result Layout
+	Outlook-Outlook Layout
+	PSA_Event__c-PSA Event Layout
+	PSA_ProjectCreationValidStage__mdt-PSA Project Creation Valid Stage Layout
+	PSA_Related_System__c-RS PL01 PSA Default Layout
+	PSA_Related_Systems_Service_Lines__c-RSSL PL01 PSA Default Layout
+	Partner_Contact__c-Partner Contact Layout
+	Product_Group_Relationship__c-Product Group Relationship Layout
+	Project_Related_System__c-PRS PL01 PSA Default Layout
+	QuickText-Quick Text Layout
+	RA_Feedback__c-RA Feedback Layout
+	RA_Issue__c-RA Issue Layout
+	RA_Recommendation__c-RA Recommendation Layout
+	RA_Request__c-RA Request Layout
+	Rate_Card_ID__c-Rate Card ID Layout
+	Rate_Detail__c-Rate Detail Layout
+	Report_Country__c-Report Country Layout
+	Report_Drug__c-Report Drug Layout
+	Reports_Category_Relationship__c-Reports Category Relationship Layout
+	SObject_Sharing__c-SObject Sharing Layout
+	SWAT_Intake__c-SWAT Intake Layout
+	SiteIframeWhiteListUrl-Whitelisted Domains for Inline Frames Layout
+	Suggested_Resources__c-Suggested Resources Layout
+	Task-Task Layout
+	Task-Task Layout
+	Task-Task Layout
+	Task-Task Layout
+	Task-Task Layout
+	Task-Task Layout
+	Team_Sharing__c-Team Sharing Layout
+	Template_Data__c-Template Data Layout
+	Territory_Sharing__c-Territory Sharing Layout
+	Timeline__c-Timeline Layout
+	Trade_Name__c-Trade Name Layout
+	UPT_Budget_Country_Data__c-UPT Budget Country Data Layout
+	UPT_Budget_Defaults__c-UPT Budget Default Layout
+	UPT_Budget_Resource__c-UPT Budget Resource Layout
+	User_Locale_Mapping__mdt-User Locale Mapping Layout
+	User_Timezone_Mapping__mdt-User Timezone Mapping Layout
+	Workflow_Email_Record__c-Workflow Email Record Layout
+	pse_Proj_c__x-Project Layout
+
+RecordTypeVisibilities(Not in Repo but in Org) /
+	Task.LID__General_Task_LinkedIn
+	Task.LID__InMail
+	Task.LID__LinkedIn_Call
+	Task.LID__Message
+	Task.LID__PointDrive_Presentation_Created
+	Task.LID__PointDrive_Presentation_Viewed
+
+TabVisibilities(Not in Repo but in Org) /
+	standard-Event
+	standard-QuickText
+	standard-Task

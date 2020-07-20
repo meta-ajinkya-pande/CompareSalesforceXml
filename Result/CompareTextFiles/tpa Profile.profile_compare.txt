@@ -1,0 +1,659 @@
+tpa Profile.profile Comparision File
+
+ApplicationVisiblities(Not in Repo but in Org) /
+	TPA_Vendor_Submission
+
+ClassAccesses(Not in Repo but in Org) /
+	EXT_CSM_CalendarEvent
+	EXT_CSM_Validator_Cls
+	TST_SRV_CDA_CDARequest
+
+FieldPermissions(Not in Repo but in Org) /
+	Account.AccountCountry__c
+	Account.AccountSource
+	Account.BillingAddress
+	Account.CSH_Self_Registration__c
+	Account.Description
+	Account.Industry
+	Account.Jigsaw
+	Account.NumberOfEmployees
+	Account.ParentId
+	Account.Phone
+	Account.SicDesc
+	Account.Strategic_Account__c
+	Account.Type
+	Account.Website
+	AccountContactRelation.EndDate
+	AccountContactRelation.IsActive
+	AccountContactRelation.Relationship_Strength__c
+	AccountContactRelation.Roles
+	AccountContactRelation.StartDate
+	Agency_Program__c.First_Notification__c
+	Agency_Program__c.Second_Notification__c
+	Agency_Program__c.Third_Notification__c
+	Asset.AccountId
+	Asset.AssetLevel
+	Asset.AssetProvidedById
+	Asset.AssetServicedById
+	Asset.ContactId
+	Asset.Description
+	Asset.InstallDate
+	Asset.IsCompetitorProduct
+	Asset.IsInternal
+	Asset.Price
+	Asset.Product2Id
+	Asset.PurchaseDate
+	Asset.Quantity
+	Asset.SerialNumber
+	Asset.Status
+	Asset.StockKeepingUnit
+	Asset.Topic_Visible_in_CSH_Homepage__c
+	Asset.UsageEndDate
+	AssetRelationship.RelationshipType
+	CSAT_Responses__c.CSAT_Response_Po1__c
+	CSM_QI_Case_Follower__c.Account_Country__c
+	CSM_QI_Case_Follower__c.Case__c
+	CSM_QI_Case_Follower__c.Contact__c
+	Campaign.ActualCost
+	Campaign.AmountAllOpportunities
+	Campaign.AmountWonOpportunities
+	Campaign.BudgetedCost
+	Campaign.CampaignImageId
+	Campaign.Description
+	Campaign.EndDate
+	Campaign.ExpectedResponse
+	Campaign.ExpectedRevenue
+	Campaign.IsActive
+	Campaign.NumberOfContacts
+	Campaign.NumberOfConvertedLeads
+	Campaign.NumberOfLeads
+	Campaign.NumberOfOpportunities
+	Campaign.NumberOfResponses
+	Campaign.NumberOfWonOpportunities
+	Campaign.NumberSent
+	Campaign.ParentId
+	Campaign.StartDate
+	Campaign.Status
+	Campaign.Type
+	Case.AccountId
+	Case.ClosedDate
+	Case.ContactId
+	Case.CurrentQueue__c
+	Case.Description
+	Case.IsEscalated
+	Case.Language
+	Case.OrgURL__c
+	Case.Origin
+	Case.ParentId
+	Case.Priority
+	Case.Reason
+	Case.SiteNumber__c
+	Case.Site_Related_to_the_Study__c
+	Case.Subject
+	Case.SuppliedCompany
+	Case.SuppliedEmail
+	Case.SuppliedName
+	Case.SuppliedPhone
+	Case.Type
+	Contact.AccountId
+	Contact.CSH_User_Last_connection_date__c
+	Contact.CSH_User__c
+	Contact.Contact_User_Type__c
+	Contact.Department
+	Contact.Email
+	Contact.Fax
+	Contact.Jigsaw
+	Contact.MailingAddress
+	Contact.MobilePhone
+	Contact.Phone
+	Contact.Portal_Case_Type__c
+	Contact.ReportsToId
+	Contact.Title
+	Contract.Agency_Program__c
+	Contract.CompanySignedDate
+	Contract.ContractTerm
+	Contract.EndDate
+	Contract.First_Notification_Date__c
+	Contract.Formatted_End_Date__c
+	Contract.New_Contract_Number__c
+	Contract.Non_Standard_Contract__c
+	Contract.Notification_Counter__c
+	Contract.PRM_Parent_Contract_Number__c
+	Contract.Pricebook2Id
+	Contract.Second_Notification_Date__c
+	Contract.ShippingAddress
+	Contract.SpecialTerms
+	Contract.StartDate
+	Contract.Third_Notification_Date__c
+	ContractLineItem.AssetId
+	ContractLineItem.Description
+	ContractLineItem.Discount
+	ContractLineItem.EndDate
+	ContractLineItem.ListPrice
+	ContractLineItem.ParentContractLineItemId
+	ContractLineItem.RootContractLineItemId
+	ContractLineItem.StartDate
+	ContractLineItem.Status
+	ContractLineItem.StatusIndicator
+	ContractLineItem.Subtotal
+	ContractLineItem.TotalPrice
+	Entitlement.AssetId
+	Entitlement.BusinessHoursId
+	Entitlement.CasesPerEntitlement
+	Entitlement.ContractLineItemId
+	Entitlement.EndDate
+	Entitlement.IsPerIncident
+	Entitlement.RemainingCases
+	Entitlement.ServiceContractId
+	Entitlement.SlaProcessId
+	Entitlement.StartDate
+	Entitlement.Status
+	Entitlement.StatusIndicator
+	Entitlement.Type
+	Event.Description
+	Event.IsAllDayEvent
+	Event.IsVisibleInSelfService
+	Event.Location
+	Event.WhatId
+	Event.WhoId
+	Finance_IQVIA_Legal_Entity__c.City__c
+	Finance_IQVIA_Legal_Entity__c.Postal__c
+	Idea.Status
+	Knowledge__kav.Pillar__c
+	Knowledge__kav.Topic_Chapter__c
+	Lead.Address
+	Lead.Email
+	Lead.Industry
+	Lead.Jigsaw
+	Lead.LeadSource
+	Lead.MobilePhone
+	Lead.NumberOfEmployees
+	Lead.Phone
+	Lead.Rating
+	Lead.Title
+	Lead.Website
+	LiveAgentSession.ChatReqAssigned
+	LiveAgentSession.ChatReqDeclined
+	LiveAgentSession.ChatReqEngaged
+	LiveAgentSession.ChatReqTimedOut
+	LiveAgentSession.NumFlagLoweredAgent
+	LiveAgentSession.NumFlagLoweredSupervisor
+	LiveAgentSession.NumFlagRaised
+	LiveAgentSession.TimeAtCapacity
+	LiveAgentSession.TimeIdle
+	LiveAgentSession.TimeInAwayStatus
+	LiveAgentSession.TimeInChats
+	LiveAgentSession.TimeInOnlineStatus
+	LiveChatTranscript.Abandoned
+	LiveChatTranscript.AccountId
+	LiveChatTranscript.AverageResponseTimeOperator
+	LiveChatTranscript.AverageResponseTimeVisitor
+	LiveChatTranscript.Body
+	LiveChatTranscript.Browser
+	LiveChatTranscript.BrowserLanguage
+	LiveChatTranscript.CaseId
+	LiveChatTranscript.ChatDuration
+	LiveChatTranscript.ChatKey
+	LiveChatTranscript.ContactId
+	LiveChatTranscript.EndTime
+	LiveChatTranscript.EndedBy
+	LiveChatTranscript.IpAddress
+	LiveChatTranscript.LeadId
+	LiveChatTranscript.Lifecycle
+	LiveChatTranscript.LiveChatButtonId
+	LiveChatTranscript.LiveChatDeploymentId
+	LiveChatTranscript.Location
+	LiveChatTranscript.MaxResponseTimeOperator
+	LiveChatTranscript.MaxResponseTimeVisitor
+	LiveChatTranscript.OperatorMessageCount
+	LiveChatTranscript.Platform
+	LiveChatTranscript.ReferrerUri
+	LiveChatTranscript.RequestTime
+	LiveChatTranscript.ScreenResolution
+	LiveChatTranscript.SkillId
+	LiveChatTranscript.StartTime
+	LiveChatTranscript.Status
+	LiveChatTranscript.SupervisorTranscriptBody
+	LiveChatTranscript.UserAgent
+	LiveChatTranscript.VisitorMessageCount
+	LiveChatTranscript.VisitorNetwork
+	LiveChatTranscript.WaitTime
+	Opportunity.AccountId
+	Opportunity.Amount
+	Opportunity.Budget_Confirmed__c
+	Opportunity.CampaignId
+	Opportunity.ContractId
+	Opportunity.Description
+	Opportunity.Discovery_Completed__c
+	Opportunity.Forecast_Category__c
+	Opportunity.LeadSource
+	Opportunity.Loss_Reason__c
+	Opportunity.NextStep
+	Opportunity.Probability
+	Opportunity.ROI_Analysis_Completed__c
+	Opportunity.Survey_Recipient_2__c
+	Opportunity.Survey_Recipient_3__c
+	Opportunity.Survey_Recipient__c
+	Opportunity.Type
+	OpportunityLineItem.Description
+	OpportunityLineItem.ListPrice
+	OpportunityLineItem.ProductCode
+	OpportunityLineItem.ServiceDate
+	OpportunityLineItem.TotalPrice
+	Order.ActivatedById
+	Order.ActivatedDate
+	Order.BillingAddress
+	Order.CompanyAuthorizedById
+	Order.ContractEndDate
+	Order.CustomerAuthorizedById
+	Order.Description
+	Order.ShippingAddress
+	Order.TotalAmount
+	Order.Type
+	OrderItem.Description
+	OrderItem.EndDate
+	OrderItem.ListPrice
+	OrderItem.ProductCode
+	OrderItem.ServiceDate
+	Product2.Description
+	Product2.DisplayUrl
+	Product2.ExternalDataSourceId
+	Product2.ExternalId
+	Product2.Family
+	Product2.ProductCode
+	Product2.QuantityUnitOfMeasure
+	Product2.StockKeepingUnit
+	Quote.AccountId
+	Quote.AdditionalAddress
+	Quote.AdditionalName
+	Quote.BillingAddress
+	Quote.BillingName
+	Quote.ContactId
+	Quote.ContractId
+	Quote.Description
+	Quote.Discount
+	Quote.Email
+	Quote.ExpirationDate
+	Quote.Fax
+	Quote.GrandTotal
+	Quote.Phone
+	Quote.QuoteToAddress
+	Quote.QuoteToName
+	Quote.ShippingAddress
+	Quote.ShippingHandling
+	Quote.ShippingName
+	Quote.Status
+	Quote.Subtotal
+	Quote.Tax
+	Quote.TotalPrice
+	QuoteLineItem.Description
+	QuoteLineItem.Discount
+	QuoteLineItem.ListPrice
+	QuoteLineItem.ProductCode
+	QuoteLineItem.ServiceDate
+	QuoteLineItem.Subtotal
+	QuoteLineItem.TotalPrice
+	ServiceContract.AccountId
+	ServiceContract.ActivationDate
+	ServiceContract.ApprovalStatus
+	ServiceContract.BillingAddress
+	ServiceContract.ContactId
+	ServiceContract.Description
+	ServiceContract.Discount
+	ServiceContract.EndDate
+	ServiceContract.GrandTotal
+	ServiceContract.ParentServiceContractId
+	ServiceContract.RootServiceContractId
+	ServiceContract.ShippingAddress
+	ServiceContract.ShippingHandling
+	ServiceContract.SpecialTerms
+	ServiceContract.StartDate
+	ServiceContract.Status
+	ServiceContract.StatusIndicator
+	ServiceContract.Subtotal
+	ServiceContract.Tax
+	ServiceContract.Term
+	ServiceContract.TotalPrice
+	SocialPersona.AreWeFollowing
+	SocialPersona.AuthorLabels
+	SocialPersona.Bio
+	SocialPersona.Followers
+	SocialPersona.Following
+	SocialPersona.InfluencerScore
+	SocialPersona.IsBlacklisted
+	SocialPersona.IsFollowingUs
+	SocialPersona.IsVerified
+	SocialPersona.Klout
+	SocialPersona.ListedCount
+	SocialPersona.MediaProvider
+	SocialPersona.MediaType
+	SocialPersona.NumberOfFriends
+	SocialPersona.NumberOfTweets
+	SocialPersona.ProfileType
+	SocialPersona.R6SourceId
+	SocialPersona.RealName
+	SocialPersona.SourceApp
+	SocialPersona.TopicType
+	SocialPersona.UserId
+	SocialPost.AnalyzerScore
+	SocialPost.AssignedTo
+	SocialPost.AttachmentType
+	SocialPost.AttachmentUrl
+	SocialPost.Classification
+	SocialPost.CommentCount
+	SocialPost.Content
+	SocialPost.DeletedById
+	SocialPost.EngagementLevel
+	SocialPost.ExternalPostId
+	SocialPost.HarvestDate
+	SocialPost.HiddenById
+	SocialPost.InboundLinkCount
+	SocialPost.IsOutbound
+	SocialPost.KeywordGroupName
+	SocialPost.Language
+	SocialPost.LikesAndVotes
+	SocialPost.MediaProvider
+	SocialPost.MediaType
+	SocialPost.MessageType
+	SocialPost.Notes
+	SocialPost.OutboundSocialAccountId
+	SocialPost.ParentId
+	SocialPost.PersonaId
+	SocialPost.PostPriority
+	SocialPost.PostTags
+	SocialPost.PostUrl
+	SocialPost.R6PostId
+	SocialPost.R6SourceId
+	SocialPost.R6TopicId
+	SocialPost.Recipient
+	SocialPost.RecipientType
+	SocialPost.ReplyToId
+	SocialPost.ResponseContextExternalId
+	SocialPost.ReviewScale
+	SocialPost.ReviewScore
+	SocialPost.ReviewedStatus
+	SocialPost.Sentiment
+	SocialPost.Shares
+	SocialPost.SourceTags
+	SocialPost.SpamRating
+	SocialPost.Status
+	SocialPost.StatusMessage
+	SocialPost.ThreadSize
+	SocialPost.TopicProfileName
+	SocialPost.TopicType
+	SocialPost.UniqueCommentors
+	SocialPost.ViewCount
+	SocialPost.WhoId
+	Solution.IsPublished
+	Solution.IsPublishedInPublicKb
+	Solution.SolutionNote
+	StudySiteContactRelationship__c.Account_Country__c
+	StudySiteContactRelationship__c.Site_Name__c
+	TPA_AMA_Client_Vendor_Search_Map__c.TPA_Account_ID__c
+	TPA_AMA_Parent_Child_Account_Crosswalk__c.Parent_Account_Id__c
+	TPA_Offering_Notification_Mapping__c.Vendor_Account_Address__c
+	TPA_Offering_Notification_Mapping__c.Vendor_Account_Name__c
+	TPA_Offering_Notification_Mapping__c.Vendor_Account__c
+	Task.ActivityDate
+	Task.Description
+	Task.IsVisibleInSelfService
+	Task.WhatId
+	Task.WhoId
+	User.LastLoginValue__c
+
+LayoutAssignment(Not in Repo but in Org) /
+	Account-Account Layout
+	Account-Account Layout
+	Account-Account Layout
+	Account_Dashboards_Reports_Category_RS__c-Account Dashboards Reports Category RS Layout
+	Account_Directory__c-Account Directory Layout
+	Account_Report_Note__c-Account Report Note Layout
+	Activity__c-Activity Layout
+	Admin_Time_Entry_Data__c-Admin Time Entry Data Layout
+	Agency_Program_Financials__c-Agency Program Financials Address Layout
+	Agency_Program_Financials__c-Agency Program Financials Address Layout
+	Agency_Program_Financials__c-Agency Program Financials Address Layout
+	Agreement_Contacts__c-AGR Contacts_PL01_CLM_GCE Agreement Contacts Layout
+	Agreement_Contacts__c-AGR Contacts_PL01_CLM_GCE Agreement Contacts Layout
+	Agreement_Contacts__c-AGR Contacts_PL01_CLM_GCE Agreement Contacts Layout
+	Agreement_Email_Alert__c-Agreement Email Alert Layout
+	Agreement_Extension__c-Agreement Extension Layout
+	Agreement_Notes__c-Agreement Notes Layout
+	Agreement_Products__c-Agreement Product Layout
+	Agreement__c-Agreement Layout
+	Agreement__c-Agreement Layout
+	Apex_RecordType_Control__mdt-Apex RecordType Control Layout
+	Apttus__APTS_Agreement__c-AGR_PL01_CRM_CSS Short Form
+	Audit_Log__c-Audit Log Layout
+	BNF2__c-Global BNF Layout
+	BNF2__c-Global BNF Layout
+	Box_Folder__mdt-Box Folder Layout
+	Box_Object__mdt-Box Object Layout
+	Box_Parent_Folder__mdt-Box Parent Folder Layout
+	CDA_Legal_POC_Cross_Walk__c-CDA Legal POC Cross Walk Layout
+	CDA_Negotiator__c-CDA Negotiator Layout
+	CDA_Request__c-CDA Request Layout
+	CDA_Request__c-CDA Request Layout
+	CPQ_RM_Record_Type__mdt-CPQ RM Record Type Layout
+	CSM_Chat_History__c-CSM Chat History Layout
+	CSM_QI_Announcement_Account_Relationship__c-CSM Announcement Account Relationship Layout
+	CSM_QI_Announcement_Product_Relationship__c-CSM Announcement Product Relationship Layout
+	CSM_QI_Announcement__c-CSM QI Announcement Layout
+	CSM_QI_App_Launcher__c-App Launcher Layout
+	CSM_QI_CAPA__c-CSM DATA CAPA Layout
+	CSM_QI_CaseAutomationScheduler__c-CSM Case Automation Scheduler Layout
+	CSM_QI_Case_Follower__c-CSM Case Follower Layout
+	CSM_QI_Favorite_Record__c-Favorite Record Layout
+	CSM_QI_Frequency__c-Frequency Layout
+	CSM_QI_Integration_Log__c-CSM Integration Log Layout
+	CSM_RecordType_Based_Picklist_Setting__mdt-RecordType Based Picklist Setting Layout
+	Case-CAS_PL09_CSM_HCP_Onekey
+	Case-Case Layout
+	Case-Case Layout
+	Case-Case Layout
+	Case-Case Layout
+	Case-Case Layout
+	CaseOLA__c-Case OLA Layout
+	ChannelProgramLevel-Formato Nivel de programa de canal
+	ChannelProgramMember-Channel Program Member Layout
+	Clinical_Visit_Frequency_Data__c-Clinical Visit Frequency Data Layout
+	Community_Topic__c-Community Topic Layout
+	Component_Field__mdt-Component Field Layout
+	Contact-Contact Layout
+	Contact-Contact Layout
+	Contact-Contact Layout
+	ContactPointAddress-Contact Point Address Layout
+	ContactPointEmail-Contact Point Email Layout
+	ContactPointPhone-Contact Point Phone Layout
+	ContactPointTypeConsent-Contact Point Type Consent Layout
+	Contact_Address_Crosswalk__c-Contact Address Crosswalk Layout
+	Contract-Contract Layout
+	Contract-Contract Layout
+	Contract-Contract Layout
+	Contract-Contract Layout
+	Contract-Contract Layout
+	Contract-Contract Layout
+	Contract-Contract Layout
+	Contract-Contract Layout
+	Contract-Contract Layout
+	Contract-Contract Layout
+	Contract-Contract Layout
+	Contract-Contract Layout
+	Contract-Contract Layout
+	Contract-Contract Layout
+	Contract-Contract Layout
+	Contract-Contract Layout
+	Contract_In_Out_Log__c-Contract In%2FOut Log Layout
+	Contract_In_Out_Log__c-Contract In%2FOut Log Layout
+	Contract_Milestone__c-Milestone Layout
+	Corrective_Action__c-Corrective Action Layout
+	Country_Input__c-Country Input Layout
+	Country_Sales_Head__c-Country Sales Head Layout
+	Custom_Sales_Path_Configuration__mdt-Custom Sales Path Configuration Layout
+	Dashboards_Category_Relationship__c-Dashboards Category Relationship Layout
+	Dashboards_Reports_Category__c-Dashboards Reports Category Layout
+	Drug__c-Drug Layout
+	Error_Log__c-Error Log Layout
+	Fail_Sharing_Log__c-Failed Sharing Log Layout
+	Finance_IQVIA_Legal_Entity__c-Finance IQVIA Legal Entity Layout
+	Finance_IQVIA_Legal_Entity__c-Finance IQVIA Legal Entity Layout
+	Finance_IQVIA_Legal_Entity__c-Finance IQVIA Legal Entity Layout
+	FlowInterview-Flow Interview Layout
+	Formulation__c-Formulation Layout
+	IQVIA_LI_ZQUI_MAPPING__c-IQVIA LI ZQUI MAPPING Layout
+	Import_Process_Log__c-Import Process Log Layout
+	Invoice__c-Invoice Layout
+	Knowledge_Account_RelationShip__c-Knowledge Account RelationShip Layout
+	Knowledge__kav-Knowledge Layout
+	Knowledge__kav-Knowledge Layout
+	Lead-Lead Layout
+	Lightning_Filter__c-Lightning Filter Layout
+	Log_History__c-Log History Layout
+	Master_BNF__c-Master BNF Layout
+	Master_BNF__c-Master BNF Layout
+	Master_BNF__c-Master BNF Layout
+	Note__c-BNF Note Layout
+	Note__c-BNF Note Layout
+	Note__c-BNF Note Layout
+	OCE_Agreement_Approval_Notification__c-Agreement Approval Notification Layout
+	OCE_Agreement_Approval_Range__mdt-Agreement Approval Range Layout
+	OCE_Bundle_Clone_Settings__mdt-OCE Bundle Clone Settings Layout
+	OCE_Delivery_Country_Code_Mapping__mdt-OCE Delivery Country Code Mapping Layout
+	OCE_Regions_Data__mdt-OCE Regions Data Layout
+	OCE_Subscription_AddOn__c-Subscription AddOn Layout
+	OCE_Subscription_Fee_Summary__c-Subscription Fee Summary Layout
+	OCE_Subscription_Term__c-Subscription Term Layout
+	OCE_Subscription_Type__c-Subscription Type Layout
+	OWF_RR_Grade_Level_Setting__mdt-OWF_RR_Grade_Level_Setting Layout
+	Opportunity-Opportunity Layout
+	OpportunityContactRole-Opportunity Contact Role Layout
+	OpportunityLineItemSchedule-Line Item Schedule Layout
+	Opportunity_AIML_Result__c-Opportunity AIML Result Layout
+	Order-Order Layout
+	Order-Order Layout
+	PSA_Country_Region_Map__mdt-PSA Country Region Map Layout
+	PSA_Date_Offset__c-PSA Date Offset Layout
+	PSA_Event__c-PSA Event Layout
+	PSA_Metric_Calculation__c-PSA Metric Calculation Layout
+	PSA_Metric__c-Metric Layout
+	PSA_ProjectCreationValidStage__mdt-PSA Project Creation Valid Stage Layout
+	PSA_Related_System__c-RS PL01 PSA Default Layout
+	PSA_Related_Systems_Service_Lines__c-RSSL PL01 PSA Default Layout
+	PSA_Service_Line_Task_Field_Set_Mapping__mdt-PSA Service Line Task Field Set Mapping Layout
+	PV_Agreement__c-PV Agreement Layout
+	Partner_Certification__c-Partner Certification Layout
+	Partner_Certification__c-Partner Certification Layout
+	Partner_Certification__c-Partner Certification Layout
+	Partner_Contact__c-Partner Contact Layout
+	Pricing_Task__c-Pricing Tasks Layout
+	Product_Group_Relationship__c-Product Group Relationship Layout
+	Program__c-PGM PL01 PSA Program Layout
+	Project_Contact__c-Project Contact Layout
+	Project_Event__c-Project Event Layout
+	Project_Log__c-PLG PL01 PSA Project Log Action
+	Project_Metric_Actual__c-Project Metric Actual Layout
+	Project_Metric__c-Project Metric Layout
+	Project_Related_System__c-PRS PL01 PSA Default Layout
+	Project_Target__c-Project Target Layout
+	QuickText-Quick Text Layout
+	RA_Feedback__c-RA Feedback Layout
+	RA_Issue__c-RA Issue Layout
+	RA_Recommendation__c-RA Recommendation Layout
+	RA_Request__c-RA Request Layout
+	Rate_Card_ID__c-Rate Card ID Layout
+	Rate_Detail__c-Rate Detail Layout
+	Reconciliation__c-Reconciliation Layout
+	Report_Country__c-Report Country Layout
+	Report_Drug__c-Report Drug Layout
+	Reports_Category_Relationship__c-Reports Category Relationship Layout
+	Responsibilities_and_Maintenance__c-Responsibilities and Maintenance Layout
+	SCM_Agreement_Question__c-SCM Agreement Question Layout
+	SCM_IMS_Legal_Entity__c-SILE_PL01_CLM_IMS Legal Entity Layout
+	SCM_Master_Agreement_Question__c-SCM Master Agreement Question Layout
+	SCM_Master_Agreement__c-SCM Master Agreement Layout
+	SCM_Master_Question__c-SCM Master Question Layout
+	SCM_Question_Legal_Entity_Junc__c-SQLEJ_PL01_CLM_SCM Question Legal Entity Junc Layout
+	SCM_Question__c-SQ_PL01_CLM_SCM Question Layout
+	SObject_Sharing__c-SObject Sharing Layout
+	SWAT_Intake__c-SWAT Intake Layout
+	Service_Line__c-SLN PL01 PSA Service Line Layout
+	Service_Target_Change_Request__c-Service Target Change Request Layout
+	Service_Target__c-Service Target Layout
+	Service__c-Service Layout
+	Sharepoint_File__c-Sharepoint File Layout
+	SiteIframeWhiteListUrl-Whitelisted Domains for Inline Frames Layout
+	Study_Contact_Relationship__c-Study Contact Relationship Layout
+	Study_Site_Relationship__c-Study Site Relationship Layout
+	Study__c-Study Layout
+	Suggested_Resources__c-Suggested Resources Layout
+	Task-Task Layout
+	Task-Task Layout
+	Task-Task Layout
+	Task-Task Layout
+	Task-Task Layout
+	Task-Task Layout
+	Task-Task Layout
+	Task-Task Layout
+	Task-Task Layout
+	Task-Task Layout
+	Task-Task Layout
+	Team_Sharing__c-Team Sharing Layout
+	Template_Data__c-Template Data Layout
+	Territory_Sharing__c-Territory Sharing Layout
+	Timeline__c-Timeline Layout
+	Trade_Name__c-Trade Name Layout
+	UPT_Budget_Country_Data__c-UPT Budget Country Data Layout
+	UPT_Budget_Defaults__c-UPT Budget Default Layout
+	UPT_Budget_Resource__c-UPT Budget Resource Layout
+	User_Audit_Log__c-User Audit Log Layout
+	User_Locale_Mapping__mdt-User Locale Mapping Layout
+	User_Timezone_Mapping__mdt-User Timezone Mapping Layout
+	WBS__c-WBS Layout
+	WBS__c-WBS Layout
+	Workflow_Email_Record__c-Workflow Email Record Layout
+	iCSR_Exchange_Timeline__c-iCSR Exchange Timeline Layout
+	pse_Proj_c__x-Project Layout
+
+PageAccesses(Not in Repo but in Org) /
+	BandwidthExceeded
+	Exception
+	FileNotFound
+	ForgotPassword
+	ForgotPasswordConfirm
+	InMaintenance
+	SiteLogin
+	SiteRegister
+	SiteRegisterConfirm
+	SiteTemplate
+	Unauthorized
+	VFP_PA_Pricing_Calculator_Opp_Screen
+	VFP_PSA_CREATE_BD_PROJECT_OPP_SCREEN
+	VFP_PSA_CREATE_PROJECT_OPP_SCREEN
+
+TabVisibilities(Not in Repo but in Org) /
+	standard-Account
+	standard-Asset
+	standard-Campaign
+	standard-Case
+	standard-Contact
+	standard-Contract
+	standard-Entitlement
+	standard-Idea
+	standard-Lead
+	standard-LiveAgentSession
+	standard-LiveChatTranscript
+	standard-Macro
+	standard-Opportunity
+	standard-Order
+	standard-Pricebook2
+	standard-Product2
+	standard-ProfileSkill
+	standard-QuickText
+	standard-Quote
+	standard-Scorecard
+	standard-ServiceContract
+	standard-SocialPersona
+	standard-SocialPost
+	standard-Solution
+	standard-WorkBadge
+	standard-WorkBadgeDefinition

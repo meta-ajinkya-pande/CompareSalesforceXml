@@ -1,0 +1,416 @@
+Commercial Operations User.profile Comparision File
+
+ApplicationVisiblities(Not in Repo but in Org) /
+	standard__AllTabSet
+	standard__Insights
+	standard__LightningInstrumentation
+
+FieldPermissions(Difference in Repo and Org) /
+	Event.IsVisibleInSelfService
+	User.License_Expiry_Date__c
+	User.PeopleSoft_Product_Offering_Type__c
+
+FieldPermissions(Not in Repo but in Org) /
+	Announcement__c.Subject__c
+	Case.Language
+	Case.Site_Number__c
+	Event.CSM_QI_CTI_Phone__c
+	Event.External_Contact__c
+	Event.Internal_Contact__c
+	Finance_IQVIA_Legal_Entity__c.City__c
+	Finance_IQVIA_Legal_Entity__c.Postal__c
+	Knowledge__kav.Pillar__c
+	Line_Item_Group__c.RWI_Study__c
+	Opportunity.PIC_Offering_Type__c
+	Opportunity.RWI_Study__c
+	OpportunityLineItem.FR_Sales_price__c
+	Task.MQL_Job_Aid__c
+
+FieldPermissions(Not in Repo but in Org and package field) /
+	Account.LID__LinkedIn_Company_Id__c
+	Apttus__APTS_Agreement__c.Apttus__ReviewOfflineDocument__c
+	Contact.LID__Languages__c
+	Contact.LID__Level__c
+	Contact.LID__LinkedIn_Company_Id__c
+	Contact.LID__LinkedIn_Member_Token__c
+	Contact.LID__No_longer_at_Company__c
+	Contact.LID__Session_Id__c
+	Event.LID__Date_Sent__c
+	Event.LID__URL__c
+	Lead.LID__LinkedIn_Company_Id__c
+	Lead.LID__LinkedIn_Member_Token__c
+	Opportunity.LID__CurrentGenerators__c
+	Opportunity.LID__DeliveryInstallationStatus__c
+	Opportunity.LID__Is_Influenced__c
+	Opportunity.LID__LinkedIn_Company_Id__c
+	Opportunity.LID__MainCompetitors__c
+	Opportunity.LID__My_DateTime__c
+	Opportunity.LID__My_Geolocation__c
+	Opportunity.LID__OrderNumber__c
+	Opportunity.LID__TrackingNumber__c
+	Task.LID__Date_Sent__c
+	Task.LID__URL__c
+	dsfs__DocuSign_Envelope_Document__c.dsfs__Attachment_ID__c
+	dsfs__DocuSign_Envelope_Document__c.dsfs__Attachment_NameEx__c
+	dsfs__DocuSign_Envelope_Document__c.dsfs__Attachment_Name__c
+	dsfs__DocuSign_Envelope_Document__c.dsfs__Document_ID__c
+	dsfs__DocuSign_Envelope_Document__c.dsfs__Document_Name__c
+	dsfs__DocuSign_Envelope_Document__c.dsfs__Document_Order__c
+	dsfs__DocuSign_Envelope_Document__c.dsfs__Extension__c
+	dsfs__DocuSign_Envelope_Document__c.dsfs__External_Document_Id__c
+	dsfs__DocuSign_Envelope_Document__c.dsfs__SFDocument_Type__c
+	dsfs__DocuSign_Envelope_Document__c.dsfs__Size__c
+	dsfs__DocuSign_Envelope_Document__c.dsfs__Validation_Message__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__Access_Code__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__DSER_ContactID__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__DSER_CustomFeaturesEx__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__DSER_CustomFeatures__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__DSER_CustomId__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__DSER_CustomName__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__DSER_LeadID__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__DSER_UserID__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__DocuSign_Recipient_Role__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__DocuSign_Signature_Name__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__DocuSign_Signer_Type__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__Email_Body__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__Email_Subject__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__ID_Check__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__LanguageCode__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__Language__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__Recipient_Email__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__Recipient_ID__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__Recipient_Note_Long__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__Recipient_Note__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__RoleName__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__RoleValue__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__Routing_Order__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__SMSAuthentication_PhoneNumber__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__Salesforce_Recipient_Type__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__SignInPersonEmail__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__SignInPersonName__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__SignNow__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__SigningGroupId__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__Validation_Message__c
+	dsfs__DocuSign_Envelope__c.dsfs__BulkSendErrorMessage__c
+	dsfs__DocuSign_Envelope__c.dsfs__BulkSendError__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterEnvCompletedText__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterEnvCompleted__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterEnvDeclinedText__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterEnvDeclined__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterEnvDeliveredText__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterEnvDelivered__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterEnvSentText__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterEnvSent__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterEnvVoidedText__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterEnvVoided__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterRecipCompletedText__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterRecipCompleted__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterRecipDeclinedText__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterRecipDeclined__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterRecipDeliveredText__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterRecipDelivered__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterRecipSentText__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterRecipSent__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterRecipSignedText__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterRecipSigned__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterUpdatesEnabled__c
+	dsfs__DocuSign_Envelope__c.dsfs__Contact2eSignDoc01__c
+	dsfs__DocuSign_Envelope__c.dsfs__Custom_Field_1_Name__c
+	dsfs__DocuSign_Envelope__c.dsfs__Custom_Field_1_Value__c
+	dsfs__DocuSign_Envelope__c.dsfs__Custom_Field_1__c
+	dsfs__DocuSign_Envelope__c.dsfs__Custom_Field_2_Name__c
+	dsfs__DocuSign_Envelope__c.dsfs__Custom_Field_2_Value__c
+	dsfs__DocuSign_Envelope__c.dsfs__Custom_Field_2__c
+	dsfs__DocuSign_Envelope__c.dsfs__Custom_Field_3_Name__c
+	dsfs__DocuSign_Envelope__c.dsfs__Custom_Field_3_Value__c
+	dsfs__DocuSign_Envelope__c.dsfs__Custom_Field_3__c
+	dsfs__DocuSign_Envelope__c.dsfs__Day_Prior_to_Warn_of_expiration__c
+	dsfs__DocuSign_Envelope__c.dsfs__Days_before_Envelope_is_Expired_Voided__c
+	dsfs__DocuSign_Envelope__c.dsfs__DocuSign_Email_Message__c
+	dsfs__DocuSign_Envelope__c.dsfs__DocuSign_Envelope_ID__c
+	dsfs__DocuSign_Envelope__c.dsfs__DocuSign_Envelope_Sent__c
+	dsfs__DocuSign_Envelope__c.dsfs__DocumentID__c
+	dsfs__DocuSign_Envelope__c.dsfs__Document_Name__c
+	dsfs__DocuSign_Envelope__c.dsfs__EnvelopeConfiguration__c
+	dsfs__DocuSign_Envelope__c.dsfs__Expire_Void_Envelope__c
+	dsfs__DocuSign_Envelope__c.dsfs__I_agree_to_Terms__c
+	dsfs__DocuSign_Envelope__c.dsfs__I_will_Sign__c
+	dsfs__DocuSign_Envelope__c.dsfs__Job__c
+	dsfs__DocuSign_Envelope__c.dsfs__Lead2eSignDoc01__c
+	dsfs__DocuSign_Envelope__c.dsfs__Reminder_Interval__c
+	dsfs__DocuSign_Envelope__c.dsfs__Reminder_Repeat_Interval_in_Days__c
+	dsfs__DocuSign_Envelope__c.dsfs__Send_Reminder__c
+	dsfs__DocuSign_Envelope__c.dsfs__Sender__c
+	dsfs__DocuSign_Envelope__c.dsfs__Source_Object_Parent__c
+	dsfs__DocuSign_Envelope__c.dsfs__Source_Object__c
+	dsfs__DocuSign_Recipient_Status__c.dsfs__Account__c
+	dsfs__DocuSign_Recipient_Status__c.dsfs__Contact__c
+	dsfs__DocuSign_Recipient_Status__c.dsfs__Date_Declined__c
+	dsfs__DocuSign_Recipient_Status__c.dsfs__Date_Delivered__c
+	dsfs__DocuSign_Recipient_Status__c.dsfs__Date_Sent__c
+	dsfs__DocuSign_Recipient_Status__c.dsfs__Date_Signed__c
+	dsfs__DocuSign_Recipient_Status__c.dsfs__Decline_Reason_Extended__c
+	dsfs__DocuSign_Recipient_Status__c.dsfs__Decline_Reason__c
+	dsfs__DocuSign_Recipient_Status__c.dsfs__DocuSign_Recipient_Company__c
+	dsfs__DocuSign_Recipient_Status__c.dsfs__DocuSign_Recipient_Email__c
+	dsfs__DocuSign_Recipient_Status__c.dsfs__DocuSign_Recipient_Title__c
+	dsfs__DocuSign_Recipient_Status__c.dsfs__DocuSign_Routing_Order__c
+	dsfs__DocuSign_Recipient_Status__c.dsfs__Envelope_Id__c
+	dsfs__DocuSign_Recipient_Status__c.dsfs__Lead__c
+	dsfs__DocuSign_Recipient_Status__c.dsfs__Recipient_Status__c
+
+LayoutAssignment(Not in Repo but in Org) /
+	AMA_Agreement_Detail__c-AMA Agreement Detail Layout
+	AMA_Contract_Detail__c-AMA Contract Detail Layout
+	AMA_Contracts_Attachments__c-AMA Contracts Attachment Layout
+	AMA_Fee_Master__c-AMA Fee Master Layout
+	ATC__c-Market Definition Layout
+	ATC__c-Market Definition Layout
+	ATC__c-Market Definition Layout
+	ATC__c-Market Definition Layout
+	ATC__c-Market Definition Layout
+	ATC__c-Market Definition Layout
+	ATC__c-Market Definition Layout
+	Account_Dashboards_Reports_Category_RS__c-Account Dashboards Reports Category RS Layout
+	Account_Directory__c-Account Directory Layout
+	Account_Report_Note__c-Account Report Note Layout
+	Admin_Time_Entry_Data__c-Admin Time Entry Data Layout
+	Agency_Program_Financials__c-Agency Program Financials Address Layout
+	Agency_Program_Financials__c-Agency Program Financials Address Layout
+	Agency_Program_Financials__c-Agency Program Financials Address Layout
+	Agency_Program__c-Agency Program Layout
+	Agreement_Contact__c-Agreement Contact Layout
+	Agreement_Contacts__c-AGR Contacts_PL01_CLM_GCE Agreement Contacts Layout
+	Agreement_Contacts__c-AGR Contacts_PL01_CLM_GCE Agreement Contacts Layout
+	Agreement_Contacts__c-AGR Contacts_PL01_CLM_GCE Agreement Contacts Layout
+	Agreement_Email_Alert__c-Agreement Email Alert Layout
+	Agreement_Extension__c-Agreement Extension Layout
+	Agreement_Line_Item_ATCs__c-Agreement Line item ATCs Layout
+	Agreement_Line_Item__c-Agreement Line Item Layout
+	Agreement_Line_item_Discount__c-Agreement Line item Discount Layout
+	Agreement_Notes__c-Agreement Notes Layout
+	Agreement_Products__c-Agreement Product Layout
+	Agreement__c-Agreement Layout
+	Agreement__c-Agreement Layout
+	Agreement__c-Agreement Layout
+	Announcement__c-Announcement Layout
+	Apex_RecordType_Control__mdt-Apex RecordType Control Layout
+	Approval_Matrix__c-Approval Matrix Layout
+	Approver_Group__c-Approver Group Layout
+	Audit_Log__c-Audit Log Layout
+	Box_Folder__mdt-Box Folder Layout
+	Box_Object__mdt-Box Object Layout
+	Box_Parent_Folder__mdt-Box Parent Folder Layout
+	Budget_Agreement_History__c-Budget Agreement History Layout
+	CDA_Legal_POC_Cross_Walk__c-CDA Legal POC Cross Walk Layout
+	CDA_Negotiator__c-CDA Negotiator Layout
+	CPQ_RM_Record_Type__mdt-CPQ RM Record Type Layout
+	CSM_Chat_History__c-CSM Chat History Layout
+	CSM_QI_Announcement_Account_Relationship__c-CSM Announcement Account Relationship Layout
+	CSM_QI_Announcement_Product_Relationship__c-CSM Announcement Product Relationship Layout
+	CSM_QI_Announcement__c-CSM QI Announcement Layout
+	CSM_QI_CAPA__c-CSM DATA CAPA Layout
+	CSM_QI_CaseAutomationScheduler__c-CSM Case Automation Scheduler Layout
+	CSM_QI_Case_Follower__c-CSM Case Follower Layout
+	CSM_QI_Favorite_Record__c-Favorite Record Layout
+	CSM_QI_Frequency__c-Frequency Layout
+	CSM_QI_JiraLinkComment__c-JiraLinkComment Layout
+	CSM_RecordType_Based_Picklist_Setting__mdt-RecordType Based Picklist Setting Layout
+	CaseOLA__c-Case OLA Layout
+	Certification__c-Certification Layout
+	Challenge_Matrix__c-Challenge Matrix Layout
+	ChannelProgram-Channel Program Layout
+	ChannelProgramLevel-Formato Nivel de programa de canal
+	ChannelProgramMember-Channel Program Member Layout
+	Classroom_Course__c-Classroom Course Layout
+	Client_Sat_Survey_Recipient__c-Client Sat Survey Recipient Layout
+	Client_Sat_Survey__c-Client Sat Survey Layout
+	Clinical_Visit_Frequency_Data__c-Clinical Visit Frequency Data Layout
+	Component_Field__mdt-Component Field Layout
+	Contact-Contact Layout
+	ContactPointAddress-Contact Point Address Layout
+	ContactPointEmail-Contact Point Email Layout
+	ContactPointPhone-Contact Point Phone Layout
+	ContactPointTypeConsent-Contact Point Type Consent Layout
+	Contact_Address_Crosswalk__c-Contact Address Crosswalk Layout
+	Contract_Template__c-Contract Template Layout
+	Corrective_Action__c-Corrective Action Layout
+	Country_Input__c-Country Input Layout
+	Country_Sales_Head__c-Country Sales Head Layout
+	Custom_Sales_Path_Configuration__mdt-Custom Sales Path Configuration Layout
+	Dashboards_Category_Relationship__c-Dashboards Category Relationship Layout
+	Dashboards_Reports_Category__c-Dashboards Reports Category Layout
+	DeclinedSurveyApproverGroup__c-Declined Survey Approver Group Layout
+	Drug__c-Drug Layout
+	DuplicateRecordSet-Duplicate Record Set Layout
+	Error_Log__c-Error Log Layout
+	Fail_Sharing_Log__c-Failed Sharing Log Layout
+	Finance_IQVIA_Legal_Entity__c-Finance IQVIA Legal Entity Layout
+	Finance_IQVIA_Legal_Entity__c-Finance IQVIA Legal Entity Layout
+	Finance_IQVIA_Legal_Entity__c-Finance IQVIA Legal Entity Layout
+	FlowInterview-Flow Interview Layout
+	Formulation__c-Formulation Layout
+	IMS_Data_Asset__c-IMS Data Asset Layout
+	IMS_Secondary_Data_Asset__c-IMS Secondary Data Asset Layout
+	IMS_TPA_Purpose_Category__c-IMS TPA Purpose Category Layout
+	IMS_TPA_Purpose_Description__c-IMS TPA Purpose Description Layout
+	IMS_Use_Offering_Atypical_Combination__c-IMS Use Offering Atypical Combination Layout
+	IQVIA_LI_ZQUI_MAPPING__c-IQVIA LI ZQUI MAPPING Layout
+	IQVIA_Project_Leader__c-IQVIA Project Leader Layout
+	Import_Process_Log__c-Import Process Log Layout
+	Individual-Individual Layout
+	Invoice__c-Invoice Layout
+	Knowledge_Account_RelationShip__c-Knowledge Account RelationShip Layout
+	Lead-Lead Layout
+	Learning_Path__c-Learning Path Layout
+	Lightning_Filter__c-Lightning Filter Layout
+	LinkedArticle-Linked Article Layout
+	LiveChatVisitor-Live Chat Visitor Layout
+	Log_History__c-Log History Layout
+	OCE_Agreement_Approval_Notification__c-Agreement Approval Notification Layout
+	OCE_Agreement_Approval_Range__mdt-Agreement Approval Range Layout
+	OCE_Bundle_Clone_Settings__mdt-OCE Bundle Clone Settings Layout
+	OCE_Delivery_Country_Code_Mapping__mdt-OCE Delivery Country Code Mapping Layout
+	OCE_Regions_Data__mdt-OCE Regions Data Layout
+	OCE_Subscription_AddOn__c-Subscription AddOn Layout
+	OCE_Subscription_Fee_Summary__c-Subscription Fee Summary Layout
+	OCE_Subscription_Term__c-Subscription Term Layout
+	OCE_Subscription_Type__c-Subscription Type Layout
+	OWF_RR_Grade_Level_Setting__mdt-OWF_RR_Grade_Level_Setting Layout
+	OpportunityContactRole-Opportunity Contact Role Layout
+	OpportunityLineItemSchedule-Line Item Schedule Layout
+	Opportunity_AIML_Result__c-Opportunity AIML Result Layout
+	Outlook-Outlook Layout
+	PSA_Country_Region_Map__mdt-PSA Country Region Map Layout
+	PSA_Date_Offset__c-PSA Date Offset Layout
+	PSA_Event__c-PSA Event Layout
+	PSA_Metric_Calculation__c-PSA Metric Calculation Layout
+	PSA_Metric__c-Metric Layout
+	PSA_ProjectCreationValidStage__mdt-PSA Project Creation Valid Stage Layout
+	PSA_Related_System__c-RS PL01 PSA Default Layout
+	PSA_Related_Systems_Service_Lines__c-RSSL PL01 PSA Default Layout
+	PSA_Service_Line_Task_Field_Set_Mapping__mdt-PSA Service Line Task Field Set Mapping Layout
+	PV_Agreement__c-PV Agreement Layout
+	Partner_Certification__c-Partner Certification Layout
+	Partner_Certification__c-Partner Certification Layout
+	Partner_Certification__c-Partner Certification Layout
+	Partner_Contact__c-Partner Contact Layout
+	Pricing_Task__c-Pricing Tasks Layout
+	Product_Group_Relationship__c-Product Group Relationship Layout
+	Product_Replacement_Mapping__c-Product Replacement Mapping Layout
+	Program__c-PGM PL01 PSA Program Layout
+	Project_Contact__c-Project Contact Layout
+	Project_Event__c-Project Event Layout
+	Project_Metric_Actual__c-Project Metric Actual Layout
+	Project_Metric__c-Project Metric Layout
+	Project_Related_System__c-PRS PL01 PSA Default Layout
+	Project_Target__c-Project Target Layout
+	Proposal_QA_Self_Check_List__c-Proposal QA Self-Check List Layout
+	QC_Check_List_Item__c-QC Check List Item Layout
+	QuickText-Quick Text Layout
+	RA_Feedback__c-RA Feedback Layout
+	RA_Issue__c-RA Issue Layout
+	RA_Recommendation__c-RA Recommendation Layout
+	RA_Request__c-RA Request Layout
+	Rate_Card_ID__c-Rate Card ID Layout
+	Rate_Detail__c-Rate Detail Layout
+	Reconciliation__c-Reconciliation Layout
+	Report_Country__c-Report Country Layout
+	Report_Drug__c-Report Drug Layout
+	Reports_Category_Relationship__c-Reports Category Relationship Layout
+	Responsibilities_and_Maintenance__c-Responsibilities and Maintenance Layout
+	SCM_Agreement_Question__c-SCM Agreement Question Layout
+	SCM_IMS_Legal_Entity__c-SILE_PL01_CLM_IMS Legal Entity Layout
+	SCM_Master_Agreement_Question__c-SCM Master Agreement Question Layout
+	SCM_Master_Agreement__c-SCM Master Agreement Layout
+	SCM_Master_Question__c-SCM Master Question Layout
+	SCM_Question_Legal_Entity_Junc__c-SQLEJ_PL01_CLM_SCM Question Legal Entity Junc Layout
+	SCM_Question__c-SQ_PL01_CLM_SCM Question Layout
+	SObject_Sharing__c-SObject Sharing Layout
+	Service_Line__c-SLN PL01 PSA Service Line Layout
+	Service_Target_Change_Request__c-Service Target Change Request Layout
+	Service_Target__c-Service Target Layout
+	Service__c-Service Layout
+	Sharepoint_File__c-Sharepoint File Layout
+	SiteIframeWhiteListUrl-Whitelisted Domains for Inline Frames Layout
+	Suggested_Resources__c-Suggested Resources Layout
+	Survey_Result__c-Survey Result Layout
+	TPA_AMA_Client_Vendor_Match__c-TPA AMA Client Vendor Match Layout
+	TPA_AMA_Client_Vendor_Search_Map__c-TPA AMA Client Vendor Search Map Layout
+	TPA_AMA_Parent_Child_Account_Crosswalk__c-TPA AMA Parent Child Account Crosswalk Layout
+	TPA_AMA_Picklist_Value__mdt-TPA AMA Picklist Value Layout
+	TPA_Acknowledgment_Log__c-TPA Acknowledgment Log Layout
+	TPA_Action_Log__c-TPA Action Log Layout
+	TPA_Agreement_Additional_Field__c-TPA Agreement Additional Field Layout
+	TPA_Approval_Region__c-TPA Approval Region Layout
+	TPA_Data_Asset__c-TPA Data Asset Layout
+	TPA_Language_Cross_Walk__c-TPA Language Cross Walk Layout
+	TPA_Logs__c-TPA Logs Layout
+	TPA_Off_Notification_Account_Mapping__c-TPA Off Notification Account Mapping Layout
+	TPA_Offering_Notification_Mapping__c-TPA Offering Notification Mapping Layout
+	TPA_Purpose_Description__c-TPA Purpose Description Layout
+	TPA_Region_Country__c-TPA Region Country Layout
+	TPA_RequestDocument__c-TPA_RequestDocument Layout
+	TPA_Request_ATC__c-Therapeutic Areas Layout
+	TPA_Request_Backup__c-TPA Request Backup Layout
+	TPA_Request_Localized__c-TPA Request Localized Layout
+	TPA_Secondary_Data_Asset__c-TPA Secondary Data Asset Layout
+	TPA_TP_Processor__c-TP Processor Layout
+	TPA_Text_Editor__c-TPA Text Editor Layout
+	TPA_Trending_Reports_Mapping_BU__c-TPA Trending Reports Mapping BU Layout
+	TPA_Use_Offering_Atypical_Combination__c-TPA Use Offering Atypical Combination Layout
+	TPA_Use_Offerings_UI_Backup__c-TPA Use Offerings UI Backup Layout
+	TPA_Vendor_Reg_Number_Acknowlegment__c-TPA Vendor Reg Number Acknowlegment Layout
+	Targeted_Account_Announcement__c-Targetted Account Announcement Layout
+	Targeted_User_Announcement__c-Targetted User Announcement Layout
+	Task-Task Layout
+	Task-Task Layout
+	Task-Task Layout
+	Task-Task Layout
+	Task-Task Layout
+	Task-Task Layout
+	Task-Task Layout
+	Team_Sharing__c-Team Sharing Layout
+	Template_Data__c-Template Data Layout
+	Template_Selection_Criteria__c-Template Selection Criteria Layout
+	Territory2Model-Territory Model Layout
+	Territory_Sharing__c-Territory Sharing Layout
+	Timeline__c-Timeline Layout
+	Trade_Name__c-Trade Name Layout
+	UPT_Budget_Country_Data__c-UPT Budget Country Data Layout
+	UPT_Budget_Defaults__c-UPT Budget Default Layout
+	UPT_Budget_Resource__c-UPT Budget Resource Layout
+	User_Audit_Log__c-User Audit Log Layout
+	User_Locale_Mapping__mdt-User Locale Mapping Layout
+	User_Timezone_Mapping__mdt-User Timezone Mapping Layout
+	Vendor_Offering_Return_Acknowledgment__c-Vendor Offering Return Acknowledgment Layout
+	Watch_List_History__c-Watch List History Layout
+	Watch_List__c-Watch List Layout
+	WorkOrder-Work Order Layout
+	WorkOrderLineItem-Work Order Line Item Layout
+	Workflow_Email_Record__c-Workflow Email Record Layout
+	iCSR_Exchange_Timeline__c-iCSR Exchange Timeline Layout
+	pse_Proj_c__x-Project Layout
+
+ObjectPermissions(Not in Repo but in Org) /
+	dsfs__DocuSign_Envelope_Document__c
+	dsfs__DocuSign_Envelope_Recipient__c
+	dsfs__DocuSign_Envelope__c
+	dsfs__DocuSign_Recipient_Status__c
+
+RecordTypeVisibilities(Not in Repo but in Org) /
+	Task.LID__General_Task_LinkedIn
+	Task.LID__InMail
+	Task.LID__LinkedIn_Call
+	Task.LID__Message
+	Task.LID__PointDrive_Presentation_Created
+	Task.LID__PointDrive_Presentation_Viewed
+
+TabVisibilities(Not in Repo but in Org) /
+	standard-Event
+	standard-QuickText
+	standard-Task
+
+UserPermissions(Not in Repo but in Org) /
+	EnableCommunityAppLauncher
+	TransactionalEmailSend

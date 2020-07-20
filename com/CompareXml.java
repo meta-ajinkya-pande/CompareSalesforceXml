@@ -27,8 +27,8 @@ public class CompareXml {
 			orgProfiles = new ArrayList<Profile>();
 			bitbucketTempProfiles = new ArrayList<Profile>();
 			XmlToObject<Profile> xmlToObject = new XmlToObject<Profile>(Profile.class);
-			Map<String, Profile> bitbucketNameProfileMap = xmlToObject.convertXMLsToObjects("bitbucket/profiles");
-			Map<String, Profile> orgNameProfileMap = xmlToObject.convertXMLsToObjects("org/profiles");
+			Map<String, Profile> bitbucketNameProfileMap = xmlToObject.convertXMLsToObjects("compareFolder/bitbucket/profiles");
+			Map<String, Profile> orgNameProfileMap = xmlToObject.convertXMLsToObjects("compareFolder/org/profiles");
 			for(String profileName : bitbucketNameProfileMap.keySet()) {
 				bitbucketNameProfileMap.get(profileName).setProfileName(profileName);
 			}
@@ -436,13 +436,13 @@ public class CompareXml {
 					profilesNotInRepo.add(orgProfile.getProfileName());
 				}
 			}
-			File dir = new File("Result");
+			File dir = new File("Result/CompareTextFiles");
 			for (File file: dir.listFiles()) {
 				if (!file.isDirectory()) {
 					file.delete();
 				}
 			}
-			File bitbucketProfilesTemp = new File("BitbucketProfilesTemp");
+			File bitbucketProfilesTemp = new File("Result/BitbucketProfilesTemp");
 			for (File file: bitbucketProfilesTemp.listFiles()) {
 				if (!file.isDirectory()) {
 					file.delete();
@@ -450,12 +450,12 @@ public class CompareXml {
 			}
 			ObjectToXML objectToXML = new ObjectToXML();
 			for(Profile tempProfile : bitbucketTempProfiles) {
-				objectToXML.setFileOutputStream("BitbucketProfilesTemp/"+tempProfile.getProfileName());
+				objectToXML.setFileOutputStream("Result/BitbucketProfilesTemp/"+tempProfile.getProfileName());
 				objectToXML.convertObjecttoXml(tempProfile);
 			}
 			for(String filename : profileFieldPermissionMap.keySet()) {
 				String myContents = filename + " Comparision File";
-				out = new FileOutputStream("Result/" + filename+"_compare.txt");
+				out = new FileOutputStream("Result/CompareTextFiles/" + filename+"_compare.txt");
 				List<List<String>> diffObjList = profileFieldPermissionMap.get(filename);
 				List<String> appDiffList = diffObjList.get(0);
 				if(appDiffList.size() > 0) {

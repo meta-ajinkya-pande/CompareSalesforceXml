@@ -1,0 +1,32 @@
+API Only User.profile Comparision File
+
+ApplicationVisiblities(Not in Repo but in Org) /
+	standard__AllTabSet
+	standard__Insights
+	standard__LightningInstrumentation
+
+FieldPermissions(Not in Repo but in Org) /
+	Finance_IQVIA_Legal_Entity__c.City__c
+	Finance_IQVIA_Legal_Entity__c.Postal__c
+
+FieldPermissions(Not in Repo but in Org and package field) /
+	dsfs__DocuSign_Envelope__c.dsfs__BulkSendErrorMessage__c
+	dsfs__DocuSign_Envelope__c.dsfs__BulkSendError__c
+	dsfs__DocuSign_Envelope__c.dsfs__Job__c
+
+LayoutAssignment(Not in Repo but in Org) /
+	Box_Folder__mdt-Box Folder Layout
+	Box_Object__mdt-Box Object Layout
+	Box_Parent_Folder__mdt-Box Parent Folder Layout
+	ChannelProgramLevel-Formato Nivel de programa de canal
+	ContactPointAddress-Contact Point Address Layout
+	ContactPointTypeConsent-Contact Point Type Consent Layout
+	Finance_IQVIA_Legal_Entity__c-Finance IQVIA Legal Entity Layout
+	Finance_IQVIA_Legal_Entity__c-Finance IQVIA Legal Entity Layout
+	FlowInterview-Flow Interview Layout
+	OpportunityContactRole-Opportunity Contact Role Layout
+	Outlook-Outlook Layout
+	SiteIframeWhiteListUrl-Whitelisted Domains for Inline Frames Layout
+
+UserPermissions(Not in Repo but in Org) /
+	SendExternalEmailAvailable

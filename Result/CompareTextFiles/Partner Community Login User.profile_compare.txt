@@ -1,0 +1,2418 @@
+Partner Community Login User.profile Comparision File
+
+ApplicationVisiblities(Not in Repo but in Org) /
+	standard__AllTabSet
+	standard__Insights
+	standard__Sales
+
+FieldPermissions(Not in Repo but in Org) /
+	Account.AccountCountry__c
+	Account.AccountSource
+	Account.AccountStatus__c
+	Account.Approval_Requester_Email__c
+	Account.CSH_SubType__c
+	Account.CTIVDN__c
+	Account.Category__c
+	Account.Department__c
+	Account.Description
+	Account.DocumentationURLLink__c
+	Account.Email__c
+	Account.Group__c
+	Account.Industry
+	Account.InterfaceStatus__c
+	Account.IsThisASpecialHandlingClient__c
+	Account.Jigsaw
+	Account.MDMID__c
+	Account.MDM_Validation_Comments__c
+	Account.MDM_Validation_Status__c
+	Account.MIData__c
+	Account.NumberOfEmployees
+	Account.ParentId
+	Account.Phone
+	Account.RDCategorization__c
+	Account.RDClinicalSite__c
+	Account.RDSponsor__c
+	Account.Region__c
+	Account.SAPID__c
+	Account.SLAApplies__c
+	Account.SLAPenalties__c
+	Account.SendAutomaticCaseAcknowledgmentEmail__c
+	Account.Shared_Folder_Type__c
+	Account.Shared_Folder_Write_Permission__c
+	Account.SicDesc
+	Account.Site
+	Account.SiteName__c
+	Account.Tags__c
+	Account.TestEntitlement__c
+	Account.Type
+	Account.Type2__c
+	Account.Website
+	AccountContactRelation.EndDate
+	AccountContactRelation.IsActive
+	AccountContactRelation.Relationship_Strength__c
+	AccountContactRelation.Roles
+	AccountContactRelation.StartDate
+	Activity__c.ActivityOrigin__c
+	Activity__c.ActivityOwner__c
+	Activity__c.AppointmentType__c
+	Activity__c.CloseDate__c
+	Activity__c.CloseDatetime__c
+	Activity__c.Comments__c
+	Activity__c.Contact__c
+	Activity__c.Description__c
+	Activity__c.Duration__c
+	Activity__c.EndDate__c
+	Activity__c.EndDatetime__c
+	Activity__c.EscalationType__c
+	Activity__c.FirstName__c
+	Activity__c.LOS__c
+	Activity__c.Language__c
+	Activity__c.LastName__c
+	Activity__c.PassFail__c
+	Activity__c.PassedAlertAcknowledgmentEmailInboun__c
+	Activity__c.PassedEscalatePMCRAEmailOutbound__c
+	Activity__c.PassedEscalationQCCPMEmailOutbound__c
+	Activity__c.PassedManualFaxNotSent__c
+	Activity__c.PassedSiteSponsorAlertResentEmail__c
+	Activity__c.PassedSuccessfulCallOutbound__c
+	Activity__c.PassedSuccessfulQLIMSAutoFaxCheck__c
+	Activity__c.PassedSuccessfulSiteSponsorEmail__c
+	Activity__c.Protocol__c
+	Activity__c.RandD_Location__c
+	Activity__c.ResponseSyntellectId__c
+	Activity__c.Site__c
+	Activity__c.StartDate__c
+	Activity__c.StartDatetime__c
+	Activity__c.Status__c
+	Activity__c.Study__c
+	Activity__c.TeamLocation__c
+	Activity__c.Team__c
+	Activity__c.Type__c
+	Address__c.Account_Group__c
+	Address__c.Account__c
+	Address__c.Additional_Name_Local__c
+	Address__c.Additional_Name__c
+	Address__c.Address_Line_1_Local__c
+	Address__c.Address_Line_1__c
+	Address__c.Address_Line_2_Local__c
+	Address__c.Address_Line_2__c
+	Address__c.Address_Line_3_Local__c
+	Address__c.Address_Line_3__c
+	Address__c.City__c
+	Address__c.Country__c
+	Address__c.Customer_Classification__c
+	Address__c.Description_Local__c
+	Address__c.Description__c
+	Address__c.Enabled_Sales_Orgs__c
+	Address__c.Fax__c
+	Address__c.Industry__c
+	Address__c.International_City__c
+	Address__c.International_Country__c
+	Address__c.International_Name__c
+	Address__c.International_PostalCode__c
+	Address__c.International_State__c
+	Address__c.International_Street__c
+	Address__c.Language__c
+	Address__c.Marked_For_Deletion__c
+	Address__c.OKC_Id__c
+	Address__c.PO_Box__c
+	Address__c.PO_Required__c
+	Address__c.Payment_Terms__c
+	Address__c.Phone__c
+	Address__c.PostalCode__c
+	Address__c.Revenue_Assigment__c
+	Address__c.SAPValidationStatusDisplay__c
+	Address__c.SAP_Reference__c
+	Address__c.SAP_Validation_Status__c
+	Address__c.Sales_Org__c
+	Address__c.State__c
+	Address__c.Status__c
+	Address__c.Street__c
+	Address__c.Tax_Authority__c
+	Address__c.Tax_Number_1__c
+	Address__c.Tax_Number_2__c
+	Address__c.Tax_Number_3__c
+	Address__c.Tax_Number_Type__c
+	Address__c.Tax_Type__c
+	Address__c.Taxation_Status__c
+	Address__c.Type__c
+	Address__c.VAT_Registration_Number__c
+	Address__c.Website__c
+	Announcement__c.Subject__c
+	Apttus__APTS_Agreement__c.Actual_Working_Days__c
+	Apttus__APTS_Agreement__c.Additional_Detail__c
+	Apttus__APTS_Agreement__c.Additional_Explanation__c
+	Apttus__APTS_Agreement__c.Associated_CRM_Numbers__c
+	Apttus__APTS_Agreement__c.Bid_Defense_to_Bid_Defense_Support__c
+	Apttus__APTS_Agreement__c.Bid_Grid_Justification__c
+	Apttus__APTS_Agreement__c.Bid_History_Number__c
+	Apttus__APTS_Agreement__c.Bid_Ownership_Time__c
+	Apttus__APTS_Agreement__c.Bid_Requested_Date__c
+	Apttus__APTS_Agreement__c.Bid_Sent_Date__c
+	Apttus__APTS_Agreement__c.Bid_Sent__c
+	Apttus__APTS_Agreement__c.Bottom_Line_Labor_Discount__c
+	Apttus__APTS_Agreement__c.Budget_Analyst_Assigned__c
+	Apttus__APTS_Agreement__c.Budget_Removal_Reduction_Comments__c
+	Apttus__APTS_Agreement__c.Budget_Removal_and_or_Budget_Reduction__c
+	Apttus__APTS_Agreement__c.Budget_Tools__c
+	Apttus__APTS_Agreement__c.CRO_Selection_Date__c
+	Apttus__APTS_Agreement__c.Client_Bid_Grid_Team__c
+	Apttus__APTS_Agreement__c.Client_Need_s_Decision_Making__c
+	Apttus__APTS_Agreement__c.Comments_Other_Services_Specific_Vendor__c
+	Apttus__APTS_Agreement__c.Customer_Opportunity_Background__c
+	Apttus__APTS_Agreement__c.Customer_discount_in_place_or_requested__c
+	Apttus__APTS_Agreement__c.DTE_Strategy__c
+	Apttus__APTS_Agreement__c.DTE_Study__c
+	Apttus__APTS_Agreement__c.Department__c
+	Apttus__APTS_Agreement__c.Discount_and_or_request_details__c
+	Apttus__APTS_Agreement__c.Estimated_Life_Cycle_Safety_Fees__c
+	Apttus__APTS_Agreement__c.Fixed_Price__c
+	Apttus__APTS_Agreement__c.Grid_Assigned_Date__c
+	Apttus__APTS_Agreement__c.Grid_Complexity__c
+	Apttus__APTS_Agreement__c.Grid_Due_Date__c
+	Apttus__APTS_Agreement__c.Grid_Notes__c
+	Apttus__APTS_Agreement__c.Grid_QC_Assigned_to__c
+	Apttus__APTS_Agreement__c.Grid_QC_Completion_Date__c
+	Apttus__APTS_Agreement__c.Grid_Stopped__c
+	Apttus__APTS_Agreement__c.Grid_Type__c
+	Apttus__APTS_Agreement__c.Insufficient_Information__c
+	Apttus__APTS_Agreement__c.Is_this_part_of_a_Program__c
+	Apttus__APTS_Agreement__c.Link_to_Budget_Files__c
+	Apttus__APTS_Agreement__c.Negotiated_Working_Days__c
+	Apttus__APTS_Agreement__c.New_Customer_to_Q__c
+	Apttus__APTS_Agreement__c.Number_of_Hours_Protocols__c
+	Apttus__APTS_Agreement__c.Number_of_Hours_Scenarios__c
+	Apttus__APTS_Agreement__c.Number_of_Hours_Services__c
+	Apttus__APTS_Agreement__c.Number_of_Protocols__c
+	Apttus__APTS_Agreement__c.Number_of_Scenarios__c
+	Apttus__APTS_Agreement__c.Number_of_Services__c
+	Apttus__APTS_Agreement__c.Opportunity_Owner_Email__c
+	Apttus__APTS_Agreement__c.Opportunity_Stage__c
+	Apttus__APTS_Agreement__c.Opportunity_Type__c
+	Apttus__APTS_Agreement__c.Outcome_Involved__c
+	Apttus__APTS_Agreement__c.Patients_Completed__c
+	Apttus__APTS_Agreement__c.Patients_Enrolled__c
+	Apttus__APTS_Agreement__c.Patients_Screened__c
+	Apttus__APTS_Agreement__c.Pertinent_Details_Specific_Rebid_Request__c
+	Apttus__APTS_Agreement__c.Prelim_Agreement_Preference__c
+	Apttus__APTS_Agreement__c.Pricing_Model__c
+	Apttus__APTS_Agreement__c.Pricing_Under_MSA__c
+	Apttus__APTS_Agreement__c.Proposal_20_20_Methodology_Used__c
+	Apttus__APTS_Agreement__c.QIP_Loaded__c
+	Apttus__APTS_Agreement__c.RFP_Assigned_Date__c
+	Apttus__APTS_Agreement__c.RFP_Folder_Link__c
+	Apttus__APTS_Agreement__c.Rationale_Customer_Requirements__c
+	Apttus__APTS_Agreement__c.Reason_for_Insufficient_Information__c
+	Apttus__APTS_Agreement__c.Reason_for_Rebid__c
+	Apttus__APTS_Agreement__c.Requested_Turn_Around_Time__c
+	Apttus__APTS_Agreement__c.SPN_GBO_Support__c
+	Apttus__APTS_Agreement__c.SPN_Proposed_Solutions__c
+	Apttus__APTS_Agreement__c.SPN_Strategy_Lead__c
+	Apttus__APTS_Agreement__c.SST_Support_PD__c
+	Apttus__APTS_Agreement__c.Strategic_Pricing_Lead__c
+	Apttus__APTS_Agreement__c.Supporting_Bid_Owner__c
+	Apttus__APTS_Agreement__c.TMF_Platform__c
+	Apttus__APTS_Agreement__c.Total_Bid_Value_Labor_Direct_Discount__c
+	Apttus__APTS_Agreement__c.Triage_Manager_Notes__c
+	Apttus__APTS_Agreement__c.Triage_Notes__c
+	Apttus__APTS_Agreement__c.Triage_Region__c
+	Apttus__APTS_Agreement__c.Type_of_RFP_Response__c
+	Apttus__APTS_Agreement__c.Type_of_Request__c
+	Apttus__APTS_Agreement__c.X20_20_Comments__c
+	Asset.AccountId
+	Asset.AssetLevel
+	Asset.AssetProvidedById
+	Asset.AssetServicedById
+	Asset.ContactId
+	Asset.Description
+	Asset.InstallDate
+	Asset.IsCompetitorProduct
+	Asset.IsInternal
+	Asset.PharmaProduct__c
+	Asset.Price
+	Asset.Product2Id
+	Asset.PurchaseDate
+	Asset.Quantity
+	Asset.SerialNumber
+	Asset.Status
+	Asset.StockKeepingUnit
+	Asset.Study__c
+	Asset.UsageEndDate
+	Asset.Visible_in_CSH__c
+	AssetRelationship.RelationshipType
+	CMDB__c.Admin_Group_Name__c
+	CMDB__c.Category__c
+	CMDB__c.Name__c
+	CMDB__c.Status__c
+	CMDB__c.SysID__c
+	CSM_Admin_Management__c.Action__c
+	CSM_Admin_Management__c.DeleteGroupMemberId__c
+	CSM_Admin_Management__c.Queue_Id__c
+	CSM_Admin_Management__c.Status__c
+	CSM_Admin_Management__c.User_Name__c
+	CSM_Admin_Management__c.User__c
+	CSM_QI_Case_Categorization__c.Active__c
+	CSM_QI_Case_Categorization__c.CSHSubType__c
+	CSM_QI_Case_Categorization__c.CSH_Visible__c
+	CSM_QI_Case_Categorization__c.LOS__c
+	CSM_QI_Case_Categorization__c.ProductName__c
+	CSM_QI_Case_Categorization__c.Product__c
+	CSM_QI_Case_Categorization__c.RecordTypeId__c
+	CSM_QI_Case_Categorization__c.SubType1__c
+	CSM_QI_Case_Categorization__c.SubType2__c
+	CSM_QI_Case_Categorization__c.SubType3__c
+	CSM_QI_Data_Audit_Trail__c.Account__c
+	CSM_QI_Data_Audit_Trail__c.Action__c
+	CSM_QI_Data_Audit_Trail__c.Activity__c
+	CSM_QI_Data_Audit_Trail__c.Case__c
+	CSM_QI_Data_Audit_Trail__c.Contact__c
+	CSM_QI_Data_Audit_Trail__c.New_Value__c
+	CSM_QI_Data_Audit_Trail__c.Old_Text_Value__c
+	CSM_QI_Data_Audit_Trail__c.Old_Value__c
+	CSM_QI_Data_Audit_Trail__c.StudySiteContactRelationship__c
+	CSM_QI_Data_Audit_Trail__c.Study_Contact_Relationship__c
+	CSM_QI_Data_Audit_Trail__c.Study_Site_Relationship__c
+	CSM_QI_Data_Audit_Trail__c.Study__c
+	CSM_QI_Data_Audit_Trail__c.Task_Id__c
+	CSM_QI_Data_Portal_Queue_User_details__c.AccountCountry__c
+	CSM_QI_Data_Portal_Queue_User_details__c.AccountName__c
+	CSM_QI_Data_Portal_Queue_User_details__c.Account__c
+	CSM_QI_Data_Portal_Queue_User_details__c.All_Current_Users__c
+	CSM_QI_Data_Portal_Queue_User_details__c.CSH_Sub_Type__c
+	CSM_QI_Data_Portal_Queue_User_details__c.CaseRecordType__c
+	CSM_QI_Data_Portal_Queue_User_details__c.Case_Subtype_3__c
+	CSM_QI_Data_Portal_Queue_User_details__c.ClientContact__c
+	CSM_QI_Data_Portal_Queue_User_details__c.ContactUser__c
+	CSM_QI_Data_Portal_Queue_User_details__c.IQVIA_User__c
+	CSM_QI_Data_Portal_Queue_User_details__c.Order__c
+	CSM_QI_Data_Portal_Queue_User_details__c.Product__c
+	CSM_QI_Data_Portal_Queue_User_details__c.QueueName__c
+	CSM_QI_Data_Portal_Queue_User_details__c.Queue_User_Relationship__c
+	CSM_QI_Field_Tracking__c.Fields__c
+	CSM_QI_Folder_File_Relationship__c.CSM_Folder__c
+	CSM_QI_Folder_File_Relationship__c.File_Id__c
+	CSM_QI_JiraLink__c.PSA_Project__c
+	CSM_QI_JiraLink__c.assignee__c
+	CSM_QI_JiraLink__c.country__c
+	CSM_QI_JiraLink__c.customer__c
+	CSM_QI_JiraLink__c.description__c
+	CSM_QI_JiraLink__c.due_date__c
+	CSM_QI_JiraLink__c.fixVersions__c
+	CSM_QI_JiraLink__c.issue_type__c
+	CSM_QI_JiraLink__c.jira_base_url__c
+	CSM_QI_JiraLink__c.priority__c
+	CSM_QI_JiraLink__c.reporter__c
+	CSM_QI_JiraLink__c.status__c
+	CSM_QI_JiraLink__c.summary__c
+	CSM_QI_News__c.Module__c
+	CSM_QI_News__c.News__c
+	Campaign.ActualCost
+	Campaign.AmountAllOpportunities
+	Campaign.AmountWonOpportunities
+	Campaign.BudgetedCost
+	Campaign.CampaignImageId
+	Campaign.Description
+	Campaign.EndDate
+	Campaign.ExpectedResponse
+	Campaign.ExpectedRevenue
+	Campaign.IsActive
+	Campaign.Migration_Source__c
+	Campaign.NumberOfContacts
+	Campaign.NumberOfConvertedLeads
+	Campaign.NumberOfLeads
+	Campaign.NumberOfOpportunities
+	Campaign.NumberOfResponses
+	Campaign.NumberOfWonOpportunities
+	Campaign.NumberSent
+	Campaign.ParentId
+	Campaign.Primary_Service_Marketed__c
+	Campaign.Program__c
+	Campaign.Region_s__c
+	Campaign.Service_Detail__c
+	Campaign.StartDate
+	Campaign.Status
+	Campaign.Type
+	Case.ACN__c
+	Case.AFU_Email_Addresses__c
+	Case.AFU_Next_Date__c
+	Case.AFU_Sent_Date__c
+	Case.AFU_TECH__c
+	Case.AFU_TimeStamp__c
+	Case.ATCLevel__c
+	Case.AccessionNumber__c
+	Case.AccountCountry__c
+	Case.AccountId
+	Case.Account_Name_Article__c
+	Case.ActionDescription__c
+	Case.Activity__c
+	Case.ActualElapsedTimeInDays__c
+	Case.ActualElapsedTimeInHrs__c
+	Case.ActualElapsedTimeInMins__c
+	Case.AdditionalAction__c
+	Case.AdditionalActionsCompleted__c
+	Case.AdditionalThirdPartyCase2__c
+	Case.AdditionalThirdPartyCase__c
+	Case.AgeGrouping__c
+	Case.AlignmentName__c
+	Case.Approach__c
+	Case.AreyouquestioningcomparingProjected__c
+	Case.AssetId
+	Case.AssetName__c
+	Case.AssignCaseToCurrentUser__c
+	Case.AttachMarketDefinitionToTicket__c
+	Case.Auditsquestioningcomparing__c
+	Case.AutoClosed__c
+	Case.Automated_FU_Email__c
+	Case.BusinessHoursId
+	Case.BusinessHours__c
+	Case.BusinessUntilDueDate__c
+	Case.CMDB__c
+	Case.CMFProd__c
+	Case.COREClassification__c
+	Case.CORESubClassification__c
+	Case.CRMSolutionSupportPriority__c
+	Case.CSAT_Responded__c
+	Case.CSAT_Sent__c
+	Case.CSHSubType__c
+	Case.CSM_QI_Data_Originator__c
+	Case.C_SAT_Survey_Option_Chosen__c
+	Case.CaseCreator__c
+	Case.CaseOriginatorEmail__c
+	Case.CaseOriginatorName__c
+	Case.CaseRequestBy__c
+	Case.CaseSource__c
+	Case.CaseSubType1__c
+	Case.CaseSubType2__c
+	Case.CaseSubType3__c
+	Case.CaseTaskAction__c
+	Case.Case_Contact_Phone__c
+	Case.Case_SiteName__c
+	Case.Case_Site_Country__c
+	Case.Case_Sponsor__c
+	Case.Case_Thread_ID__c
+	Case.Channel__c
+	Case.Channelsquestioningcomparing__c
+	Case.ChildCaseDescription__c
+	Case.ClientInq__c
+	Case.ClientObjectiveBusinessNeed__c
+	Case.ClientRefMaterial__c
+	Case.CloseCode__c
+	Case.CloseNotes__c
+	Case.ClosedByGroup__c
+	Case.ClosedBy__c
+	Case.ClosedDate
+	Case.ComplexityLevel__c
+	Case.ConfigurationItem__c
+	Case.ConsumerHealthData__c
+	Case.ContactBusinessTerritory__c
+	Case.ContactId
+	Case.CoreTicket__c
+	Case.Count_of_AFU__c
+	Case.CreatedByGroup__c
+	Case.CreatedDate__c
+	Case.CrossDatabase__c
+	Case.CrossauditDIsales__c
+	Case.CurrentQueue1__c
+	Case.CurrentQueue__c
+	Case.Current_Queue__c
+	Case.CustomerQualityAlert__c
+	Case.CustomerRequiredDate__c
+	Case.CustomerUrgency__c
+	Case.Customer_Requested_Date__c
+	Case.CycleFrom__c
+	Case.CycleTo__c
+	Case.DEA__c
+	Case.DataDeliveryEndDate__c
+	Case.DataDeliveryFrequency__c
+	Case.DataMeasurement__c
+	Case.DataSourceSPP__c
+	Case.DataTimePeriodInQuestion__c
+	Case.DataTypeIMSOne__c
+	Case.DataWeekMonthOfReport__c
+	Case.DateCorrected__c
+	Case.DateResolved__c
+	Case.Date_Received__c
+	Case.DateofAction__c
+	Case.Describetheissuedifferenceindetail__c
+	Case.Description
+	Case.Device__c
+	Case.DidthisRequireCorrectiveAction__c
+	Case.DigitalInfuzionRegister__c
+	Case.DueDate__c
+	Case.EmailCC__c
+	Case.EntitlementId
+	Case.EnvironmentType__c
+	Case.ExternalContacts__c
+	Case.ExternalTeamStatusNE__c
+	Case.FillinthenameoftheClientCompanyt__c
+	Case.FirstCallResolution__c
+	Case.First_Escalation_Time__c
+	Case.FlexibleFields__c
+	Case.FollowUpDateLevel__c
+	Case.ForeignCallerId__c
+	Case.FoundBy__c
+	Case.From_EmailToCase__c
+	Case.GInquiry_Number__c
+	Case.G_Inquiry_Investigation__c
+	Case.GlobalCaseType__c
+	Case.HCRSWebID__c
+	Case.HCRS_DaaS_Manual_Match_ID__c
+	Case.HelpDeskWarmTransfer__c
+	Case.HospitalsIncluded__c
+	Case.IMSDr__c
+	Case.IMSPrescriberNumber__c
+	Case.IfOtherChannelPleasespecify__c
+	Case.IfOtherMetricsPleaseSpecify__c
+	Case.IfOtherPEPTPleaseSpecify__c
+	Case.IfyeshowmanylookupsrequiredCorrec__c
+	Case.Impact__c
+	Case.ImplementationCenterRequester__c
+	Case.Imputation__c
+	Case.IncompleteAMF__c
+	Case.InitialQueue__c
+	Case.InternalOrExternalDI__c
+	Case.IsEscalated
+	Case.IsStopped
+	Case.IsThisASpecialHandlingClient__c
+	Case.IssueCausedBy__c
+	Case.Issue__c
+	Case.IssuedDifferencepreresearchconducted__c
+	Case.ItemNumber__c
+	Case.JIRANotes__c
+	Case.Jira_Issue__c
+	Case.LIMSLevel__c
+	Case.LOS__c
+	Case.LabProjectCode__c
+	Case.LabSiteNumber__c
+	Case.Language
+	Case.Language__c
+	Case.LastCaseComment__c
+	Case.LastModifiedDate__c
+	Case.Legacy_Case_Number__c
+	Case.Legacy_creation_date__c
+	Case.Level1QueueName__c
+	Case.Level2QueueName__c
+	Case.Level3QueueName__c
+	Case.LevelOfService__c
+	Case.LookBackPeriod__c
+	Case.Mail_CC_List__c
+	Case.ManagerEvaluation__c
+	Case.MarketNameOnWeb__c
+	Case.Metric__c
+	Case.Metricsquestioningcomparing__c
+	Case.Milestone_Violation__c
+	Case.MonoComboTherapy__c
+	Case.MonthofRework__c
+	Case.NDC_Number__c
+	Case.NextMilestoneFlag__c
+	Case.NextMilestoneStatus__c
+	Case.NextNotificationDate__c
+	Case.NoContactKnown__c
+	Case.NovartisCaseType__c
+	Case.NumberOfNotifications__c
+	Case.Number_of_Article__c
+	Case.Number_of_Seconds_Since_Closure__c
+	Case.Numberaffected__c
+	Case.NumberofDatabasesReworked__c
+	Case.OnBehalfOf__c
+	Case.OpsHourEstimated__c
+	Case.OpsRunbookIMSOne__c
+	Case.OpsStackRank__c
+	Case.OrgURL__c
+	Case.Origin
+	Case.PEPTOnOff__c
+	Case.PRSNumber__c
+	Case.PSACode__c
+	Case.ParentId
+	Case.PhoneVerification__c
+	Case.Phone_Number__c
+	Case.PlanEndDate__c
+	Case.PlanStartDate__c
+	Case.Plan_Name__c
+	Case.Plan__c
+	Case.PlannedFixDate__c
+	Case.PrimaryOrSecondaryFactory__c
+	Case.Priority
+	Case.PriorityDefinitionDate__c
+	Case.ProductMarketOrOtherName__c
+	Case.ProductMarketorOther__c
+	Case.ProductOutletToResearch__c
+	Case.ProductPackSize__c
+	Case.ProjectCategoryNS__c
+	Case.ProjectCode__c
+	Case.QualityIssue__c
+	Case.QuintilesIMSRefMaterial__c
+	Case.RandD_Location__c
+	Case.ReOpenDate__c
+	Case.ReOpened__c
+	Case.ReOpener__c
+	Case.Reason
+	Case.ReasonForMissingArticle__c
+	Case.RecordTypeName__c
+	Case.Release__c
+	Case.ReportCustomisation__c
+	Case.ReportLocations__c
+	Case.ReportName__c
+	Case.ReportsTo__c
+	Case.RequireAction__c
+	Case.RequiredCallbackCompleted__c
+	Case.RequiredReprocess__c
+	Case.ResolutionCode__c
+	Case.Resolution_Detail__c
+	Case.Resolution__c
+	Case.ResolutionsharedwithCustomer__c
+	Case.ResolvedBy__c
+	Case.ResolvedDate__c
+	Case.ResolvedDatetime__c
+	Case.ResolvedWithinSLP__c
+	Case.Retail__c
+	Case.RnD_Email_Flag__c
+	Case.RootCauseCommentsinternal__c
+	Case.RootCauseToClients__c
+	Case.RootCause__c
+	Case.RunDateOfReport__c
+	Case.SLPTurnaroundTime__c
+	Case.SN_Category__c
+	Case.SN_Prod_Line__c
+	Case.SN_Product_Offering__c
+	Case.SN_Sub_Categrory__c
+	Case.SOTC__c
+	Case.ScheduledDate__c
+	Case.ScheduledDatetime__c
+	Case.SendAutomaticAcknowledgmentEmail__c
+	Case.SendResolutionEmail__c
+	Case.ServiceNow_Group__c
+	Case.ServiceNow_Last_Updated_Date__c
+	Case.Service_Now_Incident_Number__c
+	Case.Service_Now_Type__c
+	Case.Site_Number__c
+	Case.Site_Related_to_the_Study__c
+	Case.Site__c
+	Case.SlaExitDate
+	Case.SlaStartDate
+	Case.SoftwareUpdatePatchHotFixNumber__c
+	Case.SolvedBY__c
+	Case.SpecialtyGrouping__c
+	Case.Sponsor__c
+	Case.StatusAtFirstSubmission__c
+	Case.StatusDefinitionDate__c
+	Case.StopStartDate
+	Case.StoppedTimeInDays__c
+	Case.StoppedTimeInHrs__c
+	Case.StoppedTimeInMins__c
+	Case.StudyProtocolName__c
+	Case.Study__c
+	Case.SubStatus__c
+	Case.SubType3__c
+	Case.SubcaseClasification__c
+	Case.Subject
+	Case.SuppliedCompany
+	Case.SuppliedEmail
+	Case.SuppliedName
+	Case.SuppliedPhone
+	Case.SupplierCustom__c
+	Case.SupplierName__c
+	Case.Supplier__c
+	Case.SupportTier__c
+	Case.Survey_Link__c
+	Case.SwitchAddGracePeriod__c
+	Case.Tag__c
+	Case.Target_Date__c
+	Case.TaskMilestone__c
+	Case.Techno_Impact__c
+	Case.Template__c
+	Case.TerritoryIDNE__c
+	Case.Territory__c
+	Case.ThirdPartyCase__c
+	Case.TimeIntervalsquestioningcomparing__c
+	Case.Timeline__c
+	Case.TimingofReportChanges__c
+	Case.Type
+	Case.TypeCustom__c
+	Case.USC3__c
+	Case.USC5__c
+	Case.USC_Code__c
+	Case.Update_Survey_Sent_Date__c
+	Case.Urgency__c
+	Case.UrgentForCustomer__c
+	Case.UserTrainedDate__c
+	Case.Version__c
+	Case.Web2Case_Asset__c
+	Case.Web2Case_CurrentQueue__c
+	Case.WhatChannelIsConcerned__c
+	Case.WhatLimitsDoesYourDataInclude__c
+	Case.WhatMetricsIsConcerned__c
+	Case.WhatTimePeriodareyouquestioning__c
+	Case.What_limitsdoesyourdatainclude__c
+	Case.WhySLPWasMissed__c
+	Case.WhySLPwasMissedDescription__c
+	Case.Workaround__c
+	Case.Written_as_Metric_questioning_comparing2__c
+	Case.Written_as_Metrics_questioning_comparing__c
+	Case.XponentPrescribingDynamics__c
+	Case.Year_of_Rework__c
+	Case.ZipOutlet__c
+	Case.currentContactUserIsCreator__c
+	CaseHistory__c.Case__c
+	CaseHistory__c.DateTimeofchange__c
+	CaseHistory__c.NewCurrentQueue__c
+	CaseHistory__c.NewOwnerType__c
+	CaseHistory__c.No_of_hours_since_last_owner_change__c
+	CaseHistory__c.NoofBusinesssincelastchange__c
+	CaseHistory__c.OldCurrentQueue__c
+	CaseHistory__c.OldOwnerType__c
+	CaseHistory__c.UserWhomadethechange__c
+	Case_Collabrator__c.Address10__c
+	Case_Collabrator__c.Address1__c
+	Case_Collabrator__c.Address2__c
+	Case_Collabrator__c.Address3__c
+	Case_Collabrator__c.Address4__c
+	Case_Collabrator__c.Address5__c
+	Case_Collabrator__c.Address6__c
+	Case_Collabrator__c.Address7__c
+	Case_Collabrator__c.Address8__c
+	Case_Collabrator__c.Address9__c
+	Case_Collabrator__c.Case_Contact__c
+	Case_Collabrator__c.Case_CreatedDate__c
+	Case_Collabrator__c.Case_Description__c
+	Case_Collabrator__c.Case_Subject__c
+	Case_Collabrator__c.Case_Thread_Id__c
+	Case_Collabrator__c.Case__c
+	Case_Subtype__c.Asset__c
+	Case_Subtype__c.SubType1__c
+	Case_Subtype__c.SubType2__c
+	Case_Subtype__c.SubType3__c
+	Competitor__c.Corporate_HQ_City__c
+	Competitor__c.Corporate_HQ_Country__c
+	Competitor__c.Corporate_HQ_State_Provence__c
+	Competitor__c.Website__c
+	Contact.AccessToAllCasesOfTheAccou__c
+	Contact.AccountId
+	Contact.BusinessHours__c
+	Contact.BusinessTerritory__c
+	Contact.CRMVersion__c
+	Contact.CSH_User_Last_connection_date__c
+	Contact.CSH_User__c
+	Contact.C_SAT_Last_Submitted_Date__c
+	Contact.Consented_to_Marketing_Emails__c
+	Contact.ContactID__c
+	Contact.Contact_User_Type__c
+	Contact.Department
+	Contact.Description__c
+	Contact.Division__c
+	Contact.Email
+	Contact.EmailOptOut__c
+	Contact.EmployeeNumber__c
+	Contact.Fax
+	Contact.FaxOptOut__c
+	Contact.FieldForceGroup__c
+	Contact.FieldForce__c
+	Contact.FlashAlertMessage__c
+	Contact.FlashAlert__c
+	Contact.Hard_Bounceback_Date__c
+	Contact.Inactive_Reason__c
+	Contact.Inactive__c
+	Contact.Invalid_Email_Address__c
+	Contact.Jigsaw
+	Contact.JobRole__c
+	Contact.Job_Level__c
+	Contact.Legacy_Id__c
+	Contact.MDMID__c
+	Contact.MailingAddress
+	Contact.MikadoServiceLevel__c
+	Contact.MobilePhone
+	Contact.Novartis521__c
+	Contact.PersonAlert1__c
+	Contact.PersonAlert2__c
+	Contact.Phone
+	Contact.Portal_Case_Type__c
+	Contact.PreferredChannel__c
+	Contact.PreferredLanguage__c
+	Contact.Professional_Designation__c
+	Contact.ReportsToId
+	Contact.SMSOptOut__c
+	Contact.SalesForce__c
+	Contact.Source__c
+	Contact.TimeZone__c
+	Contact.Title
+	Contact.UniqueID__c
+	Contact.UserType__c
+	Contract.CompanySignedDate
+	Contract.ContractTerm
+	Contract.EndDate
+	Contract.IQVIA_Contract_Manager_Contact__c
+	Contract.Pricebook2Id
+	Contract.ShippingAddress
+	Contract.SpecialTerms
+	Contract.StartDate
+	ContractLineItem.AssetId
+	ContractLineItem.Description
+	ContractLineItem.Discount
+	ContractLineItem.EndDate
+	ContractLineItem.ListPrice
+	ContractLineItem.ParentContractLineItemId
+	ContractLineItem.RootContractLineItemId
+	ContractLineItem.StartDate
+	ContractLineItem.Status
+	ContractLineItem.StatusIndicator
+	ContractLineItem.Subtotal
+	ContractLineItem.TotalPrice
+	Contract_Milestone__c.Account_Name__c
+	Contract_Milestone__c.Contract_Number__c
+	Contract_Milestone__c.Contract_Ranking__c
+	Contract_Milestone__c.Current_Version_Start_Date__c
+	Contract_Milestone__c.Current_Version__c
+	Contract_Milestone__c.End_Date__c
+	Contract_Milestone__c.IQVIA_Contract_Manager_Negotiator__c
+	Contract_Milestone__c.IQVIA_Contract_Negotiator__c
+	Contract_Milestone__c.Milestone_Comments__c
+	Contract_Milestone__c.Milestone_Number__c
+	Contract_Milestone__c.Milestone_Total_Business_Days__c
+	Contract_Milestone__c.Milestone_Total_Calendar_Days__c
+	Contract_Milestone__c.Required_Service_Level__c
+	Contract_Milestone__c.V10_Completed_Date__c
+	Contract_Milestone__c.V10_Start_Date__c
+	Contract_Milestone__c.V10_Total_Business_Days__c
+	Contract_Milestone__c.V10_Total_Calendar_Days__c
+	Contract_Milestone__c.V1_Completed_Date__c
+	Contract_Milestone__c.V1_Start_Date__c
+	Contract_Milestone__c.V1_Total_Business_Days__c
+	Contract_Milestone__c.V1_Total_Calendar_Days__c
+	Contract_Milestone__c.V2_Completed_Date__c
+	Contract_Milestone__c.V2_Start_Date__c
+	Contract_Milestone__c.V2_Total_Business_Days__c
+	Contract_Milestone__c.V2_Total_Calendar_Days__c
+	Contract_Milestone__c.V3_Completed_Date__c
+	Contract_Milestone__c.V3_Start_Date__c
+	Contract_Milestone__c.V3_Total_Business_Days__c
+	Contract_Milestone__c.V3_Total_Calendar_Days__c
+	Contract_Milestone__c.V4_Completed_Date__c
+	Contract_Milestone__c.V4_Start_Date__c
+	Contract_Milestone__c.V4_Total_Business_Days__c
+	Contract_Milestone__c.V4_Total_Calendar_Days__c
+	Contract_Milestone__c.V5_Completed_Date__c
+	Contract_Milestone__c.V5_Start_Date__c
+	Contract_Milestone__c.V5_Total_Business_Days__c
+	Contract_Milestone__c.V5_Total_Calendar_Days__c
+	Contract_Milestone__c.V6_Completed_Date__c
+	Contract_Milestone__c.V6_Start_Date__c
+	Contract_Milestone__c.V6_Total_Business_Days__c
+	Contract_Milestone__c.V6_Total_Calendar_Days__c
+	Contract_Milestone__c.V7_Completed_Date__c
+	Contract_Milestone__c.V7_Start_Date__c
+	Contract_Milestone__c.V7_Total_Business_Days__c
+	Contract_Milestone__c.V7_Total_Calendar_Days__c
+	Contract_Milestone__c.V8_Completed_Date__c
+	Contract_Milestone__c.V8_Start_Date__c
+	Contract_Milestone__c.V8_Total_Business_Days__c
+	Contract_Milestone__c.V8_Total_Calendar_Days__c
+	Contract_Milestone__c.V9_Completed_Date__c
+	Contract_Milestone__c.V9_Start_Date__c
+	Contract_Milestone__c.V9_Total_Business_Days__c
+	Contract_Milestone__c.V9_Total_Calendar_Days__c
+	Default_Product_Search__c.Default_Territory__c
+	Entitlement.AssetId
+	Entitlement.BusinessHoursId
+	Entitlement.CasesPerEntitlement
+	Entitlement.ContractLineItemId
+	Entitlement.EndDate
+	Entitlement.IsPerIncident
+	Entitlement.RemainingCases
+	Entitlement.ServiceContractId
+	Entitlement.SlaProcessId
+	Entitlement.StartDate
+	Entitlement.Status
+	Entitlement.StatusIndicator
+	Entitlement.Type
+	Event.Campaign_Content_Link__c
+	Event.Campaign_Name__c
+	Event.Description
+	Event.Disposition__c
+	Event.IsAllDayEvent
+	Event.Location
+	Event.Migration_Source__c
+	Event.Not_Accept_Reason_Detail_Other__c
+	Event.Not_Accept_Reason_Detail__c
+	Event.Not_Accept_Reason__c
+	Event.Nurture_Area__c
+	Event.Nurture_Detail_Other__c
+	Event.Nurture_Detail__c
+	Event.QIMS_Service__c
+	Event.Therapy_Area__c
+	Event.Type
+	Event.WhatId
+	Event.WhoId
+	Favorite__c.Contact__c
+	Finance_IQVIA_Legal_Entity__c.City__c
+	Finance_IQVIA_Legal_Entity__c.Postal__c
+	Idea.Status
+	InboundNumber__c.Country__c
+	InboundNumber__c.Greeting_Text__c
+	InboundNumber__c.LOS__c
+	InboundNumber__c.Language__c
+	InboundNumber__c.PQ__c
+	InboundNumber__c.Project__c
+	InboundNumber__c.Queue__c
+	InboundNumber__c.Salesforce_LOS__c
+	InboundNumber__c.Study__c
+	InboundNumber__c.VMBox__c
+	Indication_List__c.Rare_Disease__c
+	Indication_List__c.Therapy_Area__c
+	Knowledge__kav.Answer__c
+	Knowledge__kav.Article_Link__c
+	Knowledge__kav.Content__c
+	Knowledge__kav.Pillar__c
+	Knowledge__kav.ProductName__c
+	Knowledge__kav.Product_Chapter__c
+	Knowledge__kav.Question__c
+	Knowledge__kav.ReviewDate__c
+	Knowledge__kav.SubType1__c
+	Knowledge__kav.SubType2__c
+	Knowledge__kav.SubType3__c
+	Knowledge__kav.Test__c
+	Knowledge__kav.Topic_Chapter__c
+	LI_Account__x.AMA_Check_List_c__c
+	LI_Account__x.AMA_Database_Licensee_c__c
+	LI_Account__x.AMA_SAP_Code_c__c
+	LI_Account__x.APTPS_Client_Growth_Rate_c__c
+	LI_Account__x.APTPS_Client_Loyalty_Index_Rating_c__c
+	LI_Account__x.APTPS_Client_Rx_Revenue_c__c
+	LI_Account__x.APTPS_IMS_Annual_Revenue_c__c
+	LI_Account__x.Academia_Checklist_c__c
+	LI_Account__x.AccountSource__c
+	LI_Account__x.Account_ID_c__c
+	LI_Account__x.Account_Logged_User_Assigned_c__c
+	LI_Account__x.Account_Owner_Email_c__c
+	LI_Account__x.Account_Owner_First_Name_c__c
+	LI_Account__x.Account_Owner_ID_c__c
+	LI_Account__x.Account_Owner_Last_Name_c__c
+	LI_Account__x.Account_Owner_c__c
+	LI_Account__x.Account_ShortName_c_c__c
+	LI_Account__x.Agree_Disagree_c__c
+	LI_Account__x.AnnualRevenue__c
+	LI_Account__x.Approval_Requestor_Email_c__c
+	LI_Account__x.BRS_Code_c__c
+	LI_Account__x.BillingAddress__c
+	LI_Account__x.BillingCity__c
+	LI_Account__x.BillingCountry__c
+	LI_Account__x.BillingGeocodeAccuracy__c
+	LI_Account__x.BillingLatitude__c
+	LI_Account__x.BillingLongitude__c
+	LI_Account__x.BillingPostalCode__c
+	LI_Account__x.BillingState__c
+	LI_Account__x.BillingStreet__c
+	LI_Account__x.Billing_Address_c__c
+	LI_Account__x.Billing_Country_c__c
+	LI_Account__x.Billing_State_c__c
+	LI_Account__x.Business_Unit_c__c
+	LI_Account__x.Client_Loyalty_Segment_c__c
+	LI_Account__x.Client_Owner_c__c
+	LI_Account__x.Client_Segment_c__c
+	LI_Account__x.Client_Summary_Window_c__c
+	LI_Account__x.Client_count_c__c
+	LI_Account__x.Commercial_Reason_c__c
+	LI_Account__x.Company_Code_c__c
+	LI_Account__x.ConnectionReceivedId__c
+	LI_Account__x.ConnectionSentId__c
+	LI_Account__x.Contact_Indicator_c__c
+	LI_Account__x.Cover_Sheet_c__c
+	LI_Account__x.CreatedById__c
+	LI_Account__x.CreatedDate__c
+	LI_Account__x.Description__c
+	LI_Account__x.Exclude_from_Mulesoft_Sync_c__c
+	LI_Account__x.Fax__c
+	LI_Account__x.File_PassWord_Memo_c__c
+	LI_Account__x.File_PassWord_c__c
+	LI_Account__x.HQ_c__c
+	LI_Account__x.Import_Source_c__c
+	LI_Account__x.Import_Unique_Id_c__c
+	LI_Account__x.Incident_Report_c__c
+	LI_Account__x.Industry_IMS_c__c
+	LI_Account__x.Industry_Level_2_c__c
+	LI_Account__x.Industry_Level_3_c__c
+	LI_Account__x.Industry_Name_c__c
+	LI_Account__x.Industry__c
+	LI_Account__x.Iqvia_Dupe_Id_c__c
+	LI_Account__x.Iqvia_Survivor_Id_c__c
+	LI_Account__x.Iqvia_Survivor_LI_Account_Id_c__c
+	LI_Account__x.IsCustomerPortal__c
+	LI_Account__x.IsDeleted__c
+	LI_Account__x.IsPartner__c
+	LI_Account__x.Is_AMA_Account_c__c
+	LI_Account__x.Is_Payment_Risk_c__c
+	LI_Account__x.Is_TPA_Account_c__c
+	LI_Account__x.Japan_CSW_c__c
+	LI_Account__x.Japan_Client_Segmentation_c__c
+	LI_Account__x.Japan_Client_c_c__c
+	LI_Account__x.Japan_System_Company_c__c
+	LI_Account__x.JigsawCompanyId__c
+	LI_Account__x.Jigsaw__c
+	LI_Account__x.Knowledge_Link_c__c
+	LI_Account__x.LI_Link_With_LQ__c
+	LI_Account__x.LastActivityDate__c
+	LI_Account__x.LastModifiedById__c
+	LI_Account__x.LastModifiedDate__c
+	LI_Account__x.LastReferencedDate__c
+	LI_Account__x.LastViewedDate__c
+	LI_Account__x.Legal_Firm_Checklist_c__c
+	LI_Account__x.Local_Segmentation_c__c
+	LI_Account__x.MDM_Name_c__c
+	LI_Account__x.Marked_For_Deletion_c__c
+	LI_Account__x.MasterRecordId__c
+	LI_Account__x.Mulesoft_Error_Message_c__c
+	LI_Account__x.Mulesoft_External_Id_c__c
+	LI_Account__x.Mulesoft_Sync_Status_c__c
+	LI_Account__x.Mulesoft_Sync_Timestamp_c__c
+	LI_Account__x.Mulesoft_Update_GUID_c__c
+	LI_Account__x.NameLocal__c
+	LI_Account__x.New_Vendor_Checklist_c__c
+	LI_Account__x.Notes_Section_c__c
+	LI_Account__x.Num_of_Sales_Reps_c__c
+	LI_Account__x.NumberOfEmployees__c
+	LI_Account__x.Number_of_licensed_beds_c__c
+	LI_Account__x.OKC_Id_c__c
+	LI_Account__x.Opportunity_Indicator_c__c
+	LI_Account__x.Original_CRM_System_c__c
+	LI_Account__x.Original_System_Id_c__c
+	LI_Account__x.OwnerId__c
+	LI_Account__x.PO_Number_c__c
+	LI_Account__x.ParentId__c
+	LI_Account__x.Payment_Terms_c__c
+	LI_Account__x.Pharma_Company_Checklist_c__c
+	LI_Account__x.Phone__c
+	LI_Account__x.PhotoUrl__c
+	LI_Account__x.QI_Account_Id_c__c
+	LI_Account__x.RecordTypeId__c
+	LI_Account__x.Region_Territory_c__c
+	LI_Account__x.Revenue_Category_c__c
+	LI_Account__x.SAP_Code_c__c
+	LI_Account__x.SAP_PC_Code_c__c
+	LI_Account__x.SAP_Reference_c__c
+	LI_Account__x.SAP_SP_Code_c__c
+	LI_Account__x.SAP_Sync_c__c
+	LI_Account__x.SAP_Validation_Status_c__c
+	LI_Account__x.SLA_Applies_c__c
+	LI_Account__x.SLA_Penalty_c__c
+	LI_Account__x.Sales_Region_c__c
+	LI_Account__x.Secondary_Industry_Type_c__c
+	LI_Account__x.Send_Mulesoft_Outbound_Msg_c__c
+	LI_Account__x.ShippingAddress__c
+	LI_Account__x.ShippingAdvice_c__c
+	LI_Account__x.ShippingCity__c
+	LI_Account__x.ShippingCountry__c
+	LI_Account__x.ShippingGeocodeAccuracy__c
+	LI_Account__x.ShippingLatitude__c
+	LI_Account__x.ShippingLongitude__c
+	LI_Account__x.ShippingPostalCode__c
+	LI_Account__x.ShippingState__c
+	LI_Account__x.ShippingStreet__c
+	LI_Account__x.Shipping_Address_c__c
+	LI_Account__x.SicDesc__c
+	LI_Account__x.Special_Handling_c__c
+	LI_Account__x.Status_c__c
+	LI_Account__x.SystemModstamp__c
+	LI_Account__x.TPA_AMA_Account_ID_c__c
+	LI_Account__x.TRIMEC_MatchKey_c__c
+	LI_Account__x.TRIMEC_MatchLevel_c__c
+	LI_Account__x.TRIMEC_MatchScore_c__c
+	LI_Account__x.Team_Number_c__c
+	LI_Account__x.Territory_Lookup_c__c
+	LI_Account__x.Type__c
+	LI_Account__x.US_Sales_Region_c__c
+	LI_Account__x.VendorNumber_c__c
+	LI_Account__x.Vendor_CheckList_Updated_By_c__c
+	LI_Account__x.Vendor_Check_List_Reason_c__c
+	LI_Account__x.Vendor_Check_List_Updated_Date_c__c
+	LI_Account__x.Vendor_Registration_Number_c__c
+	LI_Account__x.Vendor_Tier_c__c
+	LI_Account__x.Vendor_account_created_from_TPA_c__c
+	LI_Account__x.Website__c
+	LI_Account__x.fferpcore_ExemptionCertificate_c__c
+	LI_Account__x.fferpcore_IsBillingAddressValidated_c__c
+	LI_Account__x.fferpcore_IsShippingAddressValidated_c__c
+	LI_Account__x.fferpcore_ValidatedBillingCountry_c__c
+	LI_Account__x.fferpcore_ValidatedBillingPostalCode_c__c
+	LI_Account__x.fferpcore_ValidatedBillingState_c__c
+	LI_Account__x.fferpcore_ValidatedBillingStreet_c__c
+	LI_Account__x.fferpcore_ValidatedShippingCountry_c__c
+	LI_Account__x.fferpcore_ValidatedShippingPostalCode_c__c
+	LI_Account__x.fferpcore_ValidatedShippingState_c__c
+	LI_Account__x.fferpcore_ValidatedShippingStreet_c__c
+	LI_Account__x.pse_ERP_Worker_Correlation_Id_c__c
+	LI_Account__x.pse_Services_Billing_Time_Period_Type_c__c
+	LQ_Account__x.APTS_External_Id_c__c
+	LQ_Account__x.AccountNumber__c
+	LQ_Account__x.AccountSource__c
+	LQ_Account__x.Account_Inflation_Matrix_c__c
+	LQ_Account__x.Account_Size_c__c
+	LQ_Account__x.Account_Type_c__c
+	LQ_Account__x.AnnualRevenue__c
+	LQ_Account__x.Apttus_Config2_BillingPreferenceId_c__c
+	LQ_Account__x.Apttus_Config2_CertificateId_c__c
+	LQ_Account__x.Apttus_Config2_DefaultInvoiceTemplate_c__c
+	LQ_Account__x.Apttus_Config2_PaymentTermId_c__c
+	LQ_Account__x.Apttus_Config2_TaxExemptStatus_c__c
+	LQ_Account__x.Apttus_Config2_TaxExempt_c__c
+	LQ_Account__x.Asia_Market_Segment_c__c
+	LQ_Account__x.BigMachines_Partner_Organization_c__c
+	LQ_Account__x.BillingAddress__c
+	LQ_Account__x.BillingCity__c
+	LQ_Account__x.BillingCountry__c
+	LQ_Account__x.BillingGeocodeAccuracy__c
+	LQ_Account__x.BillingLatitude__c
+	LQ_Account__x.BillingLongitude__c
+	LQ_Account__x.BillingPostalCode__c
+	LQ_Account__x.BillingState__c
+	LQ_Account__x.BillingStreet__c
+	LQ_Account__x.Billing_Country_List_c__c
+	LQ_Account__x.City_c__c
+	LQ_Account__x.Client_Type_c__c
+	LQ_Account__x.Comments_c__c
+	LQ_Account__x.Competitor_Type_c__c
+	LQ_Account__x.Competitor_c__c
+	LQ_Account__x.ConnectionReceivedId__c
+	LQ_Account__x.ConnectionSentId__c
+	LQ_Account__x.Corporate_HQ_Country_c__c
+	LQ_Account__x.Country_c__c
+	LQ_Account__x.CreatedById__c
+	LQ_Account__x.CreatedDate__c
+	LQ_Account__x.Credit_Rating_c__c
+	LQ_Account__x.Date_of_Credit_Rating_c__c
+	LQ_Account__x.Description__c
+	LQ_Account__x.Division_c__c
+	LQ_Account__x.Do_not_call_without_checking_c__c
+	LQ_Account__x.Duplicate_check_c__c
+	LQ_Account__x.Emerging_Biotech_Status_c__c
+	LQ_Account__x.Exclude_from_Mulesoft_Sync_c__c
+	LQ_Account__x.Fax__c
+	LQ_Account__x.Financial_c__c
+	LQ_Account__x.Fiscal_Year_End_c__c
+	LQ_Account__x.HQ_Country_c__c
+	LQ_Account__x.HQ_Location_c__c
+	LQ_Account__x.Inactive_account_c__c
+	LQ_Account__x.Industry_Novella_c__c
+	LQ_Account__x.Industry__c
+	LQ_Account__x.Initial_Payment_Calculation_Method_c__c
+	LQ_Account__x.Initial_Payment_Percentage_c__c
+	LQ_Account__x.Internal_Q_Segmentation_c__c
+	LQ_Account__x.Iqvia_Dupe_Id_c__c
+	LQ_Account__x.Iqvia_Survivor_Id_c__c
+	LQ_Account__x.Iqvia_Survivor_LQ_Account_Id_c__c
+	LQ_Account__x.IsDeleted__c
+	LQ_Account__x.IsPartner__c
+	LQ_Account__x.JigsawCompanyId__c
+	LQ_Account__x.Jigsaw__c
+	LQ_Account__x.LID_LinkedIn_Company_Id_c__c
+	LQ_Account__x.LastActivityDate__c
+	LQ_Account__x.LastModifiedById__c
+	LQ_Account__x.LastModifiedDate__c
+	LQ_Account__x.LastReferencedDate__c
+	LQ_Account__x.LastViewedDate__c
+	LQ_Account__x.Last_Account_Activity_Year_c__c
+	LQ_Account__x.Last_Account_Activity_c__c
+	LQ_Account__x.Last_Activity_Date_c__c
+	LQ_Account__x.Link_to_MSA_Amdt_Change_Log_from_Box_c__c
+	LQ_Account__x.MasterRecordId__c
+	LQ_Account__x.Mulesoft_Error_Message_c__c
+	LQ_Account__x.Mulesoft_External_Id_c__c
+	LQ_Account__x.Mulesoft_Sync_Status_c__c
+	LQ_Account__x.Mulesoft_Sync_Timestamp_c__c
+	LQ_Account__x.Mulesoft_Update_GUID_c__c
+	LQ_Account__x.NPMS_check_c__c
+	LQ_Account__x.NameLocal__c
+	LQ_Account__x.New_Parent_Market_Segment_c__c
+	LQ_Account__x.Novella_Account_c__c
+	LQ_Account__x.NumberOfEmployees__c
+	LQ_Account__x.Number_of_Account_Board_Members_c__c
+	LQ_Account__x.Number_of_Account_Management_Team_c__c
+	LQ_Account__x.Number_of_Announcement_c__c
+	LQ_Account__x.Number_of_Local_Offices_c__c
+	LQ_Account__x.Number_of_Media_Metrics_c__c
+	LQ_Account__x.Number_of_Opportunities_c__c
+	LQ_Account__x.OWF_Active_Customer_Flag_c__c
+	LQ_Account__x.OrgChartPlus_LastOCPExport_c__c
+	LQ_Account__x.OwnerId__c
+	LQ_Account__x.Ownership__c
+	LQ_Account__x.ParentId__c
+	LQ_Account__x.Parent_Account_Name_Display_c__c
+	LQ_Account__x.Parent_Market_Segment_c__c
+	LQ_Account__x.Phase_c__c
+	LQ_Account__x.Phone_Novella_c__c
+	LQ_Account__x.Phone__c
+	LQ_Account__x.PhotoUrl__c
+	LQ_Account__x.Preferred_Provider_c__c
+	LQ_Account__x.Prelim_Agreement_Preference_c__c
+	LQ_Account__x.Q2_Account_c__c
+	LQ_Account__x.Q2_CRO_Account_c__c
+	LQ_Account__x.QI_Account_Id_c__c
+	LQ_Account__x.Rating__c
+	LQ_Account__x.RecordTypeId__c
+	LQ_Account__x.Sales_Segmentation_c__c
+	LQ_Account__x.Send_Mulesoft_Outbound_Msg_c__c
+	LQ_Account__x.ShippingAddress__c
+	LQ_Account__x.ShippingCity__c
+	LQ_Account__x.ShippingCountry__c
+	LQ_Account__x.ShippingGeocodeAccuracy__c
+	LQ_Account__x.ShippingLatitude__c
+	LQ_Account__x.ShippingPostalCode__c
+	LQ_Account__x.ShippingState__c
+	LQ_Account__x.ShippingStreet__c
+	LQ_Account__x.Shipping_Country_List_c__c
+	LQ_Account__x.SicDesc__c
+	LQ_Account__x.Sic__c
+	LQ_Account__x.Site__c
+	LQ_Account__x.Specialty_Focus_c__c
+	LQ_Account__x.State_c__c
+	LQ_Account__x.SystemModstamp__c
+	LQ_Account__x.Test_Field_c__c
+	LQ_Account__x.Therapeutic_Areas_c__c
+	LQ_Account__x.TickerSymbol__c
+	LQ_Account__x.Tier_c__c
+	LQ_Account__x.Type__c
+	LQ_Account__x.Value_Proposition_Statement_new_c__c
+	LQ_Account__x.Website__c
+	Lead.Address
+	Lead.Consented_to_Marketing_Emails__c
+	Lead.Email
+	Lead.Hard_Bounceback_Date__c
+	Lead.Inactive_Reason__c
+	Lead.Invalid_Email_Address__c
+	Lead.Jigsaw
+	Lead.Job_Level__c
+	Lead.LeadSource
+	Lead.Legacy_Id__c
+	Lead.Migration_Source__c
+	Lead.MobilePhone
+	Lead.NumberOfEmployees
+	Lead.Phone
+	Lead.Professional_Designation__c
+	Lead.Rating
+	Lead.Title
+	Lead.Website
+	Line_Item_Group__c.FPI_Date__c
+	Line_Item_Group__c.Indication__c
+	Line_Item_Group__c.Phase__c
+	Line_Item_Group__c.Population_Age_Group__c
+	Line_Item_Group__c.Therapy_Area__c
+	LiveAgentSession.ChatReqAssigned
+	LiveAgentSession.ChatReqDeclined
+	LiveAgentSession.ChatReqEngaged
+	LiveAgentSession.ChatReqTimedOut
+	LiveAgentSession.NumFlagLoweredAgent
+	LiveAgentSession.NumFlagLoweredSupervisor
+	LiveAgentSession.NumFlagRaised
+	LiveAgentSession.TimeAtCapacity
+	LiveAgentSession.TimeIdle
+	LiveAgentSession.TimeInAwayStatus
+	LiveAgentSession.TimeInChats
+	LiveAgentSession.TimeInOnlineStatus
+	LiveChatTranscript.Abandoned
+	LiveChatTranscript.AccountId
+	LiveChatTranscript.AverageResponseTimeOperator
+	LiveChatTranscript.AverageResponseTimeVisitor
+	LiveChatTranscript.Body
+	LiveChatTranscript.Browser
+	LiveChatTranscript.BrowserLanguage
+	LiveChatTranscript.CaseId
+	LiveChatTranscript.ChatDuration
+	LiveChatTranscript.ChatKey
+	LiveChatTranscript.Company__c
+	LiveChatTranscript.ContactId
+	LiveChatTranscript.Country__c
+	LiveChatTranscript.Email__c
+	LiveChatTranscript.EndTime
+	LiveChatTranscript.EndedBy
+	LiveChatTranscript.FirstName__c
+	LiveChatTranscript.IpAddress
+	LiveChatTranscript.LastName__c
+	LiveChatTranscript.LeadId
+	LiveChatTranscript.Lifecycle
+	LiveChatTranscript.LiveChatButtonId
+	LiveChatTranscript.LiveChatDeploymentId
+	LiveChatTranscript.Location
+	LiveChatTranscript.MaxResponseTimeOperator
+	LiveChatTranscript.MaxResponseTimeVisitor
+	LiveChatTranscript.OperatorMessageCount
+	LiveChatTranscript.Platform
+	LiveChatTranscript.ReferrerUri
+	LiveChatTranscript.RequestTime
+	LiveChatTranscript.ScreenResolution
+	LiveChatTranscript.SkillId
+	LiveChatTranscript.StartTime
+	LiveChatTranscript.Status
+	LiveChatTranscript.SupervisorTranscriptBody
+	LiveChatTranscript.UserAgent
+	LiveChatTranscript.VisitorMessageCount
+	LiveChatTranscript.VisitorNetwork
+	LiveChatTranscript.WaitTime
+	Major_Incident__c.Accounts_Impacted__c
+	Major_Incident__c.Cases_Impacted__c
+	Major_Incident__c.Internal_Email_Addresses__c
+	Mulesoft_OpportunityLineItem_Sync__c.LI_OpportunityLineItem_Id__c
+	Mulesoft_OpportunityLineItem_Sync__c.LQ_OpportunityLineItem_Id__c
+	Mulesoft_OpportunityLineItem_Sync__c.Mulesoft_Error_Message__c
+	Mulesoft_OpportunityLineItem_Sync__c.Mulesoft_Incoming_Update_GUID__c
+	Mulesoft_OpportunityLineItem_Sync__c.Mulesoft_Sync_Status__c
+	Mulesoft_OpportunityLineItem_Sync__c.Mulesoft_Sync_Timestamp__c
+	Mulesoft_OpportunityLineItem_Sync__c.Mulesoft_Update_GUID__c
+	Mulesoft_Opportunity_Sync__c.LI_Mulesoft_Error_Message__c
+	Mulesoft_Opportunity_Sync__c.LI_Mulesoft_Sync_Status__c
+	Mulesoft_Opportunity_Sync__c.LI_Mulesoft_Sync_Timestamp__c
+	Mulesoft_Opportunity_Sync__c.LI_Mulesoft_Update_GUID__c
+	Mulesoft_Opportunity_Sync__c.LI_Opportunity_Id__c
+	Mulesoft_Opportunity_Sync__c.LQ_Mulesoft_Error_Message__c
+	Mulesoft_Opportunity_Sync__c.LQ_Mulesoft_Sync_Status__c
+	Mulesoft_Opportunity_Sync__c.LQ_Mulesoft_Sync_Timestamp__c
+	Mulesoft_Opportunity_Sync__c.LQ_Mulesoft_Update_GUID__c
+	Mulesoft_Opportunity_Sync__c.LQ_Opportunity_Id__c
+	Mulesoft_Opportunity_Sync__c.Legacy_IMS_Opportunity_Number__c
+	Mulesoft_Opportunity_Sync__c.Legacy_Quintiles_Opportunity_Number__c
+	Mulesoft_Opportunity_Sync__c.Mulesoft_LI_Incoming_Update_GUID__c
+	Mulesoft_Opportunity_Sync__c.Mulesoft_LQ_Incoming_Update_GUID__c
+	Mulesoft_Opportunity_Sync__c.Update_Type__c
+	Opportunity.ATP_Date__c
+	Opportunity.ATP_Professional_Fees__c
+	Opportunity.AccountId
+	Opportunity.Additional_Primary_Loss_Reason_Detail__c
+	Opportunity.Additional_Primary_Win_Loss_Reason_Infor__c
+	Opportunity.Additional_Primary_Win_Reason_Detail__c
+	Opportunity.Advanced_Plan__c
+	Opportunity.Amount
+	Opportunity.Awarded_Date__c
+	Opportunity.Bid_Defense_Date__c
+	Opportunity.Budget_Confirmed__c
+	Opportunity.CampaignId
+	Opportunity.Central_Billing_Engagement__c
+	Opportunity.ContractId
+	Opportunity.Contract_End_Date__c
+	Opportunity.Contract_Start_Date__c
+	Opportunity.Description
+	Opportunity.Discovery_Completed__c
+	Opportunity.LI_Opportunity_Id__c
+	Opportunity.LQ_Opportunity_Id__c
+	Opportunity.LQ_User_Save_Timestamp__c
+	Opportunity.Legacy_IMS_Opportunity_Number__c
+	Opportunity.Legacy_Id__c
+	Opportunity.Legacy_Quintiles_Opportunity_Number__c
+	Opportunity.Loss_Reason__c
+	Opportunity.Migration_Source__c
+	Opportunity.Mulesoft_Opportunity_Sync__c
+	Opportunity.NextStep
+	Opportunity.Opportunity_Number__c
+	Opportunity.Parent_Opportunity__c
+	Opportunity.Potential_Competitor_1__c
+	Opportunity.Potential_Competitor_2__c
+	Opportunity.Potential_Regions__c
+	Opportunity.Primary_Loss_Reason_Detail__c
+	Opportunity.Primary_Loss_Reason__c
+	Opportunity.Primary_Win_Reason_Detail__c
+	Opportunity.Primary_Win_Reason__c
+	Opportunity.Probability
+	Opportunity.QI_Invited_to_Present__c
+	Opportunity.RD_Product_Count__c
+	Opportunity.ROI_Analysis_Completed__c
+	Opportunity.Secondary_Loss_Reason__c
+	Opportunity.Selling_to_HQ__c
+	Opportunity.Survey_Recipient__c
+	Opportunity.Type
+	Opportunity.X2_Qualifying_Oportunity_Stage_Entry__c
+	Opportunity.X3_Developing_Proposal_Stage_Entry__c
+	Opportunity.X4_Delivering_Proposal_Stage_Entry__c
+	Opportunity.X5_Finalizing_Deal_Stage_Entry__c
+	Opportunity.X6_Received_ATP_LOI_Stage_Entry__c
+	Opportunity.X7a_Closed_Won_Stage_Entry__c
+	Opportunity.X7b_Closed_Lost_Stage_Entry__c
+	OpportunityLineItem.Delivery_Country__c
+	OpportunityLineItem.Delivery_End_Date__c
+	OpportunityLineItem.Delivery_Start_Date__c
+	OpportunityLineItem.Delivery_Type__c
+	OpportunityLineItem.Description
+	OpportunityLineItem.Hierarchy_Level__c
+	OpportunityLineItem.Legacy_Id__c
+	OpportunityLineItem.ListPrice
+	OpportunityLineItem.Migration_Source__c
+	OpportunityLineItem.Mulesoft_OpportunityLineItem_Sync__c
+	OpportunityLineItem.Offering_Group_Code__c
+	OpportunityLineItem.Offering_Group__c
+	OpportunityLineItem.Offering_Segment_Code__c
+	OpportunityLineItem.Offering_Segment__c
+	OpportunityLineItem.Offering_Type_Code__c
+	OpportunityLineItem.Offering_Type__c
+	OpportunityLineItem.PSA_Budget_Status__c
+	OpportunityLineItem.PSA_Budget__c
+	OpportunityLineItem.PSA_Project__c
+	OpportunityLineItem.ProductCode
+	OpportunityLineItem.Product_End_Date__c
+	OpportunityLineItem.Product_Material_Type_Text__c
+	OpportunityLineItem.Product_Offering_Group_Code__c
+	OpportunityLineItem.Product_Start_Date__c
+	OpportunityLineItem.Revenue_Type__c
+	OpportunityLineItem.Sale_Type__c
+	OpportunityLineItem.ServiceDate
+	OpportunityLineItem.TotalPrice
+	OpportunityLineItem.Wbsrelementcode__c
+	Order.ActivatedById
+	Order.ActivatedDate
+	Order.BillingAddress
+	Order.CompanyAuthorizedById
+	Order.ContractEndDate
+	Order.CustomerAuthorizedById
+	Order.Description
+	Order.ShippingAddress
+	Order.TotalAmount
+	Order.Type
+	OrderItem.Description
+	OrderItem.EndDate
+	OrderItem.ListPrice
+	OrderItem.ProductCode
+	OrderItem.ServiceDate
+	Product2.Billing_System__c
+	Product2.CanUseRevenueSchedule
+	Product2.Community_Topics__c
+	Product2.Delivery_Type__c
+	Product2.Description
+	Product2.DisplayUrl
+	Product2.ExternalDataSourceId
+	Product2.ExternalId
+	Product2.Family
+	Product2.Global_Product_Code__c
+	Product2.Hierarchy_Chain__c
+	Product2.Hierarchy_Level__c
+	Product2.InterfacedWithMDM__c
+	Product2.Material_Type__c
+	Product2.Offering_Group_Code__c
+	Product2.Offering_Group__c
+	Product2.Offering_Segment_Code__c
+	Product2.Offering_Segment__c
+	Product2.Offering_Type_Code__c
+	Product2.Offering_Type__c
+	Product2.ProductCode
+	Product2.QuantityUnitOfMeasure
+	Product2.SAP_Code__c
+	Product2.SpecificToCSM__c
+	Product2.StockKeepingUnit
+	Product2.Territory__c
+	Profit_Centre__c.Parent_Profit_Centre__c
+	Profit_Centre__c.Profit_Center_Code_Chain__c
+	Proxy_SCM_Agreement__c.Apttus_Status_c__c
+	Proxy_SCM_Agreement__c.Opportunity__c
+	Proxy_SCM_Agreement__c.Record_Type_Name__c
+	Queue_User_Relationship__c.AFU_Queue_Email__c
+	Queue_User_Relationship__c.QueueManager__c
+	Queue_User_Relationship__c.QueueName__c
+	Queue_User_Relationship__c.Queue_Email__c
+	Queue_User_Relationship__c.TECH_QueueUser__c
+	Queue_User_Relationship__c.TECH_UserGroupIdCombination__c
+	Queue_User_Relationship__c.User_Email__c
+	Queue_User_Relationship__c.User__c
+	Quote.AccountId
+	Quote.AdditionalAddress
+	Quote.AdditionalName
+	Quote.BillingAddress
+	Quote.BillingName
+	Quote.ContactId
+	Quote.ContractId
+	Quote.Description
+	Quote.Discount
+	Quote.Email
+	Quote.ExpirationDate
+	Quote.Fax
+	Quote.GrandTotal
+	Quote.Phone
+	Quote.QuoteToAddress
+	Quote.QuoteToName
+	Quote.ShippingAddress
+	Quote.ShippingHandling
+	Quote.ShippingName
+	Quote.Status
+	Quote.Subtotal
+	Quote.Tax
+	Quote.TotalPrice
+	QuoteLineItem.Description
+	QuoteLineItem.Discount
+	QuoteLineItem.ListPrice
+	QuoteLineItem.ProductCode
+	QuoteLineItem.ServiceDate
+	QuoteLineItem.Subtotal
+	QuoteLineItem.TotalPrice
+	SOTC__c.SOTCTitle__c
+	ServiceContract.AccountId
+	ServiceContract.ActivationDate
+	ServiceContract.ApprovalStatus
+	ServiceContract.BillingAddress
+	ServiceContract.ContactId
+	ServiceContract.Description
+	ServiceContract.Discount
+	ServiceContract.EndDate
+	ServiceContract.GrandTotal
+	ServiceContract.ParentServiceContractId
+	ServiceContract.RootServiceContractId
+	ServiceContract.ShippingAddress
+	ServiceContract.ShippingHandling
+	ServiceContract.SpecialTerms
+	ServiceContract.StartDate
+	ServiceContract.Status
+	ServiceContract.StatusIndicator
+	ServiceContract.Subtotal
+	ServiceContract.Tax
+	ServiceContract.Term
+	ServiceContract.TotalPrice
+	ServiceNow_Group__c.Group_ID__c
+	SocialPersona.AreWeFollowing
+	SocialPersona.AuthorLabels
+	SocialPersona.Bio
+	SocialPersona.Followers
+	SocialPersona.Following
+	SocialPersona.InfluencerScore
+	SocialPersona.IsBlacklisted
+	SocialPersona.IsFollowingUs
+	SocialPersona.IsVerified
+	SocialPersona.Klout
+	SocialPersona.ListedCount
+	SocialPersona.MediaProvider
+	SocialPersona.MediaType
+	SocialPersona.NumberOfFriends
+	SocialPersona.NumberOfTweets
+	SocialPersona.ProfileType
+	SocialPersona.R6SourceId
+	SocialPersona.RealName
+	SocialPersona.SourceApp
+	SocialPersona.TopicType
+	SocialPersona.UserId
+	SocialPost.AnalyzerScore
+	SocialPost.AssignedTo
+	SocialPost.AttachmentType
+	SocialPost.AttachmentUrl
+	SocialPost.Classification
+	SocialPost.CommentCount
+	SocialPost.Content
+	SocialPost.DeletedById
+	SocialPost.EngagementLevel
+	SocialPost.ExternalPostId
+	SocialPost.HarvestDate
+	SocialPost.HiddenById
+	SocialPost.InboundLinkCount
+	SocialPost.IsOutbound
+	SocialPost.KeywordGroupName
+	SocialPost.Language
+	SocialPost.LikesAndVotes
+	SocialPost.MediaProvider
+	SocialPost.MediaType
+	SocialPost.MessageType
+	SocialPost.Notes
+	SocialPost.OutboundSocialAccountId
+	SocialPost.ParentId
+	SocialPost.PersonaId
+	SocialPost.PostPriority
+	SocialPost.PostTags
+	SocialPost.PostUrl
+	SocialPost.R6PostId
+	SocialPost.R6SourceId
+	SocialPost.R6TopicId
+	SocialPost.Recipient
+	SocialPost.RecipientType
+	SocialPost.ReplyToId
+	SocialPost.ResponseContextExternalId
+	SocialPost.ReviewScale
+	SocialPost.ReviewScore
+	SocialPost.ReviewedStatus
+	SocialPost.Sentiment
+	SocialPost.Shares
+	SocialPost.SourceTags
+	SocialPost.SpamRating
+	SocialPost.Status
+	SocialPost.StatusMessage
+	SocialPost.ThreadSize
+	SocialPost.TopicProfileName
+	SocialPost.TopicType
+	SocialPost.UniqueCommentors
+	SocialPost.ViewCount
+	SocialPost.WhoId
+	Solution.IsPublished
+	Solution.IsPublishedInPublicKb
+	Solution.SolutionNote
+	StudySiteContactRelationship__c.Access_Status__c
+	StudySiteContactRelationship__c.Account_Country__c
+	StudySiteContactRelationship__c.Comment__c
+	StudySiteContactRelationship__c.ContactEmail__c
+	StudySiteContactRelationship__c.ContactJobTitle__c
+	StudySiteContactRelationship__c.Contact_Role__c
+	StudySiteContactRelationship__c.Investigator_Name__c
+	StudySiteContactRelationship__c.LOS__c
+	StudySiteContactRelationship__c.Lab_Site_Number__c
+	StudySiteContactRelationship__c.SendEmailUpdates__c
+	StudySiteContactRelationship__c.Site_Name__c
+	StudySiteContactRelationship__c.Status__c
+	StudySiteContactRelationship__c.Study_Therapeutic_Area__c
+	StudySiteContactRelationship__c.UserTrainedDate__c
+	StudySiteContactRelationship__c.User_Group__c
+	Study_Contact_Relationship__c.AccessStatus__c
+	Study_Contact_Relationship__c.ContactEmail__c
+	Study_Contact_Relationship__c.ContactJobTitle__c
+	Study_Contact_Relationship__c.ContactRole__c
+	Study_Contact_Relationship__c.SendEmailUpdates__c
+	Study_Contact_Relationship__c.Status__c
+	Study_Contact_Relationship__c.StudyID__c
+	Study_Contact_Relationship__c.StudyTherapeuticArea__c
+	Study_Contact_Relationship__c.UserGroup__c
+	Study_Contact_Relationship__c.UserTrainedDate__c
+	Study_Site_Relationship__c.Comment__c
+	Study_Site_Relationship__c.KeyContacts__c
+	Study_Site_Relationship__c.LOS__c
+	Study_Site_Relationship__c.LabStudy__c
+	Study_Site_Relationship__c.SiteNumber__c
+	Study_Site_Relationship__c.SpecificLocationDetails__c
+	Study_Site_Relationship__c.Status__c
+	Study_Site_Relationship__c.StudyTherapeuticArea__c
+	Study__c.AMFCall__c
+	Study__c.AMF_approvers__c
+	Study__c.AULCutoffDate__c
+	Study__c.AULReceived__c
+	Study__c.CRO__c
+	Study__c.CloseDate__c
+	Study__c.DatabaseLockINCSR__c
+	Study__c.ERTEscalationContactERTonly__c
+	Study__c.ExternalProjectCoordinator__c
+	Study__c.FollowUpContacts__c
+	Study__c.GoLiveDate__c
+	Study__c.HandoverReceived__c
+	Study__c.HomepageStudyURL__c
+	Study__c.IBMCDStudyRevision__c
+	Study__c.IVRSIntegration__c
+	Study__c.InformHomepageURL__c
+	Study__c.InformVersionNumber__c
+	Study__c.InterimLock__c
+	Study__c.KineticTRNDB__c
+	Study__c.LOS__c
+	Study__c.LabProjectCode__c
+	Study__c.MissingInfoComments__c
+	Study__c.NotificationPriority__c
+	Study__c.OutcomeSPAccessPerson__c
+	Study__c.PCComments__c
+	Study__c.PMFirstName__c
+	Study__c.PasswordExpirationPeriod__c
+	Study__c.Password_Recovery__c
+	Study__c.Phase__c
+	Study__c.PlannedSites__c
+	Study__c.PlannedSubjects__c
+	Study__c.PreDBLockMeeting__c
+	Study__c.ProjectCoordinator__c
+	Study__c.ProjectInformation__c
+	Study__c.Protocol__c
+	Study__c.QIPReceived__c
+	Study__c.RRMatrixReceive__c
+	Study__c.RegionalPMPL__c
+	Study__c.SISpecificsERTonly__c
+	Study__c.ShippingAccount__c
+	Study__c.SponsorAddress__c
+	Study__c.SponsorStatus__c
+	Study__c.StartUpCall__c
+	Study__c.Status__c
+	Study__c.StudyCountry__c
+	Study__c.StudyID__c
+	Study__c.StudyNickname__c
+	Study__c.StudyTypeORDCOnly__c
+	Study__c.StudyURL__c
+	Study__c.SubLOS__c
+	Study__c.Supported_for_CAS_Inform_only__c
+	Study__c.SystemVersion__c
+	Study__c.TFNDecommisioned__c
+	Study__c.TechnicalProjectManager__c
+	Study__c.TherapeuticArea__c
+	Study__c.UMTIntegration__c
+	Study__c.UserTrainingComments__c
+	Task.ActivityDate
+	Task.Campaign_Content_Link__c
+	Task.Campaign_Name__c
+	Task.Description
+	Task.Disposition__c
+	Task.Migration_Source__c
+	Task.Not_Accept_Reason_Detail_Other__c
+	Task.Not_Accept_Reason_Detail__c
+	Task.Not_Accept_Reason__c
+	Task.Nurture_Area__c
+	Task.Nurture_Detail_Other__c
+	Task.Nurture_Detail__c
+	Task.QIMS_Service__c
+	Task.Therapy_Area__c
+	Task.Type
+	Task.WhatId
+	Task.WhoId
+	TimeSheet__c.Comment__c
+	TimeSheet__c.Timeinhours__c
+	User.Business_Unit__c
+	User.LastLoginValue__c
+	User.Legacy_IMS_Employee_ID__c
+	User.Legacy_Quintiles_Employee_ID__c
+	User.Legacy_Quintiles_Role__c
+	User.User_Country__c
+	User.User_Queue__c
+	pse__Assignment__c.Agreement__c
+	pse__Assignment__c.Contact__c
+	pse__Assignment__c.Opportunity_Close_Date__c
+	pse__Assignment__c.Opportunity_Probability__c
+	pse__Resource_Request__c.Suggested_FTE__c
+	pse__Resource_Request__c.Therapy_Area__c
+
+FieldPermissions(Not in Repo but in Org and package field) /
+	Account.TRIMEC__EC_DupeStatus__c
+	Account.TRIMEC__EC_Status__c
+	Account.TRIMEC__MatchKey__c
+	Account.TRIMEC__MatchLevel__c
+	Account.TRIMEC__MatchScore__c
+	Contact.TRIMEC__EC_DupeStatus__c
+	Contact.TRIMEC__EC_Status__c
+	Contact.TRIMEC__MatchKey__c
+	Contact.TRIMEC__MatchLevel__c
+	Contact.TRIMEC__MatchScore__c
+	Event.cnx__CTIInfo__c
+	Event.cnx__UniqueId__c
+	Lead.TRIMEC__MatchKey__c
+	Lead.TRIMEC__MatchLevel__c
+	Lead.TRIMEC__MatchScore__c
+	Opportunity.ffr__BatchProcess__c
+	Task.cnx__CTIInfo__c
+	Task.cnx__UniqueId__c
+	User.cnx__Agent_AutoLogin__c
+	User.cnx__Agent_Extension__c
+	User.cnx__Agent_ID__c
+	User.cnx__Agent_MobileAgent__c
+	User.cnx__Agent_MobileMode__c
+	User.cnx__Agent_MobileNumber__c
+	User.cnx__Agent_PasswordEncrypted__c
+	User.cnx__Agent_Password__c
+	User.cnx__Agent_Phone_Extension__c
+	User.cnx__Agent_SpeedDialNumbers__c
+	User.dsfs__DSProSFUsername__c
+	dsfs__DocuSign_Envelope_Document__c.dsfs__Attachment_ID__c
+	dsfs__DocuSign_Envelope_Document__c.dsfs__Attachment_NameEx__c
+	dsfs__DocuSign_Envelope_Document__c.dsfs__Attachment_Name__c
+	dsfs__DocuSign_Envelope_Document__c.dsfs__Document_ID__c
+	dsfs__DocuSign_Envelope_Document__c.dsfs__Document_Name__c
+	dsfs__DocuSign_Envelope_Document__c.dsfs__Document_Order__c
+	dsfs__DocuSign_Envelope_Document__c.dsfs__Extension__c
+	dsfs__DocuSign_Envelope_Document__c.dsfs__External_Document_Id__c
+	dsfs__DocuSign_Envelope_Document__c.dsfs__SFDocument_Type__c
+	dsfs__DocuSign_Envelope_Document__c.dsfs__Size__c
+	dsfs__DocuSign_Envelope_Document__c.dsfs__Validation_Message__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__Access_Code__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__DSER_ContactID__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__DSER_CustomFeaturesEx__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__DSER_CustomFeatures__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__DSER_CustomId__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__DSER_CustomName__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__DSER_LeadID__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__DSER_UserID__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__DocuSign_Recipient_Role__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__DocuSign_Signature_Name__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__DocuSign_Signer_Type__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__Email_Body__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__Email_Subject__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__ID_Check__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__LanguageCode__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__Language__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__Recipient_Email__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__Recipient_ID__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__Recipient_Note_Long__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__Recipient_Note__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__RoleName__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__RoleValue__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__Routing_Order__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__SMSAuthentication_PhoneNumber__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__Salesforce_Recipient_Type__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__SignInPersonEmail__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__SignInPersonName__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__SignNow__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__SigningGroupId__c
+	dsfs__DocuSign_Envelope_Recipient__c.dsfs__Validation_Message__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterEnvCompletedText__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterEnvCompleted__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterEnvDeclinedText__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterEnvDeclined__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterEnvDeliveredText__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterEnvDelivered__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterEnvSentText__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterEnvSent__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterEnvVoidedText__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterEnvVoided__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterRecipCompletedText__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterRecipCompleted__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterRecipDeclinedText__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterRecipDeclined__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterRecipDeliveredText__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterRecipDelivered__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterRecipSentText__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterRecipSent__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterRecipSignedText__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterRecipSigned__c
+	dsfs__DocuSign_Envelope__c.dsfs__ChatterUpdatesEnabled__c
+	dsfs__DocuSign_Envelope__c.dsfs__Contact2eSignDoc01__c
+	dsfs__DocuSign_Envelope__c.dsfs__Custom_Field_1_Name__c
+	dsfs__DocuSign_Envelope__c.dsfs__Custom_Field_1_Value__c
+	dsfs__DocuSign_Envelope__c.dsfs__Custom_Field_1__c
+	dsfs__DocuSign_Envelope__c.dsfs__Custom_Field_2_Name__c
+	dsfs__DocuSign_Envelope__c.dsfs__Custom_Field_2_Value__c
+	dsfs__DocuSign_Envelope__c.dsfs__Custom_Field_2__c
+	dsfs__DocuSign_Envelope__c.dsfs__Custom_Field_3_Name__c
+	dsfs__DocuSign_Envelope__c.dsfs__Custom_Field_3_Value__c
+	dsfs__DocuSign_Envelope__c.dsfs__Custom_Field_3__c
+	dsfs__DocuSign_Envelope__c.dsfs__Day_Prior_to_Warn_of_expiration__c
+	dsfs__DocuSign_Envelope__c.dsfs__Days_before_Envelope_is_Expired_Voided__c
+	dsfs__DocuSign_Envelope__c.dsfs__DocuSign_Email_Message__c
+	dsfs__DocuSign_Envelope__c.dsfs__DocuSign_Envelope_ID__c
+	dsfs__DocuSign_Envelope__c.dsfs__DocuSign_Envelope_Sent__c
+	dsfs__DocuSign_Envelope__c.dsfs__DocumentID__c
+	dsfs__DocuSign_Envelope__c.dsfs__Document_Name__c
+	dsfs__DocuSign_Envelope__c.dsfs__EnvelopeConfiguration__c
+	dsfs__DocuSign_Envelope__c.dsfs__Expire_Void_Envelope__c
+	dsfs__DocuSign_Envelope__c.dsfs__I_agree_to_Terms__c
+	dsfs__DocuSign_Envelope__c.dsfs__I_will_Sign__c
+	dsfs__DocuSign_Envelope__c.dsfs__Lead2eSignDoc01__c
+	dsfs__DocuSign_Envelope__c.dsfs__Reminder_Interval__c
+	dsfs__DocuSign_Envelope__c.dsfs__Reminder_Repeat_Interval_in_Days__c
+	dsfs__DocuSign_Envelope__c.dsfs__Send_Reminder__c
+	dsfs__DocuSign_Envelope__c.dsfs__Sender__c
+	dsfs__DocuSign_Envelope__c.dsfs__Source_Object_Parent__c
+	dsfs__DocuSign_Envelope__c.dsfs__Source_Object__c
+	dsfs__DocuSign_Recipient_Status__c.dsfs__Account__c
+	dsfs__DocuSign_Recipient_Status__c.dsfs__Contact__c
+	dsfs__DocuSign_Recipient_Status__c.dsfs__Date_Declined__c
+	dsfs__DocuSign_Recipient_Status__c.dsfs__Date_Delivered__c
+	dsfs__DocuSign_Recipient_Status__c.dsfs__Date_Sent__c
+	dsfs__DocuSign_Recipient_Status__c.dsfs__Date_Signed__c
+	dsfs__DocuSign_Recipient_Status__c.dsfs__Decline_Reason_Extended__c
+	dsfs__DocuSign_Recipient_Status__c.dsfs__Decline_Reason__c
+	dsfs__DocuSign_Recipient_Status__c.dsfs__DocuSign_Recipient_Company__c
+	dsfs__DocuSign_Recipient_Status__c.dsfs__DocuSign_Recipient_Email__c
+	dsfs__DocuSign_Recipient_Status__c.dsfs__DocuSign_Recipient_Title__c
+	dsfs__DocuSign_Recipient_Status__c.dsfs__DocuSign_Routing_Order__c
+	dsfs__DocuSign_Recipient_Status__c.dsfs__Envelope_Id__c
+	dsfs__DocuSign_Recipient_Status__c.dsfs__Lead__c
+	dsfs__DocuSign_Recipient_Status__c.dsfs__Recipient_Status__c
+	dsfs__DocuSign_Status__c.dsfs__Case__c
+	dsfs__DocuSign_Status__c.dsfs__Company__c
+	dsfs__DocuSign_Status__c.dsfs__Completed_Age__c
+	dsfs__DocuSign_Status__c.dsfs__Completed_Date_Time__c
+	dsfs__DocuSign_Status__c.dsfs__Contact__c
+	dsfs__DocuSign_Status__c.dsfs__Contract__c
+	dsfs__DocuSign_Status__c.dsfs__Days_to_Complete__c
+	dsfs__DocuSign_Status__c.dsfs__Declined_Date_Time__c
+	dsfs__DocuSign_Status__c.dsfs__Declined_Reason_Extended__c
+	dsfs__DocuSign_Status__c.dsfs__Declined_Reason__c
+	dsfs__DocuSign_Status__c.dsfs__DocuSign_Envelope_ID__c
+	dsfs__DocuSign_Status__c.dsfs__EnvelopeConfiguration__c
+	dsfs__DocuSign_Status__c.dsfs__Envelope_Link__c
+	dsfs__DocuSign_Status__c.dsfs__Envelope_Status__c
+	dsfs__DocuSign_Status__c.dsfs__Hours_to_Complete__c
+	dsfs__DocuSign_Status__c.dsfs__Hrs_Sent_to_Sign__c
+	dsfs__DocuSign_Status__c.dsfs__Lead__c
+	dsfs__DocuSign_Status__c.dsfs__Minutes_to_Complete__c
+	dsfs__DocuSign_Status__c.dsfs__Number_Completed__c
+	dsfs__DocuSign_Status__c.dsfs__Opportunity__c
+	dsfs__DocuSign_Status__c.dsfs__Sender_Email__c
+	dsfs__DocuSign_Status__c.dsfs__Sender__c
+	dsfs__DocuSign_Status__c.dsfs__Sent_Age__c
+	dsfs__DocuSign_Status__c.dsfs__Sent_Date_Time__c
+	dsfs__DocuSign_Status__c.dsfs__Subject__c
+	dsfs__DocuSign_Status__c.dsfs__Time_to_Complete__c
+	dsfs__DocuSign_Status__c.dsfs__Viewed_Date_Time__c
+	dsfs__DocuSign_Status__c.dsfs__Voided_Date_Time__c
+	dsfs__DocuSign_Status__c.dsfs__Voided_Reason_Extended__c
+	dsfs__DocuSign_Status__c.dsfs__Voided_Reason__c
+
+LayoutAssignment(Not in Repo but in Org) /
+	AMA_Agreement_Detail__c-AMA Agreement Detail Layout
+	AMA_Contract_Detail__c-AMA Contract Detail Layout
+	AMA_Contracts_Attachments__c-AMA Contracts Attachment Layout
+	AMA_Fee_Master__c-AMA Fee Master Layout
+	ATC__c-Market Definition Layout
+	ATC__c-Market Definition Layout
+	ATC__c-Market Definition Layout
+	ATC__c-Market Definition Layout
+	ATC__c-Market Definition Layout
+	ATC__c-Market Definition Layout
+	ATC__c-Market Definition Layout
+	Account-ACC_PL01_CSM_CSMAccountPageLayout
+	Account-Global Customer Account Layout
+	Account-IQVIA Standard Account Layout
+	Account-IQVIA Validated Account Layout
+	AccountBrand-Account Brand Layout
+	AccountContactRelation-Account Contact Relationship Layout
+	AccountTeamMember-Account Team Member Layout
+	Account_Competitor__c-Account Competitor Layout
+	Account_Dashboards_Reports_Category_RS__c-Account Dashboards Reports Category RS Layout
+	Account_Directory__c-Account Directory Layout
+	Account_Manager__c-Account Manager Layout
+	Account_Report_Note__c-Account Report Note Layout
+	Activity__c-ACT_PL01_CSM_Activity
+	Activity__c-Activity Layout
+	Address__c-Address Layout
+	Address__c-Address Layout
+	Address__c-Address Layout
+	Admin_Time_Entry_Data__c-Admin Time Entry Data Layout
+	Agency_Program_Financials__c-Agency Program Financials Address Layout
+	Agency_Program_Financials__c-Agency Program Financials Address Layout
+	Agency_Program_Financials__c-Agency Program Financials Address Layout
+	Agency_Program__c-Agency Program Layout
+	Agreement_Annual_Calculation__c-Agreement Annual Calculation Layout
+	Agreement_Contact__c-Agreement Contact Layout
+	Agreement_Contacts__c-AGR Contacts_PL01_CLM_GCE Agreement Contacts Layout
+	Agreement_Contacts__c-AGR Contacts_PL01_CLM_GCE Agreement Contacts Layout
+	Agreement_Contacts__c-AGR Contacts_PL01_CLM_GCE Agreement Contacts Layout
+	Agreement_Email_Alert__c-Agreement Email Alert Layout
+	Agreement_Extension__c-Agreement Extension Layout
+	Agreement_Line_Item_ATCs__c-Agreement Line item ATCs Layout
+	Agreement_Line_Item__c-Agreement Line Item Layout
+	Agreement_Line_item_Discount__c-Agreement Line item Discount Layout
+	Agreement_Type_Bid_Mapping__mdt-Agreement Type Bid Mapping Layout
+	Agreement__c-Agreement Layout
+	Agreement__c-Agreement Layout
+	Agreement__c-Agreement Layout
+	AllowedEmailDomain-Allowed Email Domain Layout
+	Announcement__c-Announcement Layout
+	Apex_Error_Log__c-Apex Error Log Layout
+	Apex_RecordType_Control__mdt-Apex RecordType Control Layout
+	Approval_Matrix__c-Approval Matrix Layout
+	Approver_Group__c-Approver Group Layout
+	Apttus__APTS_Agreement__c-AGR_PL01_CRM_CSS Short Form
+	Asset-Asset Layout
+	AssetRelationship-Asset Relationship Layout
+	Attachment_PlaceHolder__c-Attachment PlaceHolder Layout
+	Audit_Log__c-Audit Log Layout
+	BNF2__c-Global BNF Layout
+	BNF2__c-Global BNF Layout
+	BNF2__c-Global BNF Layout
+	BNF_Approval_Log__c-BNF Approval Log Layout
+	BNF_Rejection_Reason__c-BNF Rejection Reason Layout
+	BNF__x-Purchase%2FBNF Layout
+	Bid_History__x-Bid History Layout
+	Bid_Team_Credit__c-Bid Team Credit Layout
+	Billing_Schedule_Item__c-Billing Schedule Item Layout
+	Billing_Schedule__c-Billing Schedule Layout
+	Box_Folder__mdt-Box Folder Layout
+	Box_Object__mdt-Box Object Layout
+	Box_Parent_Folder__mdt-Box Parent Folder Layout
+	Budget_Agreement_History__c-Budget Agreement History Layout
+	CDA_Account__c-CDA Account Layout
+	CDA_Approved_Governing_Law_Location__c-CDA Approved Governing Law Location Layout
+	CDA_Governing_Law_Name_and_PrintName__mdt-CDA Governing Law Name and PrintName Layout
+	CDA_Language_Cross_Walk__c-CDA Language Cross Walk Layout
+	CDA_Legal_POC_Cross_Walk__c-CDA Legal POC Cross Walk Layout
+	CDA_ML_Code_Field_Mapping__mdt-CDA ML Code Field Mapping Layout
+	CDA_ML_Field_Mapping__mdt-CDA ML Field Mapping Layout
+	CDA_Multilingual_Settings__mdt-CDA Multilingual Settings Layout
+	CDA_Multilingual_Template_Settings__mdt-CDA Multilingul Template Setting Layout
+	CDA_Negotiator__c-CDA Negotiator Layout
+	CDA_Request__c-CDA Request Layout
+	CDA_Request__c-CDA Request Layout
+	CDA_Request__c-CDA Request Layout
+	CMDB__c-CMDB Layout
+	CPQ_RM_Record_Type__mdt-CPQ RM Record Type Layout
+	CRM_MSA_Contract_Mapping__mdt-CRM_MSA Contract Mapping Layout
+	CSAT_Responses__c-CSAT Response Layout
+	CSM_Admin_Management__c-CSM Admin Management Layout
+	CSM_Chat_History__c-CSM Chat History Layout
+	CSM_QI_Announcement_Account_Relationship__c-CSM Announcement Account Relationship Layout
+	CSM_QI_Announcement_Product_Relationship__c-CSM Announcement Product Relationship Layout
+	CSM_QI_Announcement__c-CSM QI Announcement Layout
+	CSM_QI_App_Launcher__c-App Launcher Layout
+	CSM_QI_CAPA__c-CSM DATA CAPA Layout
+	CSM_QI_CSATInternal__c-CommentRating Layout
+	CSM_QI_CaseAutomationScheduler__c-CSM Case Automation Scheduler Layout
+	CSM_QI_Case_Categorization__c-Case Categorization Layout
+	CSM_QI_Case_Follower__c-CSM Case Follower Layout
+	CSM_QI_Data_Audit_Trail__c-CSM QI Data Audit Trail Layout
+	CSM_QI_Data_Portal_Queue_User_details__c-Data Portal Queue User details Layout
+	CSM_QI_Favorite_Record__c-Favorite Record Layout
+	CSM_QI_Field_Tracking__c-CSM QI Field Tracking Layout
+	CSM_QI_Folder_Contact_Relationship__c-Folder Contact Relationship Layout
+	CSM_QI_Folder_File_Relationship__c-CSM-Folder File Relationship Layout
+	CSM_QI_Folder__c-CSM-Folder Layout
+	CSM_QI_Frequency__c-Frequency Layout
+	CSM_QI_Integration_Log__c-CSM Integration Log Layout
+	CSM_QI_JiraLinkComment__c-JiraLinkComment Layout
+	CSM_QI_JiraLink__c-JiraLink Layout
+	CSM_QI_News__c-CSM_QI_News Layout
+	CSM_RecordType_Based_Picklist_Setting__mdt-RecordType Based Picklist Setting Layout
+	Campaign-Campaign Layout
+	CampaignInfluenceModel-Campaign Influence Model Layout
+	CampaignMember-Campaign Member Page Layout
+	Case-CAS_PL01_CSM_DATA
+	Case-CAS_PL02_CSM_R%26D Case
+	Case-CAS_PL03_CSM_Technology Case
+	Case-CAS_PL04_CSM_ActivityPlan
+	Case-CAS_PL08_CSM_LIVE_CHAT
+	Case-Case Layout
+	Case-Case Layout
+	CaseClose-Close Case Layout
+	CaseHistory__c-Case History Layout
+	CaseInteraction-Case Feed Layout
+	CaseMilestone-Case Milestone Layout
+	CaseOLA__c-Case OLA Layout
+	Case_Collabrator__c-Case Collabrator Layout
+	Case_Subtype__c-Case Subtype Layout
+	Certification__c-Certification Layout
+	Challenge_Matrix__c-Challenge Matrix Layout
+	ChannelProgram-Channel Program Layout
+	ChannelProgramLevel-Formato Nivel de programa de canal
+	ChannelProgramMember-Channel Program Member Layout
+	Classroom_Course__c-Classroom Course Layout
+	Client_Sat_Survey_Recipient__c-Client Sat Survey Recipient Layout
+	Client_Sat_Survey__c-Client Sat Survey Layout
+	Clinical_Visit_Frequency_Data__c-Clinical Visit Frequency Data Layout
+	CollaborationGroup-Group Layout
+	CommunityMemberLayout-Community Member Layout
+	Community_Topic__c-Community Topic Layout
+	Competitor__c-Competitor Layout
+	Component_Field__mdt-Component Field Layout
+	Contact-Contact Layout
+	Contact-Contact Layout
+	Contact-Contact Layout
+	Contact-IQVIA User Contact Layout
+	ContactPointAddress-Contact Point Address Layout
+	ContactPointEmail-Contact Point Email Layout
+	ContactPointPhone-Contact Point Phone Layout
+	ContactPointTypeConsent-Contact Point Type Consent Layout
+	Contact_Address_Crosswalk__c-Contact Address Crosswalk Layout
+	ContentAsset-Asset File Layout
+	ContentVersion-Content Version
+	Contract-CTR_PL01_CRM_Preliminary Agreement - Contract Sales %26 Medical Solutions
+	Contract-CTR_PL02_CRM_Work Order Contract Sales %26 Medical  Solutions
+	Contract-CTR_PL04_CRM_Change Order
+	Contract-CTR_PL05_CRM_Work Order GBO Layout
+	Contract-CTR_PL06_CRM_Preliminary Agreement GBO Layout
+	Contract-CTR_PL07_CRM_General Client Agreement GBO Layout
+	Contract-CTR_PL07_CRM_General Client Agreement GBO Layout
+	Contract-CTR_PL08_CRM_Change Order GBO Layout
+	Contract-CTR_PL09_CRM_CNF GBO Layout
+	Contract-CTR_PL10_CRM_MSA Consolidation
+	Contract-CTR_PL11_CRM_Generic Contract
+	Contract-CTR_PL12_CRM_Other Special Agreement
+	Contract-CTR_PL13_CRM_Confidential Disclusore Agreement
+	Contract-CTR_PL14_CRM_MSA Page Layout
+	Contract-CTR_PL15_CRM_Third Party Agreement
+	Contract-Contract Layout
+	Contract-Contract Layout
+	ContractLineItem-Contract Line Item Layout
+	Contract_In_Out_Log__c-Contract In%2FOut Distribution Log Page Layout
+	Contract_In_Out_Log__c-Contract In%2FOut Log Layout
+	Contract_In_Out_Log__c-Contract In%2FOut Log Layout
+	Contract_Lifecycle__c-Contract Lifecycle Layout
+	Contract_Milestone__c-MLS_PL01_CRM_OGC Milestone Layout
+	Contract_Milestone__c-Milestone Layout
+	Contract_Stage_Detail__c-Contract Stage Detail Layout
+	Contract_Template__c-Contract Template Layout
+	Contract__x-Contract Layout
+	Controlling_Field_Option__c-Controlling Field Option Layout
+	Corrective_Action__c-Corrective Action Layout
+	Country_Input__c-Country Input Layout
+	Country_Sales_Head__c-Country Sales Head Layout
+	Custom_Sales_Path_Configuration__mdt-Custom Sales Path Configuration Layout
+	Dashboards_Category_Relationship__c-Dashboards Category Relationship Layout
+	Dashboards_Reports_Category__c-Dashboards Reports Category Layout
+	Days_Off__c-Day Off Layout
+	DeclinedSurveyApproverGroup__c-Declined Survey Approver Group Layout
+	Default_Product_Search__c-Default Product Search Layout
+	Dependent_Field_Option__c-Dependent Field Option Layout
+	Drug__c-Drug Layout
+	DuplicateRecordItem-Duplicate Record Item Layout
+	DuplicateRecordSet-Duplicate Record Set Layout
+	EmailMessage-Email Message Layout
+	Entitlement-Entitlement Layout
+	EntityMilestone-Object Milestone Layout
+	Error_Log__c-Error Log Layout
+	Event-Event Layout
+	Fail_Sharing_Log__c-Failed Sharing Log Layout
+	Favorite_Product__c-Favorite Product Layout
+	Favorite__c-Favorite Layout
+	FeedItem-Feed Item Layout
+	Finance_IQVIA_Legal_Entity__c-Finance IQVIA Legal Entity Layout
+	Finance_IQVIA_Legal_Entity__c-Finance IQVIA Legal Entity Layout
+	Finance_IQVIA_Legal_Entity__c-Finance IQVIA Legal Entity Layout
+	Financial_Summary__c-Financial Summary Layout
+	FlowInterview-Flow Interview Layout
+	Formulation__c-Formulation Layout
+	Global-Global Layout
+	Goal-Goal Layout
+	GoalLink-Goal Link Layout
+	HyperBatchOutput__c-HyperBatchOutput Layout
+	IMS_Data_Asset__c-IMS Data Asset Layout
+	IMS_Legal_Entity__c-IMS Legal Entity Layout
+	IMS_Logs__c-IMS Logs Layout
+	IMS_Master_Legal_Entity__c-IMS Master Legal Entity Layout
+	IMS_Secondary_Data_Asset__c-IMS Secondary Data Asset Layout
+	IMS_TPA_Purpose_Category__c-IMS TPA Purpose Category Layout
+	IMS_TPA_Purpose_Description__c-IMS TPA Purpose Description Layout
+	IMS_TPA_Purpose__c-IMS TPA Purpose Layout
+	IMS_Use_Offering_Atypical_Combination__c-IMS Use Offering Atypical Combination Layout
+	IQVIA_Account_Country_Region_Mapping__mdt-IQVIA Account Country Region Mapping Layout
+	IQVIA_LI_ZQUI_MAPPING__c-IQVIA LI ZQUI MAPPING Layout
+	IQVIA_Legal_Entity__c-IQVIA Legal Entity Layout
+	IQVIA_Project_Leader__c-IQVIA Project Leader Layout
+	Idea-Idea Layout
+	Import_Process_Log__c-Import Process Log Layout
+	InboundNumber__c-InboundNumber Layout
+	Indication_List__c-Indication List Layout
+	Individual-Individual Layout
+	Investigator_Grant__c-Investigator Grant Layout
+	Invoice__c-Invoice Layout
+	Invoice_c__x-Invoice Layout
+	JobTracker-Job Tracker Layout
+	Knowledge_Account_RelationShip__c-Knowledge Account RelationShip Layout
+	Knowledge__kav-KNO_PL01_CSM_QuestionAnswer
+	Knowledge__kav-KNO_PL01_CSM_QuestionAnswer
+	Knowledge__kav-KNO_PL02_CSM_Information
+	LI_Account__x-LI Account Layout
+	LI_Opportunity__x-Opportunity Layout
+	LQ_Account__x-LQ Account Layout
+	LQ_Opportunity__x-Opportunity Layout
+	Lead-Lead Layout
+	Lead-Lead Layout
+	Learning_Path__c-Learning Path Layout
+	Lightning_Filter__c-Lightning Filter Layout
+	Line_Item_Group__c-Line Item Group Layout
+	LinkedArticle-Linked Article Layout
+	ListEmail-List Email Layout
+	LiveAgentSession-Live Agent Session Layout
+	LiveChatTranscript-Live Chat Transcript Layout
+	LiveChatTranscriptActive-Live Chat Transcript %28In Progress%29 Layout
+	LiveChatTranscriptEvent-Live Chat Transcript Event Layout
+	LiveChatTranscriptWaiting-Live Chat Transcript %28Waiting%29 Layout
+	LiveChatVisitor-Live Chat Visitor Layout
+	Log_History__c-Log History Layout
+	MIBNF2__c-Multi Invoice BNF Layout
+	MIBNF_Approval_Log__c-MIBNF_Approval_Log Layout
+	MIBNF_Component__c-BNF Layout
+	MIBNF_Rejection_Reason__c-MIBNF Rejection Reason Layout
+	MIBNF__x-Multi Invoice BNF Layout
+	MI_AccountRelationship__c-MI-Account Relationship Layout
+	MI_BNF_LineItem__c-MI_BNF_LineItem Layout
+	MI_CaseRelationship__c-MI-Case Relationship Layout
+	Macro-Macro Layout
+	Major_Incident__c-Major Incident Layout
+	Master_BNF_Component__c-Master BNF Component Layout
+	Master_BNF__c-Master BNF Layout
+	Master_BNF__c-Master BNF Layout
+	Master_BNF__c-Master BNF Layout
+	Master_BNF__c-Master BNF Layout
+	Merge_Queue__c-Merge Queue Layout
+	Mes_Listes__c-Présentation Mes Listes
+	Metric-Metric Layout
+	MetricDataLink-Metric Data Link Layout
+	Mulesoft_Log__c-Mulesoft Log Layout
+	Mulesoft_OpportunityLineItem_Sync__c-Mulesoft OpportunityLineItem Sync Layout
+	Mulesoft_Opportunity_Sync__c-Mulesoft Opportunity Sync Layout
+	Note__c-BNF Note Layout
+	Note__c-BNF Note Layout
+	Note__c-BNF Note Layout
+	Note__c-BNF Note Layout
+	OCE_Agreement_Approval_Notification__c-Agreement Approval Notification Layout
+	OCE_Agreement_Approval_Range__mdt-Agreement Approval Range Layout
+	OCE_Bundle_Clone_Settings__mdt-OCE Bundle Clone Settings Layout
+	OCE_Delivery_Country_Code_Mapping__mdt-OCE Delivery Country Code Mapping Layout
+	OCE_Regions_Data__mdt-OCE Regions Data Layout
+	OCE_Subscription_AddOn__c-Subscription AddOn Layout
+	OCE_Subscription_Fee_Summary__c-Subscription Fee Summary Layout
+	OCE_Subscription_Term__c-Subscription Term Layout
+	OCE_Subscription_Type__c-Subscription Type Layout
+	OWF_Assignment_Setting__mdt-OWF Assignment Setting Layout
+	OWF_RR_Grade_Level_Setting__mdt-OWF_RR_Grade_Level_Setting Layout
+	OWF_ReBidFieldMapping__mdt-OWF ReBidFieldMapping Layout
+	OWF_Resource_Setting__mdt-OWF Resource Setting Layout
+	ObjectTerritory2AssignmentRule-Object Territory Assignment Rule Layout
+	Opp_Stage_to_Bid_Type_Mapping__mdt-Opp Stage to Bid Type Mapping Layout
+	Opportunity-Global Opportunity Layout
+	Opportunity-Opportunity Layout
+	OpportunityContactRole-Opportunity Contact Role Layout
+	OpportunityLineItem-Opportunity Product Layout
+	OpportunityLineItemSchedule-Line Item Schedule Layout
+	OpportunitySplit-Opportunity Split Layout
+	OpportunityTeamMember-Opportunity Team Member Layout
+	Opportunity_AIML_Result__c-Opportunity AIML Result Layout
+	Order-Order Layout
+	Order-Order Layout
+	Order-Order Layout
+	OrderItem-Order Product Layout
+	Outbound_Message_Deletion_Queue__c-Outbound Message Deletion Queue Layout
+	OutgoingEmail-Outgoing Email Layout
+	Outlook-Outlook Layout
+	PC_Pricing_Calculator__x-Pricing Assistant Layout
+	PSA_Related_System__c-RS PL01 PSA Default Layout
+	PSA_Related_Systems_Service_Lines__c-RSSL PL01 PSA Default Layout
+	Partner_Certification__c-Partner Certification Layout
+	Partner_Certification__c-Partner Certification Layout
+	Partner_Certification__c-Partner Certification Layout
+	Partner_Contact__c-Partner Contact Layout
+	Potential_Region_To_BD_Lead_Mapping__mdt-Potential Region To BD Lead Mapping Layout
+	Pricebook2-Price Book Layout
+	PricebookEntry-Price Book Entry Layout
+	Pricing_Task__c-Pricing Tasks Layout
+	Principal_In_Charge__c-Principal In Charge Layout
+	Prod_EnvironmentClient_Handover_Docs__c-Production Environment Layout
+	Product2-Product Layout
+	Product_Contact__c-Product Contact Layout
+	Product_Group_Relationship__c-Product Group Relationship Layout
+	Product_Replacement_Mapping__c-Product Replacement Mapping Layout
+	ProfileSkill-Skill Layout
+	ProfileSkillEndorsement-Endorsement Layout
+	ProfileSkillUser-Skill User Layout
+	Profit_Centre__c-Profit Centre Layout
+	Proj__x-Project Layout
+	Project_Metric_Actual__c-Project Metric Actual Layout
+	Project_Metric__c-Project Metric Layout
+	Project_Related_System__c-PRS PL01 PSA Default Layout
+	Project_Target__c-Project Target Layout
+	Property__c-Formato Property
+	Proposal_QA_Self_Check_List__c-Proposal QA Self-Check List Layout
+	Proxy_BNF__c-Proxy BNF Layout
+	Proxy_Pricing_Assistant__c-Proxy Pricing Assistant Layout
+	Proxy_Project__c-Proxy Project Layout
+	Proxy_SCM_Agreement__c-Proxy SCM Agreement Layout
+	QC_Check_List_Item__c-QC Check List Item Layout
+	QI_Legal_Entity__c-QI Legal Entity Layout
+	Queue_User_Relationship__c-Queue User Relationship Layout
+	QuickText-Quick Text Layout
+	Quote-Quote Layout
+	QuoteLineItem-Quote Line Item Layout
+	Rate_Card_ID__c-Rate Card ID Layout
+	Rate_Detail__c-Rate Detail Layout
+	Renewal_Task_Change_Detail__c-Renewal Task Change Detail Layout
+	Renewal_Task__c-Renewal Task Layout
+	Report_Country__c-Report Country Layout
+	Report_Drug__c-Report Drug Layout
+	Reports_Category_Relationship__c-Reports Category Relationship Layout
+	Revenue_Analyst__c-Revenue Analyst Layout
+	SAP_Contact__c-SAP Contact Layout
+	SCM_Agreement_Question__c-SCM Agreement Question Layout
+	SCM_IMS_Legal_Entity__c-SILE_PL01_CLM_IMS Legal Entity Layout
+	SCM_Master_Agreement_Question__c-SCM Master Agreement Question Layout
+	SCM_Master_Agreement__c-SCM Master Agreement Layout
+	SCM_Master_Question__c-SCM Master Question Layout
+	SCM_Question_Legal_Entity_Junc__c-SQLEJ_PL01_CLM_SCM Question Legal Entity Junc Layout
+	SCM_Question__c-SQ_PL01_CLM_SCM Question Layout
+	SOTC__c-SOTC Layout
+	SObject_Sharing__c-SObject Sharing Layout
+	SWAT_Intake__c-SWAT Intake Layout
+	SalesOrg__c-Sales Org Layout
+	Sales_Revenue__c-Sales Revenue Layout
+	Sales_Team_Hierarchy_AE__c-Sales Team Hierarchy - AE Layout
+	Sales_Team_Hierarchy_ST__c-Sales Team Hierarchy - ST Layout
+	Sales_Team_Hierarchy_VP__c-Sales Team Hierarchy - VP Layout
+	Sales_Team_Hierarchy__c-Sales Team Hierarchy Layout
+	Scorecard-Scorecard Layout
+	ScorecardAssociation-Scorecard Association Layout
+	ScorecardMetric-Scorecard Metric Layout
+	ServiceContract-Service Contract Layout
+	ServiceNow_Group__c-ServiceNow Group Layout
+	Service_Line__c-SLN PL01 PSA Service Line Layout
+	Service_Target_Change_Request__c-Service Target Change Request Layout
+	Service_Target__c-Service Target Layout
+	Service__c-Service Layout
+	Sharepoint_File__c-Sharepoint File Layout
+	SiteIframeWhiteListUrl-Whitelisted Domains for Inline Frames Layout
+	SocialPersona-Social Persona Layout
+	SocialPost-Social Post Layout
+	Solution-Solution Layout
+	StudySiteContactRelationship__c-Study Site-Contact Relationship Layout
+	Study_Contact_Relationship__c-STU_PL01_CSM_StudyContactRelationship
+	Study_Contact_Relationship__c-STU_PL01_CSM_StudyContactRelationship
+	Study_Site_Relationship__c-SSR_PL01_CSM_StudySiteRelationship
+	Study_Site_Relationship__c-Study Site Relationship Layout
+	Study__c-STU_PL01_CSM_R%26D_Study
+	Study__c-Study Layout
+	Suggested_Resources__c-Suggested Resources Layout
+	Survey_Result__c-Survey Result Layout
+	TPA_AMA_Client_Vendor_Match__c-TPA AMA Client Vendor Match Layout
+	TPA_AMA_Client_Vendor_Search_Map__c-TPA AMA Client Vendor Search Map Layout
+	TPA_AMA_Parent_Child_Account_Crosswalk__c-TPA AMA Parent Child Account Crosswalk Layout
+	TPA_AMA_Picklist_Value__mdt-TPA AMA Picklist Value Layout
+	TPA_Acknowledgment_Log__c-TPA Acknowledgment Log Layout
+	TPA_Action_Log__c-TPA Action Log Layout
+	TPA_Agreement_Additional_Field__c-TPA Agreement Additional Field Layout
+	TPA_Approval_Region__c-TPA Approval Region Layout
+	TPA_Contact__c-TPA Contact Layout
+	TPA_Data_Asset__c-TPA Data Asset Layout
+	TPA_Language_Cross_Walk__c-TPA Language Cross Walk Layout
+	TPA_Logs__c-TPA Logs Layout
+	TPA_Off_Notification_Account_Mapping__c-TPA Off Notification Account Mapping Layout
+	TPA_Offering_Notification_Mapping__c-TPA Offering Notification Mapping Layout
+	TPA_Purpose_Category__c-TPA Purpose Category Layout
+	TPA_Purpose_Description__c-TPA Purpose Description Layout
+	TPA_Purpose__c-TPA Purpose Layout
+	TPA_Region_Country__c-TPA Region Country Layout
+	TPA_RequestDocument__c-TPA_RequestDocument Layout
+	TPA_Request_ATC__c-Therapeutic Areas Layout
+	TPA_Request_Backup__c-TPA Request Backup Layout
+	TPA_Request_Localized__c-TPA Request Localized Layout
+	TPA_Request__c-TPA Request Layout
+	TPA_Secondary_Data_Asset__c-TPA Secondary Data Asset Layout
+	TPA_TP_Processor__c-TP Processor Layout
+	TPA_Text_Editor__c-TPA Text Editor Layout
+	TPA_Trending_Reports_Mapping_BU__c-TPA Trending Reports Mapping BU Layout
+	TPA_Use_Offering_Atypical_Combination__c-TPA Use Offering Atypical Combination Layout
+	TPA_Use_Offerings_UI_Backup__c-TPA Use Offerings UI Backup Layout
+	TPA_Vendor_Reg_Number_Acknowlegment__c-TPA Vendor Reg Number Acknowlegment Layout
+	Targeted_Account_Announcement__c-Targetted Account Announcement Layout
+	Targeted_User_Announcement__c-Targetted User Announcement Layout
+	Task-Call Plan Layout
+	Task-TSK_PL01_CRM_MQL Layout
+	Task-Task Layout
+	Task-Task Layout
+	Task-Task Layout
+	Task-Task Layout
+	Task-Task Layout
+	Task-Task Layout
+	Task-Task Layout
+	Task-Task Layout
+	Task-Task Layout
+	Task-Task Layout
+	Team_Sharing__c-Team Sharing Layout
+	Template_Data__c-Template Data Layout
+	Template_Selection_Criteria__c-Template Selection Criteria Layout
+	Territory2-Territory Layout
+	Territory2Model-Territory Model Layout
+	Territory2Type-Territory Type Layout
+	Territory_Lookup__mdt-Territory Lookup Layout
+	Territory_Sharing__c-Territory Sharing Layout
+	TimeSheet__c-Time Sheet Layout
+	Timeline__c-Timeline Layout
+	Trade_Name__c-Trade Name Layout
+	UPT_Budget_Country_Data__c-UPT Budget Country Data Layout
+	UPT_Budget_Defaults__c-UPT Budget Default Layout
+	UPT_Budget_Resource__c-UPT Budget Resource Layout
+	User-User Layout
+	UserAlt-User Profile Layout
+	UserAppMenuItem-Application Layout
+	UserProvAccount-User Provisioning Account Layout
+	UserProvisioningLog-User Provisioning Log Layout
+	UserProvisioningRequest-User Provisioning Request Layout
+	UserTerritory2Association-User Territory Association Layout
+	User_Audit_Log__c-User Audit Log Layout
+	User_Locale_Mapping__mdt-User Locale Mapping Layout
+	User_Metric__c-User Metric Layout
+	User_Timezone_Mapping__mdt-User Timezone Mapping Layout
+	Vendor_Offering_Return_Acknowledgment__c-Vendor Offering Return Acknowledgment Layout
+	WBS__c-WBS Layout
+	WBS__c-WBS Layout
+	WBS__c-WBS Layout
+	Watch_List_History__c-Watch List History Layout
+	Watch_List__c-Watch List Layout
+	WorkAccess-Access Layout
+	WorkBadge-Badge Received Layout 192
+	WorkBadgeDefinition-Badge Layout 192
+	WorkCoaching-Coaching Layout
+	WorkFeedback-Feedback Layout
+	WorkFeedbackQuestion-Feedback Question Layout
+	WorkFeedbackQuestionSet-Feedback Question Set Layout
+	WorkFeedbackRequest-Feedback Request Layout
+	WorkFeedbackTemplate-Feedback Template Layout
+	WorkOrder-Work Order Layout
+	WorkOrderLineItem-Work Order Line Item Layout
+	WorkPerformanceCycle-Performance Cycle Layout
+	WorkReward-Reward Layout
+	WorkRewardFund-Reward Fund Layout
+	WorkRewardFundType-Reward Fund Type Layout
+	WorkThanks-Thanks Layout
+	Workflow_Email_Record__c-Workflow Email Record Layout
+	abc__c-abc Layout
+	pse_Proj_c__x-Project Layout
+
+ObjectPermissions(Not in Repo but in Org) /
+	Account
+	Asset
+	Campaign
+	Case
+	Contact
+	Contract
+	ContractLineItem
+	Entitlement
+	EntitlementContact
+	Idea
+	Lead
+	Opportunity
+	Order
+	Pricebook2
+	Product2
+	Quote
+	ServiceContract
+	Solution
+
+RecordTypeVisibilities(Not in Repo but in Org) /
+	Account.Unvalidated_Account
+	Activity__c.Activity
+	Case.ActivityPlan
+	Case.DATACase
+	Case.IQVIALiveChat
+	Case.RandDCase
+	Case.TechnologyCase
+	Contact.Contact
+	Contract.Generic_Contract
+	Contract_In_Out_Log__c.Contract_In_Out_Distribution_Entry
+	Contract_In_Out_Log__c.Contract_In_Out_Entry
+	Contract_Milestone__c.OGC_Milestone
+	Knowledge__kav.Information
+	Knowledge__kav.Question_Answer
+	Opportunity.Global_Opportunity
+	Study_Contact_Relationship__c.StudyContactRelationship
+	Study_Site_Relationship__c.StudySiteRelationship
+	Study__c.RDStudy
+	Task.LID__General_Task_LinkedIn
+	Task.LID__InMail
+	Task.LID__LinkedIn_Call
+	Task.LID__Message
+	Task.LID__PointDrive_Presentation_Created
+	Task.LID__PointDrive_Presentation_Viewed
+	Task.MQL_Task
+	Task.Standard_Task
+
+TabVisibilities(Not in Repo but in Org) /
+	standard-Account
+	standard-Asset
+	standard-Campaign
+	standard-Case
+	standard-Contact
+	standard-Contract
+	standard-Entitlement
+	standard-Event
+	standard-Idea
+	standard-Lead
+	standard-LiveAgentSession
+	standard-LiveChatTranscript
+	standard-Macro
+	standard-Opportunity
+	standard-Order
+	standard-Pricebook2
+	standard-Product2
+	standard-ProfileSkill
+	standard-QuickText
+	standard-Quote
+	standard-Scorecard
+	standard-ServiceContract
+	standard-SocialPersona
+	standard-SocialPost
+	standard-Solution
+	standard-Task
+	standard-WorkBadge
+	standard-WorkBadgeDefinition
+
+UserPermissions(Not in Repo but in Org) /
+	ActivitiesAccess
+	AddDirectMessageMembers
+	AllowUniversalSearch
+	AssignTopics
+	ChatterOwnGroups
+	ContentWorkspaces
+	ConvertLeads
+	CreateTopics
+	EditOppLineItemUnitPrice
+	EditTask
+	EditTopics
+	EnableCommunityAppLauncher
+	EnableNotifications
+	RemoveDirectMessageMembers
+	RunFlow
+	RunReports
+	SelectFilesFromSalesforce
+	ShowCompanyNameAsUserBadge
+	UseWebLink
+	WorkDotComUserPerm
