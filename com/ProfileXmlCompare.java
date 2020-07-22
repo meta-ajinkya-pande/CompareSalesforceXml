@@ -13,7 +13,7 @@ import java.util.Collection;
 import java.util.TreeMap;
 import java.util.Collections;
 
-public class CompareXml {
+public class ProfileXmlCompare {
 	
 	private static FileOutputStream out = null;
 
@@ -26,9 +26,9 @@ public class CompareXml {
 			bitbucketProfiles = new ArrayList<Profile>();
 			orgProfiles = new ArrayList<Profile>();
 			bitbucketTempProfiles = new ArrayList<Profile>();
-			XmlToObject<Profile> xmlToObject = new XmlToObject<Profile>(Profile.class);
-			Map<String, Profile> bitbucketNameProfileMap = xmlToObject.convertXMLsToObjects("compareFolder/bitbucket/profiles");
-			Map<String, Profile> orgNameProfileMap = xmlToObject.convertXMLsToObjects("compareFolder/org/profiles");
+			XmlToObject<Profile> profileXmlToObject = new XmlToObject<Profile>(Profile.class);
+			Map<String, Profile> bitbucketNameProfileMap = profileXmlToObject.convertXMLsToObjects("compareFolder/bitbucket/profiles");
+			Map<String, Profile> orgNameProfileMap = profileXmlToObject.convertXMLsToObjects("compareFolder/org/profiles");
 			for(String profileName : bitbucketNameProfileMap.keySet()) {
 				bitbucketNameProfileMap.get(profileName).setProfileName(profileName);
 			}
@@ -436,7 +436,7 @@ public class CompareXml {
 					profilesNotInRepo.add(orgProfile.getProfileName());
 				}
 			}
-			File dir = new File("Result/CompareTextFiles");
+			File dir = new File("Result/ProfileCompareTextFiles");
 			for (File file: dir.listFiles()) {
 				if (!file.isDirectory()) {
 					file.delete();
@@ -455,7 +455,7 @@ public class CompareXml {
 			}
 			for(String filename : profileFieldPermissionMap.keySet()) {
 				String myContents = filename + " Comparision File";
-				out = new FileOutputStream("Result/CompareTextFiles/" + filename+"_compare.txt");
+				out = new FileOutputStream("Result/ProfileCompareTextFiles/" + filename+"_compare.txt");
 				List<List<String>> diffObjList = profileFieldPermissionMap.get(filename);
 				List<String> appDiffList = diffObjList.get(0);
 				if(appDiffList.size() > 0) {
