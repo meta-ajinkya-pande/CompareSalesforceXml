@@ -1,7 +1,6 @@
 package com;
 
 import java.io.File;
-import java.io.FileOutputStream;
 import com.profile.*;
 import com.util.ObjectToXML;
 import com.util.XmlToObject;
@@ -15,8 +14,6 @@ import java.util.Collections;
 
 public class ProfileXmlCompare {
 	
-	private static FileOutputStream out = null;
-
 	public static void main(String args[]) {
 		Collection<Profile> bitbucketProfiles, orgProfiles, bitbucketTempProfiles;
 		List<String> profilesNotInRepo;

@@ -1,17 +1,18 @@
 package com.util;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-
 public class ExportExcelFile {
 
-    private final String OUTPUT_LOCATION = 'Result/ProfileCompareExcelFiles'
+    private final String OUTPUT_LOCATION = "Result/ProfileCompareExcelFiles";
 
     public void exportFile(String fileName, String sheetName, Object[][] sheetData) throws IOException {
         XSSFWorkbook workbook = new XSSFWorkbook();
@@ -40,12 +41,12 @@ public class ExportExcelFile {
         }
     }
 
-    private FileOutputStream getFileOutputStream(String fileName) {
-        File file = new (OUTPUT_LOCATION + "/" + fileName);
-        if(file.isExist()) {
+    private FileOutputStream getFileOutputStream(String fileName) throws FileNotFoundException {
+        File file = new File(OUTPUT_LOCATION + "/" + fileName);
+        if(file.exists()) {
             return new FileOutputStream(OUTPUT_LOCATION + "/" + fileName, false);
         } else {
-            return new new FileOutputStream(OUTPUT_LOCATION + "/" + fileName);
+            return new FileOutputStream(OUTPUT_LOCATION + "/" + fileName);
         }
 
     }
