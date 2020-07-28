@@ -445,12 +445,18 @@ public class ProfileXmlCompare {
 					file.delete();
 				}
 			}
+			File bitbucketProfilesExcelTemp = new File("Result/ProfileCompareExcelFiles");
+			for (File file: bitbucketProfilesExcelTemp.listFiles()) {
+				if (!file.isDirectory()) {
+					file.delete();
+				}
+			}
 			ObjectToXML objectToXML = new ObjectToXML();
 			for(Profile tempProfile : bitbucketTempProfiles) {
 				objectToXML.setFileOutputStream("Result/BitbucketProfilesTemp/"+tempProfile.getProfileName());
 				objectToXML.convertObjecttoXml(tempProfile);
 			}
-			new ProfileTxtFileExport().exportFile(profileFieldPermissionMap);
+			new ProfileFileExport().exportTxtFile(profileFieldPermissionMap);
 			System.out.println("File Written Successfully");
 		} catch(Exception ex) {
 			ex.printStackTrace();
