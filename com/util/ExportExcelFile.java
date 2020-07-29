@@ -13,6 +13,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExportExcelFile {
 
+    private Boolean isSingleLine = true;
     private final String OUTPUT_LOCATION = "Result/ProfileCompareExcelFiles";
 
     public void exportFile(String fileName, Map<String, List<List<Object>>> workbookMap) throws IOException {
@@ -26,10 +27,16 @@ public class ExportExcelFile {
     }
 
     private void exportFile(XSSFWorkbook workbook, String sheetName, List<List<Object>> sheetData) throws IOException {
-        List<List<Object>> transposeSheetData = transpose(sheetData);
+        List<List<Object>> modifiedSheetData;
+        if(!isSingleLine) {
+            modifiedSheetData = transpose(sheetData);
+        } else {
+            List<List<Object>> singleLineSheetData = singleLine(sheetData);
+            modifiedSheetData = transpose(singleLineSheetData);
+        }
         XSSFSheet sheet = workbook.createSheet(sheetName);
         int rowNum = 0;
-        for(List<Object> rows : transposeSheetData) {
+        for(List<Object> rows : modifiedSheetData) {
             Row row = sheet.createRow(rowNum++);
             int colNum = 0;
             for(Object field : rows) {
@@ -41,6 +48,26 @@ public class ExportExcelFile {
                 }
             }
         }
+    }
+
+    @SuppressWarnings("unchecked")
+    private <T> List<List<T>> singleLine(List<List<T>> table) {
+        List<List<T>> ret = new ArrayList<List<T>>();
+        List<T> ret1 = new ArrayList<T>();
+        for(int i=0;i<table.size();i++) {
+            for(int j=0;j<table.get(i).size(); j++) {
+                ret1.add(table.get(i).get(j));
+            }
+            ret1.add((T) "");
+        }
+        ret.add(ret1);
+        List<T> arr1 = new ArrayList<T>();
+        arr1.add((T) "Module");
+        List<T> arr2 = new ArrayList<T>();
+        arr2.add((T) "Resolution Status");
+        ret.add(arr1);
+        ret.add(arr2);
+        return ret;
     }
     
     @SuppressWarnings("unchecked")
@@ -64,5 +91,13 @@ public class ExportExcelFile {
             ret.add(col);
         }
         return ret;
+    }
+
+    public Boolean getIsSingleLine() {
+        return isSingleLine;
+    }
+
+    public void setIsSingleLine(Boolean isSingleLine) {
+        this.isSingleLine = isSingleLine;
     }
 }
