@@ -457,6 +457,7 @@ public class ProfileXmlCompare {
 				objectToXML.convertObjecttoXml(tempProfile);
 			}
 			new ProfileFileExport().exportTxtFile(profileFieldPermissionMap);
+			new ProfileFileExport().exportExcelFile(profileFieldPermissionMap);
 			System.out.println("File Written Successfully");
 		} catch(Exception ex) {
 			ex.printStackTrace();

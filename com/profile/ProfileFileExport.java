@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.TreeMap;
 
 import com.util.ExportExcelFile;
 import com.util.ExportTxtFile;
@@ -154,186 +155,187 @@ public class ProfileFileExport {
                     myContents += "\n\t" + str;
                 }
             }
-            new ExportTxtFile().exportFile(filename, myContents);
+            new ExportTxtFile().exportFile(filename + "_compare.txt", myContents);
         }
     }
 
     public void exportExcelFile(Map<String, List<List<String>>> profileFieldPermissionMap) throws IOException {
         for(String filename : profileFieldPermissionMap.keySet()) {
-            List<List<Object>> myContents = new ArrayList<>();
+            Map<String, List<List<Object>>> workbook = new TreeMap<>();
             List<List<String>> diffObjList = profileFieldPermissionMap.get(filename);
             
-            List<Object> row1 = new ArrayList<Object>();
-            List<Object> row2 = new ArrayList<Object>();
-            List<Object> row3 = new ArrayList<Object>();
-
-            List<String> appDiffList = diffObjList.get(0);
-            row1.add("ApplicationVisiblities(Difference in Repo and Org)");
-            row1.addAll(appDiffList);
-            myContents.add(row1);
+            List<List<Object>> appContents = new ArrayList<>();
             
+            List<String> appDiffList = diffObjList.get(0);
+            List<Object> apCol1 = new ArrayList<Object>();
+            apCol1.add("ApplicationVisiblities(Difference in Repo and Org)");
+            apCol1.addAll(appDiffList);
+            appContents.add(apCol1);
             
             List<String> appNotInRepo = diffObjList.get(1);
-            row2.add("ApplicationVisiblities(Not in Repo but in Org)");
-            row2.addAll(appNotInRepo);
-            myContents.add(row2);
+            List<Object> apCol2 = new ArrayList<Object>();
+            apCol2.add("ApplicationVisiblities(Not in Repo but in Org)");
+            apCol2.addAll(appNotInRepo);
+            appContents.add(apCol2);
 
-            if(myContents != null && myContents.size() > 0) {
-                new ExportExcelFile().exportFile(filename, "ApplicationVisiblities", myContents);
+            if(appContents != null && appContents.size() > 0) {
+                workbook.put("ApplicationVisiblities", appContents);
             }
 
-            myContents.clear();
-            row1.clear();
+            List<List<Object>> classContents = new ArrayList<>();
             List<String> classAccessDiffList = diffObjList.get(2);
-            row1.add("ClassAccesses(Difference in Repo and Org)");
-            row1.addAll(classAccessDiffList);
-            myContents.add(row1);
+            List<Object> classAccessCol1 = new ArrayList<Object>();
+            classAccessCol1.add("ClassAccesses(Difference in Repo and Org)");
+            classAccessCol1.addAll(classAccessDiffList);
+            classContents.add(classAccessCol1);
 
-            row2.clear();
             List<String> classAccessNotInRepo = diffObjList.get(3);
-            row2.add("ClassAccesses(Not in Repo but in Org)");
-            row2.addAll(classAccessNotInRepo);
-            myContents.add(row2);
+            List<Object> classAccessCol2 = new ArrayList<Object>();
+            classAccessCol2.add("ClassAccesses(Not in Repo but in Org)");
+            classAccessCol2.addAll(classAccessNotInRepo);
+            classContents.add(classAccessCol2);
 
-            if(myContents != null && myContents.size() > 0) {
-                new ExportExcelFile().exportFile(filename, "ClassAccesses", myContents);
+            if(classContents != null && classContents.size() > 0) {
+                workbook.put("ClassAccesses", classContents);
             }
 
-            myContents.clear();
-            row1.clear();
+            List<List<Object>> customPermissionContents = new ArrayList<>();
             List<String> customPermissionDiffList = diffObjList.get(4);
-            row1.add("CustomPermission(Difference in Repo and Org)");
-            row1.addAll(customPermissionDiffList);
-            myContents.add(row1);
+            List<Object> customPermissionCol1 = new ArrayList<Object>();
+            customPermissionCol1.add("CustomPermission(Difference in Repo and Org)");
+            customPermissionCol1.addAll(customPermissionDiffList);
+            customPermissionContents.add(customPermissionCol1);
 
-            row2.clear();
             List<String> customPermissionNotInRepo = diffObjList.get(5);
-            row2.add("CustomPermission(Not in Repo but in Org)");
-            row2.addAll(customPermissionNotInRepo);
-            myContents.add(row2);
+            List<Object> customPermissionCol2 = new ArrayList<Object>();
+            customPermissionCol2.add("CustomPermission(Not in Repo but in Org)");
+            customPermissionCol2.addAll(customPermissionNotInRepo);
+            customPermissionContents.add(customPermissionCol2);
 
-            if(myContents != null && myContents.size() > 0) {
-                new ExportExcelFile().exportFile(filename, "CustomPermission", myContents);
+            if(customPermissionContents != null && customPermissionContents.size() > 0) {
+                workbook.put("CustomPermission", customPermissionContents);
             }
 
-            myContents.clear();
-            row1.clear();
+            List<List<Object>> fieldPermissionContents = new ArrayList<>();
             List<String> fieldPermissionDiffList = diffObjList.get(6);
-            row1.add("FieldPermissions(Difference in Repo and Org)");
-            row1.addAll(fieldPermissionDiffList);
-            myContents.add(row1);
+            List<Object> fieldPermissionCol1 = new ArrayList<Object>();
+            fieldPermissionCol1.add("FieldPermissions(Difference in Repo and Org)");
+            fieldPermissionCol1.addAll(fieldPermissionDiffList);
+            fieldPermissionContents.add(fieldPermissionCol1);
 
-            row2.clear();
             List<String> fieldPermissionNotInRepo = diffObjList.get(7);
-            row2.add("FieldPermissions(Not in Repo but in Org)");
-            row2.addAll(fieldPermissionNotInRepo);
-            myContents.add(row2);
+            List<Object> fieldPermissionCol2 = new ArrayList<Object>();
+            fieldPermissionCol2.add("FieldPermissions(Not in Repo but in Org)");
+            fieldPermissionCol2.addAll(fieldPermissionNotInRepo);
+            fieldPermissionContents.add(fieldPermissionCol2);
 
-            row3.clear();
             List<String> fieldPermissionNotInRepoAndIsPackageField = diffObjList.get(8);
-            row3.add("FieldPermissions(Not in Repo but in Org)");
-            row3.addAll(fieldPermissionNotInRepoAndIsPackageField);
-            myContents.add(row3);
+            List<Object> fieldPermissionCol3 = new ArrayList<Object>();
+            fieldPermissionCol3.add("FieldPermissions(Not in Repo but in Org and Package fields)");
+            fieldPermissionCol3.addAll(fieldPermissionNotInRepoAndIsPackageField);
+            fieldPermissionContents.add(fieldPermissionCol3);
 
-            if(myContents != null && myContents.size() > 0) {
-                new ExportExcelFile().exportFile(filename, "FieldPermissions", myContents);
+            if(fieldPermissionContents != null && fieldPermissionContents.size() > 0) {
+                workbook.put("FieldPermissions", fieldPermissionContents);
             }
 
-            myContents.clear();
-            row1.clear();
+            List<List<Object>> layoutContents = new ArrayList<>();
             List<String> layoutAssignmentNotInRepo = diffObjList.get(9);
-            row1.add("LayoutAssignment(Difference in Repo and Org)");
-            row1.addAll(layoutAssignmentNotInRepo);
-            myContents.add(row1);
+            List<Object> layoutCol1 = new ArrayList<Object>();
+            layoutCol1.add("LayoutAssignment(Difference in Repo and Org)");
+            layoutCol1.addAll(layoutAssignmentNotInRepo);
+            layoutContents.add(layoutCol1);
 
-            if(myContents != null && myContents.size() > 0) {
-                new ExportExcelFile().exportFile(filename, "FieldPermissions", myContents);
+            if(layoutContents != null && layoutContents.size() > 0) {
+                workbook.put("LayoutAssignment", layoutContents);
             }
 
-            myContents.clear();
-            row1.clear();
+            List<List<Object>> objectPermissionsContents = new ArrayList<>();
             List<String> objectPermissionDiffList = diffObjList.get(10);
-            row1.add("ObjectPermissions(Difference in Repo and Org)");
-            row1.addAll(objectPermissionDiffList);
-            myContents.add(row1);
+            List<Object> objectPermissionsCol1 = new ArrayList<Object>();
+            objectPermissionsCol1.add("ObjectPermissions(Difference in Repo and Org)");
+            objectPermissionsCol1.addAll(objectPermissionDiffList);
+            objectPermissionsContents.add(objectPermissionsCol1);
 
-            row2.clear();
             List<String> objectPermissionNotInRepo = diffObjList.get(11);
-            row2.add("ObjectPermissions(Not in Repo but in Org)");
-            row2.addAll(objectPermissionNotInRepo);
-            myContents.add(row2);
+            List<Object> objectPermissionsCol2 = new ArrayList<Object>();
+            objectPermissionsCol2.add("ObjectPermissions(Not in Repo but in Org)");
+            objectPermissionsCol2.addAll(objectPermissionNotInRepo);
+            objectPermissionsContents.add(objectPermissionsCol2);
 
-            if(myContents != null && myContents.size() > 0) {
-                new ExportExcelFile().exportFile(filename, "ObjectPermissions", myContents);
+            if(objectPermissionsContents != null && objectPermissionsContents.size() > 0) {
+                workbook.put("ObjectPermissions", objectPermissionsContents);
             }
 
-            myContents.clear();
-            row1.clear();
+            List<List<Object>> pageAccessesContents = new ArrayList<>();
             List<String> pageAccessesDiffList = diffObjList.get(12);
-            row1.add("PageAccesses(Difference in Repo and Org)");
-            row1.addAll(pageAccessesDiffList);
-            myContents.add(row1);
+            List<Object> pageAccessesCol1 = new ArrayList<Object>();
+            pageAccessesCol1.add("PageAccesses(Difference in Repo and Org)");
+            pageAccessesCol1.addAll(pageAccessesDiffList);
+            pageAccessesContents.add(pageAccessesCol1);
 
-            row2.clear();
             List<String> pageAccessesNotInRepo = diffObjList.get(13);
-            row2.add("PageAccesses(Not in Repo but in Org)");
-            row2.addAll(pageAccessesNotInRepo);
-            myContents.add(row2);
+            List<Object> pageAccessesCol2 = new ArrayList<Object>();
+            pageAccessesCol2.add("PageAccesses(Not in Repo but in Org)");
+            pageAccessesCol2.addAll(pageAccessesNotInRepo);
+            pageAccessesContents.add(pageAccessesCol2);
 
-            if(myContents != null && myContents.size() > 0) {
-                new ExportExcelFile().exportFile(filename, "PageAccesses", myContents);
+            if(pageAccessesContents != null && pageAccessesContents.size() > 0) {
+                workbook.put("PageAccesses", pageAccessesContents);
             }
 
-            myContents.clear();
-            row1.clear();
+            List<List<Object>> recordTypeVisibilitiesContents = new ArrayList<>();
             List<String> recordTypeVisibilitiesDiffList = diffObjList.get(14);
-            row1.add("RecordTypeVisibilities(Difference in Repo and Org)");
-            row1.addAll(recordTypeVisibilitiesDiffList);
-            myContents.add(row1);
+            List<Object> recordTypeVisibilitiesCol1 = new ArrayList<Object>();
+            recordTypeVisibilitiesCol1.add("RecordTypeVisibilities(Difference in Repo and Org)");
+            recordTypeVisibilitiesCol1.addAll(recordTypeVisibilitiesDiffList);
+            recordTypeVisibilitiesContents.add(recordTypeVisibilitiesCol1);
 
-            row2.clear();
             List<String> recordTypeVisibilitiesNotInRepo = diffObjList.get(15);
-            row2.add("RecordTypeVisibilities(Not in Repo but in Org)");
-            row2.addAll(recordTypeVisibilitiesNotInRepo);
-            myContents.add(row2);
+            List<Object> recordTypeVisibilitiesCol2 = new ArrayList<Object>();
+            recordTypeVisibilitiesCol2.add("RecordTypeVisibilities(Not in Repo but in Org)");
+            recordTypeVisibilitiesCol2.addAll(recordTypeVisibilitiesNotInRepo);
+            recordTypeVisibilitiesContents.add(recordTypeVisibilitiesCol2);
 
-            if(myContents != null && myContents.size() > 0) {
-                new ExportExcelFile().exportFile(filename, "RecordTypeVisibilities", myContents);
+            if(recordTypeVisibilitiesContents != null && recordTypeVisibilitiesContents.size() > 0) {
+                workbook.put("RecordTypeVisibilities", recordTypeVisibilitiesContents);
             }
 
-            myContents.clear();
-            row1.clear();
+            List<List<Object>> tabVisibilitiesContents = new ArrayList<>();
             List<String> tabVisibilitiesDiffList = diffObjList.get(16);
-            row1.add("TabVisibilities(Difference in Repo and Org)");
-            row1.addAll(tabVisibilitiesDiffList);
-            myContents.add(row1);
+            List<Object> tabVisibilitiesCol1 = new ArrayList<Object>();
+            tabVisibilitiesCol1.add("TabVisibilities(Difference in Repo and Org)");
+            tabVisibilitiesCol1.addAll(tabVisibilitiesDiffList);
+            tabVisibilitiesContents.add(tabVisibilitiesCol1);
 
-            row2.clear();
             List<String> tabVisibilitiesNotInRepo = diffObjList.get(17);
-            row2.add("TabVisibilities(Not in Repo but in Org)");
-            row2.addAll(tabVisibilitiesNotInRepo);
-            myContents.add(row2);
+            List<Object> tabVisibilitiesCol2 = new ArrayList<Object>();
+            tabVisibilitiesCol2.add("TabVisibilities(Not in Repo but in Org)");
+            tabVisibilitiesCol2.addAll(tabVisibilitiesNotInRepo);
+            tabVisibilitiesContents.add(tabVisibilitiesCol2);
 
-            if(myContents != null && myContents.size() > 0) {
-                new ExportExcelFile().exportFile(filename, "TabVisibilities", myContents);
+            if(tabVisibilitiesContents != null && tabVisibilitiesContents.size() > 0) {
+                workbook.put("TabVisibilities", tabVisibilitiesContents);
             }
 
-            myContents.clear();
-            row1.clear();
+            List<List<Object>> userPermissionContents = new ArrayList<>();
             List<String> userPermissionDiffList = diffObjList.get(18);
-            row1.add("UserPermissions(Difference in Repo and Org)");
-            row1.addAll(userPermissionDiffList);
-            myContents.add(row1);
+            List<Object> userPermissionCol1 = new ArrayList<Object>();
+            userPermissionCol1.add("UserPermissions(Difference in Repo and Org)");
+            userPermissionCol1.addAll(userPermissionDiffList);
+            userPermissionContents.add(userPermissionCol1);
 
-            row2.clear();
             List<String> userPermissionNotInRepo = diffObjList.get(19);
-            row2.add("UserPermissions(Not in Repo but in Org)");
-            row2.addAll(userPermissionNotInRepo);
-            myContents.add(row2);
+            List<Object> userPermissionCol2 = new ArrayList<Object>();
+            userPermissionCol2.add("UserPermissions(Not in Repo but in Org)");
+            userPermissionCol2.addAll(userPermissionNotInRepo);
+            userPermissionContents.add(userPermissionCol2);
 
-            if(myContents != null && myContents.size() > 0) {
-                new ExportExcelFile().exportFile(filename, "UserPermissions", myContents);
+            if(userPermissionContents != null && userPermissionContents.size() > 0) {
+                workbook.put("UserPermissions", userPermissionContents);
             }
+
+            new ExportExcelFile().exportFile(filename, workbook);
         }
     }
 }

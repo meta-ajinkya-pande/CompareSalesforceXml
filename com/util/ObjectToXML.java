@@ -15,8 +15,8 @@ public class ObjectToXML {
         JAXBContext jaxbContext = JAXBContext.newInstance(xmlObj.getClass());
         marshallerObj = jaxbContext.createMarshaller();
         marshallerObj.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
-        marshallerObj.setProperty("com.sun.xml.internal.bind.xmlHeaders", "<?xml version=\"1.0\" encoding=\"UTF-8\"?>");
-        marshallerObj.setProperty("com.sun.xml.internal.bind.xmlDeclaration", Boolean.FALSE);
+        marshallerObj.setProperty("com.sun.xml.bind.xmlHeaders", "<?xml version=\"1.0\" encoding=\"UTF-8\"?>");
+        marshallerObj.setProperty("com.sun.xml.bind.xmlDeclaration", Boolean.FALSE);
         marshallerObj.setProperty(Marshaller.JAXB_FRAGMENT, Boolean.TRUE);
         if(fileOutputStream != null) {
             marshallerObj.marshal(xmlObj, fileOutputStream);
