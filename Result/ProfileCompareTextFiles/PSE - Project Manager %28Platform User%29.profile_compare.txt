@@ -3,6 +3,8 @@ PSE - Project Manager %28Platform User%29.profile Comparision File
 ApplicationVisiblities(Not in Repo but in Org) /
 	Mass_Update_And_Mass_Edit
 	standard__Platform
+
+ClassAccesses(Not in Repo but in Org) /
 	EXT_CSM_CalendarEvent
 	EXT_CSM_Validator_Cls
 	MassEditExtension

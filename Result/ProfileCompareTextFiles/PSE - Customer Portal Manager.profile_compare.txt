@@ -18,6 +18,8 @@ ApplicationVisiblities(Not in Repo but in Org) /
 	standard__Marketing
 	standard__Sales
 	standard__Service
+
+ClassAccesses(Not in Repo but in Org) /
 	EXT_CSM_CalendarEvent
 	EXT_CSM_Validator_Cls
 	MassEditExtension
