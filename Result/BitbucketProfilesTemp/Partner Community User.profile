@@ -74933,6 +74933,76 @@
         <field>pse__Work_Calendar__c.pse__WeekendsAreWorkdays__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>Address__c-Unvalidated Address Layout</layout>
+        <recordType>Address__c.Unvalidated</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL01 PSA Project Log Action</layout>
+        <recordType>Project_Log__c.Action_GRA</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL01 PSA Project Log Action</layout>
+        <recordType>Project_Log__c.Action_LCS</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL02 PSA Project Log Decision</layout>
+        <recordType>Project_Log__c.Decision_GRA</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL02 PSA Project Log Decision</layout>
+        <recordType>Project_Log__c.Decision_LCS</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL03 PSA Project Log Issue</layout>
+        <recordType>Project_Log__c.Issue_GRA</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL03 PSA Project Log Issue</layout>
+        <recordType>Project_Log__c.Issue_LCS</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL04 PSA Project Log Lesson</layout>
+        <recordType>Project_Log__c.Lesson_GRA</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL04 PSA Project Log Lesson</layout>
+        <recordType>Project_Log__c.Lesson_LCS</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL05 PSA Project Log Risk</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL05 PSA Project Log Risk</layout>
+        <recordType>Project_Log__c.Risk_GRA</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL05 PSA Project Log Risk</layout>
+        <recordType>Project_Log__c.Risk_LCS</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL06 PSA GRA Metric Issue</layout>
+        <recordType>Project_Log__c.GRA_Metric_Issue</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Target__c-TGT PL01 PSA PV Agreement Layout</layout>
+        <recordType>Target__c.PV_Agreement</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Target__c-TGT PL02 PSA Drug Layout</layout>
+        <recordType>Target__c.RDS_Product_Line</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Target__c-Target Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Target__c-Target Layout</layout>
+        <recordType>Target__c.RDS_Country</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Target__c-Target Layout</layout>
+        <recordType>Target__c.RDS_Protocol</recordType>
+    </layoutAssignments>
     <pageAccesses>
         <apexPage>ATC_Chart</apexPage>
         <enabled>false</enabled>

@@ -81641,6 +81641,1017 @@
         <field>pse__Work_Calendar__c.pse__WeekendsAreWorkdays__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>AMA_Agreement_Detail__c-AMA Agreement Detail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AMA_Contract_Detail__c-AMA Contract Detail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AMA_Contracts_Attachments__c-AMA Contracts Attachment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AMA_Fee_Master__c-AMA Fee Master Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ATC__c-Market Definition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ATC__c-Market Definition Layout</layout>
+        <recordType>ATC__c.ATC</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ATC__c-Market Definition Layout</layout>
+        <recordType>ATC__c.Brand</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ATC__c-Market Definition Layout</layout>
+        <recordType>ATC__c.Manufacturer</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ATC__c-Market Definition Layout</layout>
+        <recordType>ATC__c.NEC</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ATC__c-Market Definition Layout</layout>
+        <recordType>ATC__c.Speciality</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ATC__c-Market Definition Layout</layout>
+        <recordType>ATC__c.USC</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-IQVIA Standard Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AccountBrand-Account Brand Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AccountContactRelation-Account Contact Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AccountTeamMember-Account Team Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account_Competitor__c-Account Competitor Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account_Manager__c-Account Manager Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Activity__c-Activity Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Address__c-Address Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Address__c-Address Layout</layout>
+        <recordType>Address__c.MDM_Validated</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Address__c-Unvalidated Address Layout</layout>
+        <recordType>Address__c.Unvalidated</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Agency_Program__c-Agency Program Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Aggregate_Report__c-AGG PL01 PSA General Report Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Aggregate_Report__c-AGG PL01 PSA General Report Layout</layout>
+        <recordType>Aggregate_Report__c.General_Report</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Aggregate_Report__c-AGG PL01 PSA General Report Layout</layout>
+        <recordType>Aggregate_Report__c.RA_Response</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Aggregate_Report__c-AGG PL01 PSA General Report Layout</layout>
+        <recordType>Aggregate_Report__c.Sanofi_GSO_Report</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Aggregate_Report__c-AGG PL01 PSA General Report Layout</layout>
+        <recordType>Aggregate_Report__c.Sanofi_PVS_Report</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Aggregate_Report__c-AGG PL01 PSA General Report Layout</layout>
+        <recordType>Aggregate_Report__c.Takeda_Report</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Agreement_Annual_Calculation__c-Agreement Annual Calculation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Agreement_Contact__c-Agreement Contact Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Agreement_Line_Item_ATCs__c-Agreement Line item ATCs Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Agreement_Line_Item__c-Agreement Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Agreement_Line_item_Discount__c-Agreement Line item Discount Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Agreement_Type_Bid_Mapping__mdt-Agreement Type Bid Mapping Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Agreement__c-Agreement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AllowedEmailDomain-Allowed Email Domain Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Announcement__c-Announcement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Apex_Error_Log__c-Apex Error Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Approval_Matrix__c-Approval Matrix Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Approver_Group__c-Approver Group Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Asset-Asset Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AssetRelationship-Asset Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Attachment_PlaceHolder__c-Attachment PlaceHolder Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BNF2__c-Global BNF Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BNF_Approval_Log__c-BNF Approval Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BNF_Rejection_Reason__c-BNF Rejection Reason Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BNF__x-Purchase%2FBNF Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Bid_History__x-Bid History Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Bid_Team_Credit__c-Bid Team Credit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Billing_Schedule_Item__c-Billing Schedule Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Billing_Schedule__c-Billing Schedule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Budget_Agreement_History__c-Budget Agreement History Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CDA_Account__c-CDA Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CDA_Approved_Governing_Law_Location__c-CDA Approved Governing Law Location Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CDA_Governing_Law_Name_and_PrintName__mdt-CDA Governing Law Name and PrintName Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CDA_Language_Cross_Walk__c-CDA Language Cross Walk Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CDA_ML_Code_Field_Mapping__mdt-CDA ML Code Field Mapping Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CDA_ML_Field_Mapping__mdt-CDA ML Field Mapping Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CDA_Multilingual_Settings__mdt-CDA Multilingual Settings Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CDA_Multilingual_Template_Settings__mdt-CDA Multilingul Template Setting Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CDA_Request__c-CDA Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CMDB__c-CMDB Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CRM_MSA_Contract_Mapping__mdt-CRM_MSA Contract Mapping Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CSAT_Responses__c-CSAT Response Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CSM_Admin_Management__c-CSM Admin Management Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CSM_QI_App_Launcher__c-App Launcher Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CSM_QI_CSATInternal__c-CommentRating Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CSM_QI_Case_Categorization__c-Case Categorization Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CSM_QI_Data_Audit_Trail__c-CSM QI Data Audit Trail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CSM_QI_Data_Portal_Queue_User_details__c-Data Portal Queue User details Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CSM_QI_Field_Tracking__c-CSM QI Field Tracking Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CSM_QI_Folder_Contact_Relationship__c-Folder Contact Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CSM_QI_Folder_File_Relationship__c-CSM-Folder File Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CSM_QI_Folder__c-CSM-Folder Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CSM_QI_JiraLinkComment__c-JiraLinkComment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CSM_QI_JiraLink__c-JiraLink Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CSM_QI_News__c-CSM_QI_News Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Campaign-Campaign Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CampaignInfluenceModel-Campaign Influence Model Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CampaignMember-Campaign Member Page Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Case Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseClose-Close Case Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseHistory__c-Case History Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseInteraction-Case Feed Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseMilestone-Case Milestone Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case_Collabrator__c-Case Collabrator Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case_Subtype__c-Case Subtype Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Certification__c-Certification Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Challenge_Matrix__c-Challenge Matrix Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ChannelProgram-Channel Program Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Classroom_Course__c-Classroom Course Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Client_Sat_Survey_Recipient__c-Client Sat Survey Recipient Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Client_Sat_Survey__c-Client Sat Survey Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CollaborationGroup-Group Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CommunityMemberLayout-Community Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Community_Topic__c-Community Topic Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Competitor__c-Competitor Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contact-Contact Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContentAsset-Asset File Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContentVersion-Content Version</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contract-Contract Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContractLineItem-Contract Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contract_In_Out_Log__c-Contract In%2FOut Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contract_Lifecycle__c-Contract Lifecycle Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contract_Milestone__c-Milestone Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contract_Stage_Detail__c-Contract Stage Detail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contract_Template__c-Contract Template Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contract__x-Contract Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Controlling_Field_Option__c-Controlling Field Option Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Days_Off__c-Day Off Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DeclinedSurveyApproverGroup__c-Declined Survey Approver Group Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Default_Product_Search__c-Default Product Search Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Dependent_Field_Option__c-Dependent Field Option Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DuplicateRecordItem-Duplicate Record Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DuplicateRecordSet-Duplicate Record Set Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>EmailMessage-Email Message Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Entitlement-Entitlement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>EntityMilestone-Object Milestone Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Event-Event Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Favorite_Product__c-Favorite Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Favorite__c-Favorite Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FeedItem-Feed Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Financial_Summary__c-Financial Summary Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Global-Global Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Goal-Goal Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>GoalLink-Goal Link Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HyperBatchOutput__c-HyperBatchOutput Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>IMS_Data_Asset__c-IMS Data Asset Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>IMS_Legal_Entity__c-IMS Legal Entity Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>IMS_Logs__c-IMS Logs Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>IMS_Master_Legal_Entity__c-IMS Master Legal Entity Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>IMS_Secondary_Data_Asset__c-IMS Secondary Data Asset Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>IMS_TPA_Purpose_Category__c-IMS TPA Purpose Category Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>IMS_TPA_Purpose_Description__c-IMS TPA Purpose Description Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>IMS_TPA_Purpose__c-IMS TPA Purpose Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>IMS_Use_Offering_Atypical_Combination__c-IMS Use Offering Atypical Combination Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>IQVIA_Account_Country_Region_Mapping__mdt-IQVIA Account Country Region Mapping Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>IQVIA_Legal_Entity__c-IQVIA Legal Entity Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>IQVIA_Project_Leader__c-IQVIA Project Leader Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Idea-Idea Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InboundNumber__c-InboundNumber Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Indication_List__c-Indication List Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Individual-Individual Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Investigator_Grant__c-Investigator Grant Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Invoice_c__x-Invoice Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>JobTracker-Job Tracker Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Knowledge__kav-Knowledge Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LI_Account__x-LI Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LI_Opportunity__x-Opportunity Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LQ_Account__x-LQ Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LQ_Opportunity__x-Opportunity Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Lead Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Learning_Path__c-Learning Path Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Line_Item_Group__c-Line Item Group Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LinkedArticle-Linked Article Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ListEmail-List Email Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LiveAgentSession-Live Agent Session Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LiveChatTranscript-Live Chat Transcript Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LiveChatTranscriptActive-Live Chat Transcript %28In Progress%29 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LiveChatTranscriptEvent-Live Chat Transcript Event Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LiveChatTranscriptWaiting-Live Chat Transcript %28Waiting%29 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LiveChatVisitor-Live Chat Visitor Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MIBNF2__c-Multi Invoice BNF Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MIBNF_Approval_Log__c-MIBNF_Approval_Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MIBNF_Component__c-BNF Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MIBNF_Rejection_Reason__c-MIBNF Rejection Reason Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MIBNF__x-Multi Invoice BNF Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MI_AccountRelationship__c-MI-Account Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MI_BNF_LineItem__c-MI_BNF_LineItem Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MI_CaseRelationship__c-MI-Case Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Macro-Macro Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Major_Incident__c-Major Incident Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Master_BNF_Component__c-Master BNF Component Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Master_BNF__c-Master BNF Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Merge_Queue__c-Merge Queue Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Mes_Listes__c-Présentation Mes Listes</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Metric-Metric Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MetricDataLink-Metric Data Link Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Mulesoft_Log__c-Mulesoft Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Mulesoft_OpportunityLineItem_Sync__c-Mulesoft OpportunityLineItem Sync Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Mulesoft_Opportunity_Sync__c-Mulesoft Opportunity Sync Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Note__c-BNF Note Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OWF_Assignment_Setting__mdt-OWF Assignment Setting Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OWF_ReBidFieldMapping__mdt-OWF ReBidFieldMapping Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OWF_Resource_Setting__mdt-OWF Resource Setting Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ObjectTerritory2AssignmentRule-Object Territory Assignment Rule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opp_Stage_to_Bid_Type_Mapping__mdt-Opp Stage to Bid Type Mapping Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-Opportunity Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OpportunityLineItem-Opportunity Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OpportunitySplit-Opportunity Split Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OpportunityTeamMember-Opportunity Team Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Order-Order Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OrderItem-Order Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Outbound_Message_Deletion_Queue__c-Outbound Message Deletion Queue Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OutgoingEmail-Outgoing Email Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PC_Pricing_Calculator__x-Pricing Assistant Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Potential_Region_To_BD_Lead_Mapping__mdt-Potential Region To BD Lead Mapping Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Pricebook2-Price Book Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PricebookEntry-Price Book Entry Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Principal_In_Charge__c-Principal In Charge Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Prod_EnvironmentClient_Handover_Docs__c-Production Environment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Product2-Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Product_Contact__c-Product Contact Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Product_Replacement_Mapping__c-Product Replacement Mapping Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProfileSkill-Skill Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProfileSkillEndorsement-Endorsement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProfileSkillUser-Skill User Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Profit_Centre__c-Profit Centre Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Proj__x-Project Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL01 PSA Project Log Action</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL01 PSA Project Log Action</layout>
+        <recordType>Project_Log__c.Action_GRA</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL01 PSA Project Log Action</layout>
+        <recordType>Project_Log__c.Action_LCS</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL01 PSA Project Log Action</layout>
+        <recordType>Project_Log__c.Decision_GRA</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL01 PSA Project Log Action</layout>
+        <recordType>Project_Log__c.Decision_LCS</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL01 PSA Project Log Action</layout>
+        <recordType>Project_Log__c.Issue_GRA</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL01 PSA Project Log Action</layout>
+        <recordType>Project_Log__c.Issue_LCS</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL01 PSA Project Log Action</layout>
+        <recordType>Project_Log__c.Lesson_GRA</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL01 PSA Project Log Action</layout>
+        <recordType>Project_Log__c.Lesson_LCS</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL01 PSA Project Log Action</layout>
+        <recordType>Project_Log__c.Risk_GRA</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL01 PSA Project Log Action</layout>
+        <recordType>Project_Log__c.Risk_LCS</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Property__c-Formato Property</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Proposal_QA_Self_Check_List__c-Proposal QA Self-Check List Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Proxy_BNF__c-Proxy BNF Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Proxy_Pricing_Assistant__c-Proxy Pricing Assistant Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Proxy_Project__c-Proxy Project Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Proxy_SCM_Agreement__c-Proxy SCM Agreement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>QC_Check_List_Item__c-QC Check List Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>QI_Legal_Entity__c-QI Legal Entity Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Queue_User_Relationship__c-Queue User Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Quote-Quote Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>QuoteLineItem-Quote Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Renewal_Task_Change_Detail__c-Renewal Task Change Detail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Renewal_Task__c-Renewal Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Revenue_Analyst__c-Revenue Analyst Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SAP_Contact__c-SAP Contact Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SOTC__c-SOTC Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SalesOrg__c-Sales Org Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Sales_Revenue__c-Sales Revenue Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Sales_Team_Hierarchy_AE__c-Sales Team Hierarchy - AE Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Sales_Team_Hierarchy_ST__c-Sales Team Hierarchy - ST Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Sales_Team_Hierarchy_VP__c-Sales Team Hierarchy - VP Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Sales_Team_Hierarchy__c-Sales Team Hierarchy Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Scorecard-Scorecard Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ScorecardAssociation-Scorecard Association Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ScorecardMetric-Scorecard Metric Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceContract-Service Contract Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceNow_Group__c-ServiceNow Group Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SocialPersona-Social Persona Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SocialPost-Social Post Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Solution-Solution Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>StudySiteContactRelationship__c-Study Site-Contact Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Study_Contact_Relationship__c-Study Contact Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Study_Site_Relationship__c-Study Site Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Study__c-Study Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Survey_Result__c-Survey Result Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_AMA_Client_Vendor_Match__c-TPA AMA Client Vendor Match Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_AMA_Client_Vendor_Search_Map__c-TPA AMA Client Vendor Search Map Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_AMA_Parent_Child_Account_Crosswalk__c-TPA AMA Parent Child Account Crosswalk Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_AMA_Picklist_Value__mdt-TPA AMA Picklist Value Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Acknowledgment_Log__c-TPA Acknowledgment Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Action_Log__c-TPA Action Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Agreement_Additional_Field__c-TPA Agreement Additional Field Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Approval_Region__c-TPA Approval Region Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Contact__c-TPA Contact Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Data_Asset__c-TPA Data Asset Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Language_Cross_Walk__c-TPA Language Cross Walk Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Logs__c-TPA Logs Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Off_Notification_Account_Mapping__c-TPA Off Notification Account Mapping Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Offering_Notification_Mapping__c-TPA Offering Notification Mapping Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Purpose_Category__c-TPA Purpose Category Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Purpose_Description__c-TPA Purpose Description Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Purpose__c-TPA Purpose Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Region_Country__c-TPA Region Country Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_RequestDocument__c-TPA_RequestDocument Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Request_ATC__c-Therapeutic Areas Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Request_Backup__c-TPA Request Backup Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Request_Localized__c-TPA Request Localized Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Request__c-TPA Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Secondary_Data_Asset__c-TPA Secondary Data Asset Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_TP_Processor__c-TP Processor Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Text_Editor__c-TPA Text Editor Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Trending_Reports_Mapping_BU__c-TPA Trending Reports Mapping BU Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Use_Offering_Atypical_Combination__c-TPA Use Offering Atypical Combination Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Use_Offerings_UI_Backup__c-TPA Use Offerings UI Backup Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Vendor_Reg_Number_Acknowlegment__c-TPA Vendor Reg Number Acknowlegment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Target__c-Target Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Target__c-Target Layout</layout>
+        <recordType>Target__c.PV_Agreement</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Target__c-Target Layout</layout>
+        <recordType>Target__c.RDS_Country</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Target__c-Target Layout</layout>
+        <recordType>Target__c.RDS_Product_Line</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Target__c-Target Layout</layout>
+        <recordType>Target__c.RDS_Protocol</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Targeted_Account_Announcement__c-Targetted Account Announcement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Targeted_User_Announcement__c-Targetted User Announcement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Task-Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Template_Selection_Criteria__c-Template Selection Criteria Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Territory2-Territory Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Territory2Model-Territory Model Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Territory2Type-Territory Type Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Territory_Lookup__mdt-Territory Lookup Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TimeSheet__c-Time Sheet Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>User-User Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserAlt-User Profile Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserAppMenuItem-Application Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserProvAccount-User Provisioning Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserProvisioningLog-User Provisioning Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserTerritory2Association-User Territory Association Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>User_Metric__c-User Metric Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Vendor_Offering_Return_Acknowledgment__c-Vendor Offering Return Acknowledgment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WBS__c-WBS Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Watch_List_History__c-Watch List History Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Watch_List__c-Watch List Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkAccess-Access Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkBadge-Badge Received Layout 192</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkBadgeDefinition-Badge Layout 192</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkCoaching-Coaching Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkFeedback-Feedback Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkFeedbackQuestion-Feedback Question Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkFeedbackQuestionSet-Feedback Question Set Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkFeedbackRequest-Feedback Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkFeedbackTemplate-Feedback Template Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkOrder-Work Order Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkOrderLineItem-Work Order Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkPerformanceCycle-Performance Cycle Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkReward-Reward Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkRewardFund-Reward Fund Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkRewardFundType-Reward Fund Type Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkThanks-Thanks Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>abc__c-abc Layout</layout>
+    </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>

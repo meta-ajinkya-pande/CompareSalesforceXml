@@ -77442,6 +77442,203 @@
         <field>pse__Work_Calendar__c.pse__WeekendsAreWorkdays__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>Address__c-Unvalidated Address Layout</layout>
+        <recordType>Address__c.Unvalidated</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Agency_Program_Financials__c-Agency Program Financials Address Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Agency_Program_Financials__c-Agency Program Financials Address Layout</layout>
+        <recordType>Agency_Program_Financials__c.Address</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Agency_Program_Financials__c-Agency Program Financials Price Layout</layout>
+        <recordType>Agency_Program_Financials__c.Price</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Agency_Program__c-Agency Program Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Aggregate_Report__c-AGG PL01 PSA General Report Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Aggregate_Report__c-AGG PL01 PSA General Report Layout</layout>
+        <recordType>Aggregate_Report__c.General_Report</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Aggregate_Report__c-AGG PL02 PSA RA Response Layout</layout>
+        <recordType>Aggregate_Report__c.RA_Response</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Aggregate_Report__c-AGG PL03 PSA Sanofi GSO Report Layout</layout>
+        <recordType>Aggregate_Report__c.Sanofi_GSO_Report</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Aggregate_Report__c-AGG PL04 PSA Takeda Report Layout</layout>
+        <recordType>Aggregate_Report__c.Takeda_Report</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Aggregate_Report__c-AGG PL05 PSA Sanofi PVS Report Layout</layout>
+        <recordType>Aggregate_Report__c.Sanofi_PVS_Report</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Announcement__c-Announcement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CSM_QI_Integration_Log__c-CSM Integration Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-CAS_PL05_CSM_Client Portal Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-CAS_PL05_CSM_Client Portal Layout</layout>
+        <recordType>Case.ActivityPlan</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-CAS_PL05_CSM_Client Portal Layout</layout>
+        <recordType>Case.DATACase</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-CAS_PL05_CSM_Client Portal Layout</layout>
+        <recordType>Case.HCP_Onekey_Request</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-CAS_PL05_CSM_Client Portal Layout</layout>
+        <recordType>Case.IQVIALiveChat</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-CAS_PL05_CSM_Client Portal Layout</layout>
+        <recordType>Case.RandDCase</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-CAS_PL05_CSM_Client Portal Layout</layout>
+        <recordType>Case.TechnologyCase</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseClose-Close Case Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Certification__c-Certification Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Classroom_Course__c-Classroom Course Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contract-CTR_PL01_PEP_Contract</layout>
+        <recordType>Contract.PRM_Contract</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contract_Template__c-Contract Template Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Knowledge__kav-KNO_PL03_CSM_Client Portal_QuestionAnswer_</layout>
+        <recordType>Knowledge__kav.Question_Answer</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Knowledge__kav-KNO_PL04_CSM_Client Portal_information</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Knowledge__kav-KNO_PL04_CSM_Client Portal_information</layout>
+        <recordType>Knowledge__kav.Information</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-LED_PL01_PEP_Lead_registration</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-LED_PL01_PEP_Lead_registration</layout>
+        <recordType>Lead.PRM_Lead</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Learning_Path__c-Learning Path Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Partner_Certification__c-Partner Certification Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Partner_Certification__c-Partner Certification Layout PSO Team</layout>
+        <recordType>Partner_Certification__c.Partner_Certification_Record</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Partner_Certification__c-Partner Certification Layout</layout>
+        <recordType>Partner_Certification__c.Admin_Record</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL01 PSA Project Log Action</layout>
+        <recordType>Project_Log__c.Action_GRA</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL01 PSA Project Log Action</layout>
+        <recordType>Project_Log__c.Action_LCS</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL02 PSA Project Log Decision</layout>
+        <recordType>Project_Log__c.Decision_GRA</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL02 PSA Project Log Decision</layout>
+        <recordType>Project_Log__c.Decision_LCS</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL03 PSA Project Log Issue</layout>
+        <recordType>Project_Log__c.Issue_GRA</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL03 PSA Project Log Issue</layout>
+        <recordType>Project_Log__c.Issue_LCS</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL04 PSA Project Log Lesson</layout>
+        <recordType>Project_Log__c.Lesson_GRA</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL04 PSA Project Log Lesson</layout>
+        <recordType>Project_Log__c.Lesson_LCS</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL05 PSA Project Log Risk</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL05 PSA Project Log Risk</layout>
+        <recordType>Project_Log__c.Risk_GRA</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL05 PSA Project Log Risk</layout>
+        <recordType>Project_Log__c.Risk_LCS</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL06 PSA GRA Metric Issue</layout>
+        <recordType>Project_Log__c.GRA_Metric_Issue</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Target__c-TGT PL01 PSA PV Agreement Layout</layout>
+        <recordType>Target__c.PV_Agreement</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Target__c-TGT PL02 PSA Drug Layout</layout>
+        <recordType>Target__c.RDS_Product_Line</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Target__c-Target Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Target__c-Target Layout</layout>
+        <recordType>Target__c.RDS_Country</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Target__c-Target Layout</layout>
+        <recordType>Target__c.RDS_Protocol</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Targeted_Account_Announcement__c-Targetted Account Announcement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Targeted_User_Announcement__c-Targetted User Announcement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserAlt-USR_PL01_PEP_PEPUser</layout>
+    </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>

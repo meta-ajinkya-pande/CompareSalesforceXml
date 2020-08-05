@@ -9754,6 +9754,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <custom>true</custom>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>Access_to_Entry_Check</name>
+    </customPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>AIML_Status_Notification__e.Record_Id__c</field>
@@ -81909,6 +81913,320 @@
         <field>pse__Work_Calendar__c.pse__WeekendsAreWorkdays__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>AMA_Agreement_Detail__c-AMA Agreement Detail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AMA_Contract_Detail__c-AMA Contract Detail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AMA_Contracts_Attachments__c-AMA Contracts Attachment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AMA_Fee_Master__c-AMA Fee Master Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ATC__c-Market Definition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ATC__c-Market Definition Layout</layout>
+        <recordType>ATC__c.ATC</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ATC__c-Market Definition Layout</layout>
+        <recordType>ATC__c.Brand</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ATC__c-Market Definition Layout</layout>
+        <recordType>ATC__c.Manufacturer</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ATC__c-Market Definition Layout</layout>
+        <recordType>ATC__c.NEC</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ATC__c-Market Definition Layout</layout>
+        <recordType>ATC__c.Speciality</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ATC__c-Market Definition Layout</layout>
+        <recordType>ATC__c.USC</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-ACC_PL01_CSM_CSMAccountPageLayout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Global Customer Account Layout</layout>
+        <recordType>Account.Global_Customer_Account</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-IQVIA Standard Account Layout</layout>
+        <recordType>Account.Unvalidated_Account</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-IQVIA Validated Account Layout</layout>
+        <recordType>Account.MDM_Validated_Account</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AccountBrand-Account Brand Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AccountContactRelation-Account Contact Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AccountTeamMember-Account Team Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account_Competitor__c-Account Competitor Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account_Manager__c-Account Manager Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Activity__c-Activity Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Activity__c-Activity Layout</layout>
+        <recordType>Activity__c.Activity</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Address__c-Address Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Address__c-Address Layout</layout>
+        <recordType>Address__c.MDM_Validated</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Address__c-Unvalidated Address Layout</layout>
+        <recordType>Address__c.Unvalidated</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Aggregate_Report__c-AGG PL01 PSA General Report Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Aggregate_Report__c-AGG PL01 PSA General Report Layout</layout>
+        <recordType>Aggregate_Report__c.General_Report</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Aggregate_Report__c-AGG PL02 PSA RA Response Layout</layout>
+        <recordType>Aggregate_Report__c.RA_Response</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Aggregate_Report__c-AGG PL03 PSA Sanofi GSO Report Layout</layout>
+        <recordType>Aggregate_Report__c.Sanofi_GSO_Report</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Aggregate_Report__c-AGG PL04 PSA Takeda Report Layout</layout>
+        <recordType>Aggregate_Report__c.Takeda_Report</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Aggregate_Report__c-AGG PL05 PSA Sanofi PVS Report Layout</layout>
+        <recordType>Aggregate_Report__c.Sanofi_PVS_Report</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Agreement_Contact__c-Agreement Contact Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AllowedEmailDomain-Allowed Email Domain Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Asset-Asset Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AssetRelationship-Asset Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Attachment_PlaceHolder__c-Attachment PlaceHolder Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL01 PSA Project Log Action</layout>
+        <recordType>Project_Log__c.Action_GRA</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL01 PSA Project Log Action</layout>
+        <recordType>Project_Log__c.Action_LCS</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL02 PSA Project Log Decision</layout>
+        <recordType>Project_Log__c.Decision_GRA</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL02 PSA Project Log Decision</layout>
+        <recordType>Project_Log__c.Decision_LCS</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL03 PSA Project Log Issue</layout>
+        <recordType>Project_Log__c.Issue_GRA</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL03 PSA Project Log Issue</layout>
+        <recordType>Project_Log__c.Issue_LCS</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL04 PSA Project Log Lesson</layout>
+        <recordType>Project_Log__c.Lesson_GRA</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL04 PSA Project Log Lesson</layout>
+        <recordType>Project_Log__c.Lesson_LCS</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL05 PSA Project Log Risk</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL05 PSA Project Log Risk</layout>
+        <recordType>Project_Log__c.Risk_GRA</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL05 PSA Project Log Risk</layout>
+        <recordType>Project_Log__c.Risk_LCS</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Log__c-PLG PL06 PSA GRA Metric Issue</layout>
+        <recordType>Project_Log__c.GRA_Metric_Issue</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_AMA_Client_Vendor_Match__c-TPA AMA Client Vendor Match Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_AMA_Client_Vendor_Search_Map__c-TPA AMA Client Vendor Search Map Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_AMA_Parent_Child_Account_Crosswalk__c-TPA AMA Parent Child Account Crosswalk Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_AMA_Picklist_Value__mdt-TPA AMA Picklist Value Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Acknowledgment_Log__c-TPA Acknowledgment Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Action_Log__c-TPA Action Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Agreement_Additional_Field__c-TPA Agreement Additional Field Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Approval_Region__c-TPA Approval Region Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Contact__c-TPA Contact Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Data_Asset__c-TPA Data Asset Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Language_Cross_Walk__c-TPA Language Cross Walk Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Logs__c-TPA Logs Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Off_Notification_Account_Mapping__c-TPA Off Notification Account Mapping Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Offering_Notification_Mapping__c-TPA Offering Notification Mapping Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Purpose_Category__c-TPA Purpose Category Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Purpose_Description__c-TPA Purpose Description Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Purpose__c-TPA Purpose Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Region_Country__c-TPA Region Country Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_RequestDocument__c-TPA_RequestDocument Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Request_ATC__c-Therapeutic Areas Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Request_Backup__c-TPA Request Backup Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Request_Localized__c-TPA Request Localized Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Request__c-TPA Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Secondary_Data_Asset__c-TPA Secondary Data Asset Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_TP_Processor__c-TP Processor Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Text_Editor__c-TPA Text Editor Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Trending_Reports_Mapping_BU__c-TPA Trending Reports Mapping BU Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Use_Offering_Atypical_Combination__c-TPA Use Offering Atypical Combination Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Use_Offerings_UI_Backup__c-TPA Use Offerings UI Backup Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TPA_Vendor_Reg_Number_Acknowlegment__c-TPA Vendor Reg Number Acknowlegment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Target__c-TGT PL01 PSA PV Agreement Layout</layout>
+        <recordType>Target__c.PV_Agreement</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Target__c-TGT PL02 PSA Drug Layout</layout>
+        <recordType>Target__c.RDS_Product_Line</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Target__c-Target Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Target__c-Target Layout</layout>
+        <recordType>Target__c.RDS_Country</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Target__c-Target Layout</layout>
+        <recordType>Target__c.RDS_Protocol</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>User-User Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserAlt-User Profile Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserAppMenuItem-Application Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserProvAccount-User Provisioning Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserProvisioningLog-User Provisioning Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserTerritory2Association-User Territory Association Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>User_Metric__c-User Metric Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Vendor_Offering_Return_Acknowledgment__c-Vendor Offering Return Acknowledgment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Watch_List_History__c-Watch List History Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Watch_List__c-Watch List Layout</layout>
+    </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
