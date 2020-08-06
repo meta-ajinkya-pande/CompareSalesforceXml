@@ -20,7 +20,7 @@ public class MetadataCompare {
 					.convertXMLsToObjects("compareFolder/org/profiles");
 			profileCompare.compare(orgNameProfileMap, bitbucketNameProfileMap);
 			emptyResultFolder();
-			exportExcelFile(profileCompare);
+			exportFiles(profileCompare);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -34,7 +34,7 @@ public class MetadataCompare {
 		dir.deleteFilesFromFolder("Result/ProfileCompareExcelFiles");
 	}
 
-	public static void exportExcelFile(ProfileCompare profileCompare) throws Exception {
+	public static void exportFiles(ProfileCompare profileCompare) throws Exception {
 		ProfileFileExport profileFileExport = new ProfileFileExport();
 		profileFileExport.exportXmlFile(profileCompare.getBitbucketTempProfiles());
 		profileFileExport.exportTxtFile(profileCompare.getProfileFieldPermissionMap());
