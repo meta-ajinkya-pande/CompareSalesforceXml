@@ -2,12 +2,15 @@ package com.metadata.Profile.ProfileUtil;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
 import com.main.util.ExportExcelFile;
 import com.main.util.ExportTxtFile;
+import com.main.util.ObjectToXML;
+import com.metadata.Profile.Profiles;
 
 public class ProfileFileExport {
 
@@ -336,6 +339,14 @@ public class ProfileFileExport {
             }
 
             new ExportExcelFile().exportFile(filename, workbook);
+        }
+    }
+
+    public void exportXmlFile(Collection<Profiles> profileCollection) throws Exception {
+        ObjectToXML objectToXML = new ObjectToXML();
+        for (Profiles tempProfile : profileCollection) {
+            objectToXML.setFileOutputStream("Result/BitbucketProfilesTemp/" + tempProfile.getProfileName());
+            objectToXML.convertObjecttoXml(tempProfile);
         }
     }
 }
