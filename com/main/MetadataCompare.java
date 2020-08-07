@@ -14,10 +14,8 @@ public class MetadataCompare {
 		try {
 			ProfileCompare profileCompare = new ProfileCompare();
 			XmlToObject<Profiles> profileXmlToObject = new XmlToObject<Profiles>(Profiles.class);
-			Map<String, Profiles> bitbucketNameProfileMap = profileXmlToObject
-					.convertXMLsToObjects("compareFolder/bitbucket/profiles");
-			Map<String, Profiles> orgNameProfileMap = profileXmlToObject
-					.convertXMLsToObjects("compareFolder/org/profiles");
+			Map<String, Profiles> bitbucketNameProfileMap = profileXmlToObject.convertXMLsToObjects("compareFolder/bitbucket/profiles");
+			Map<String, Profiles> orgNameProfileMap = profileXmlToObject.convertXMLsToObjects("compareFolder/org/profiles");
 			profileCompare.compare(orgNameProfileMap, bitbucketNameProfileMap);
 			emptyResultFolder();
 			exportFiles(profileCompare);
