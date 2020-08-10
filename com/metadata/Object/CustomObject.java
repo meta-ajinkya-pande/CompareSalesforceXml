@@ -2,7 +2,12 @@ package com.metadata.Object;
 
 import java.util.List;
 
+import javax.xml.bind.annotation.XmlAccessOrder;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorOrder;
+import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlTransient;
 
 import com.metadata.Object.pojo.ActionOverride;
@@ -15,6 +20,9 @@ import com.metadata.Object.pojo.SearchLayout;
 import com.metadata.Object.pojo.ValidationRule;
 import com.metadata.Object.pojo.WebLink;
 
+@XmlRootElement(name = "CustomObject")
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlAccessorOrder(XmlAccessOrder.ALPHABETICAL)
 public class CustomObject {
     
     @XmlTransient
@@ -335,6 +343,36 @@ public class CustomObject {
                 + recordTypeTrackFeedHistory + ", recordTypeTrackHistory=" + recordTypeTrackHistory + ", recordTypes="
                 + recordTypes + ", searchLayouts=" + searchLayouts + ", sharingModel=" + sharingModel
                 + ", validationRules=" + validationRules + ", webLinks=" + webLinks + "]";
+    }
+
+    public CustomObject(List<ActionOverride> actionOverrides, String compactLayoutAssignment,
+            List<CompactLayout> compactLayouts, Boolean enableEnhancedLookup, Boolean enableFeeds,
+            Boolean enableHistory, String externalSharingModel, List<FieldSet> fieldSets, List<Field> fields,
+            List<ListView> listViews, Boolean recordTypeTrackFeedHistory, Boolean recordTypeTrackHistory,
+            List<RecordType> recordTypes, SearchLayout searchLayouts, String sharingModel,
+            ValidationRule validationRules, WebLink webLinks) {
+        super();
+        this.actionOverrides = actionOverrides;
+        this.compactLayoutAssignment = compactLayoutAssignment;
+        this.compactLayouts = compactLayouts;
+        this.enableEnhancedLookup = enableEnhancedLookup;
+        this.enableFeeds = enableFeeds;
+        this.enableHistory = enableHistory;
+        this.externalSharingModel = externalSharingModel;
+        this.fieldSets = fieldSets;
+        this.fields = fields;
+        this.listViews = listViews;
+        this.recordTypeTrackFeedHistory = recordTypeTrackFeedHistory;
+        this.recordTypeTrackHistory = recordTypeTrackHistory;
+        this.recordTypes = recordTypes;
+        this.searchLayouts = searchLayouts;
+        this.sharingModel = sharingModel;
+        this.validationRules = validationRules;
+        this.webLinks = webLinks;
+    }
+
+    public CustomObject() {
+        super();
     }
 
 }

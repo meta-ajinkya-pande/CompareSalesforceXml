@@ -4,13 +4,38 @@ import java.util.Map;
 
 import com.main.util.FileHandling;
 import com.main.util.XmlToObject;
+import com.metadata.Object.CustomObject;
 import com.metadata.Profile.Profiles;
 import com.metadata.Profile.ProfileUtil.ProfileCompare;
 import com.metadata.Profile.ProfileUtil.ProfileFileExport;
 
 public class MetadataCompare {
 
+	private final static Boolean IS_PROFILE_COMPARE = false;
+	private final static Boolean IS_OBJECT_EXTERNAL_ACCESS = true;
+
 	public static void main(String args[]) {
+		if (IS_PROFILE_COMPARE) {
+			initProfileCompare();
+		}
+		if (IS_OBJECT_EXTERNAL_ACCESS) {
+			initObjectCompare();
+		}
+	}
+
+	public static void initObjectCompare() {
+		XmlToObject<CustomObject> objectXmlToObject = new XmlToObject<CustomObject>(CustomObject.class);
+		try {
+			Map<String, CustomObject> bitbucketObjectMap = objectXmlToObject.convertXMLsToObjects("compareFolder/bitbucket/objects");
+			for(String key : bitbucketObjectMap.keySet()) {
+				bitbucketObjectMap.get(key).setObjectName(key);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	public static void initProfileCompare() {
 		try {
 			ProfileCompare profileCompare = new ProfileCompare();
 			XmlToObject<Profiles> profileXmlToObject = new XmlToObject<Profiles>(Profiles.class);
