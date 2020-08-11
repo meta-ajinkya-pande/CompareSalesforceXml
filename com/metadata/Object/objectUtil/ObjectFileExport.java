@@ -18,8 +18,9 @@ public class ObjectFileExport {
         List<List<Object>> sheetData = new ArrayList<>();
         List<Object> col = new ArrayList<>();
         col.add("Object Name");
-        col.add("External Object Access");
-        col.add("OWD");
+        col.add("OWD External");
+        col.add("OWD Internal");
+        col.add("Module");
         col.add("Comment");
         sheetData.add(col);
         for(String objectName : ObjectNameMap.keySet()) {
