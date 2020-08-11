@@ -14,6 +14,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class ExportExcelFile {
 
     private Boolean isSingleLine = true;
+    private Boolean isTransposeRequired = true;
     private final String OUTPUT_LOCATION = "Result/ProfileCompareExcelFiles";
 
     public void exportFile(String fileName, Map<String, List<List<Object>>> workbookMap) throws IOException {
@@ -28,11 +29,13 @@ public class ExportExcelFile {
 
     private void exportFile(XSSFWorkbook workbook, String sheetName, List<List<Object>> sheetData) throws IOException {
         List<List<Object>> modifiedSheetData;
-        if(!isSingleLine) {
+        if(!isSingleLine && isTransposeRequired) {
             modifiedSheetData = transpose(sheetData);
-        } else {
+        } else if(isTransposeRequired){
             List<List<Object>> singleLineSheetData = singleLine(sheetData);
             modifiedSheetData = transpose(singleLineSheetData);
+        } else {
+            modifiedSheetData = sheetData;
         }
         XSSFSheet sheet = workbook.createSheet(sheetName);
         int rowNum = 0;
@@ -99,5 +102,13 @@ public class ExportExcelFile {
 
     public void setIsSingleLine(Boolean isSingleLine) {
         this.isSingleLine = isSingleLine;
+    }
+
+    public Boolean getIsTransposeRequired() {
+        return isTransposeRequired;
+    }
+
+    public void setIsTransposeRequired(Boolean isTransposeRequired) {
+        this.isTransposeRequired = isTransposeRequired;
     }
 }

@@ -5,6 +5,7 @@ import java.util.Map;
 import com.main.util.FileHandling;
 import com.main.util.XmlToObject;
 import com.metadata.Object.CustomObject;
+import com.metadata.Object.objectUtil.ObjectFileExport;
 import com.metadata.Profile.Profiles;
 import com.metadata.Profile.ProfileUtil.ProfileCompare;
 import com.metadata.Profile.ProfileUtil.ProfileFileExport;
@@ -30,6 +31,7 @@ public class MetadataCompare {
 			for(String key : bitbucketObjectMap.keySet()) {
 				bitbucketObjectMap.get(key).setObjectName(key);
 			}
+			exportObjectExcelFiles(bitbucketObjectMap);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -43,7 +45,7 @@ public class MetadataCompare {
 			Map<String, Profiles> orgNameProfileMap = profileXmlToObject.convertXMLsToObjects("compareFolder/org/profiles");
 			profileCompare.compare(orgNameProfileMap, bitbucketNameProfileMap);
 			emptyResultFolder();
-			exportFiles(profileCompare);
+			exportProfilesFiles(profileCompare);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -57,10 +59,15 @@ public class MetadataCompare {
 		dir.deleteFilesFromFolder("Result/ProfileCompareExcelFiles");
 	}
 
-	public static void exportFiles(ProfileCompare profileCompare) throws Exception {
+	public static void exportProfilesFiles(ProfileCompare profileCompare) throws Exception {
 		ProfileFileExport profileFileExport = new ProfileFileExport();
 		profileFileExport.exportXmlFile(profileCompare.getBitbucketTempProfiles());
 		profileFileExport.exportTxtFile(profileCompare.getProfileFieldPermissionMap());
 		profileFileExport.exportExcelFile(profileCompare.getProfileFieldPermissionMap());
+	}
+
+	public static void exportObjectExcelFiles(Map<String, CustomObject> bitbucketObjectMap) throws Exception {
+		ObjectFileExport objectFileExport = new ObjectFileExport();
+		objectFileExport.exportExternalSharingExcelFile(bitbucketObjectMap);
 	}
 }
