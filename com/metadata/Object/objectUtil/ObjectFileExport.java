@@ -2,11 +2,13 @@ package com.metadata.Object.objectUtil;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
 import com.main.util.ExportExcelFile;
+import com.main.util.ObjectToXML;
 import com.metadata.Object.CustomObject;
 
 public class ObjectFileExport {
@@ -35,5 +37,13 @@ public class ObjectFileExport {
         exportExcelFile.setIsSingleLine(false);
         exportExcelFile.setIsTransposeRequired(false);
         exportExcelFile.exportFile(outputFileName, workbookMap);
+    }
+
+    public void exportXmlFile(Collection<CustomObject> customObjectCollection) throws Exception {
+        ObjectToXML objectToXML = new ObjectToXML();
+        for (CustomObject tempObject : customObjectCollection) {
+            objectToXML.setFileOutputStream("Result/BitbucketObjectTemp/" + tempObject.getObjectName());
+            objectToXML.convertObjecttoXml(tempObject);
+        }
     }
 }
