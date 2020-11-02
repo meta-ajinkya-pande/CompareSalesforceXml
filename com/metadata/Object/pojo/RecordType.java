@@ -15,6 +15,8 @@ public class RecordType {
 
     @XmlElement(name = "fullName")
     private String fullName;
+    @XmlElement(name = "businessProcess")
+    private String businessProcess;
     @XmlElement(name = "active")
     private Boolean active;
     @XmlElement(name = "compactLayoutAssignment")
@@ -76,8 +78,8 @@ public class RecordType {
 
     @Override
     public int hashCode() {
-        final int prime = 31;
-        int result = 1;
+        final Integer prime = 31;
+        Integer result = 1;
         result = prime * result + ((active == null) ? 0 : active.hashCode());
         result = prime * result + ((compactLayoutAssignment == null) ? 0 : compactLayoutAssignment.hashCode());
         result = prime * result + ((description == null) ? 0 : description.hashCode());

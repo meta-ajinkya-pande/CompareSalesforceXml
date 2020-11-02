@@ -11,12 +11,19 @@ import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlTransient;
 
 import com.metadata.Object.pojo.ActionOverride;
+import com.metadata.Object.pojo.BusinessProcess;
 import com.metadata.Object.pojo.CompactLayout;
 import com.metadata.Object.pojo.Field;
 import com.metadata.Object.pojo.FieldSet;
+import com.metadata.Object.pojo.HistoryRetentionPolicy;
+import com.metadata.Object.pojo.Index;
 import com.metadata.Object.pojo.ListView;
+import com.metadata.Object.pojo.NamedFilter;
+import com.metadata.Object.pojo.ProfileSearchLayouts;
 import com.metadata.Object.pojo.RecordType;
 import com.metadata.Object.pojo.SearchLayout;
+import com.metadata.Object.pojo.SharingReason;
+import com.metadata.Object.pojo.SharingRecalculation;
 import com.metadata.Object.pojo.ValidationRule;
 import com.metadata.Object.pojo.WebLink;
 
@@ -29,36 +36,110 @@ public class CustomObject {
     private String objectName;
     @XmlElement(name = "actionOverrides")
     private List<ActionOverride> actionOverrides;
+    @XmlElement(name = "allowInChatterGroups")
+    private Boolean allowInChatterGroups;
+    @XmlElement(name = "businessProcesses")
+    private List<BusinessProcess> businessProcesses;
     @XmlElement(name = "compactLayoutAssignment")
     private String compactLayoutAssignment;
     @XmlElement(name = "compactLayouts")
     private List<CompactLayout> compactLayouts;
+    @XmlElement(name = "customHelp")
+    private String customHelp;
+    @XmlElement(name = "customHelpPage")
+    private String customHelpPage;
+    @XmlElement(name = "customSettingsType")
+    private String customSettingsType;
+    @XmlElement(name = "customSettingsVisibility")
+    private String customSettingsVisibility;
+    @XmlElement(name = "dataStewardGroup")
+    private String dataStewardGroup;
+    @XmlElement(name = "dataStewardUser")
+    private String dataStewardUser;
+    @XmlElement(name = "deploymentStatus")
+    private String deploymentStatus;
+    @XmlElement(name = "deprecated")
+    private Boolean deprecated;
+    @XmlElement(name = "description")
+    private String description;
+    @XmlElement(name = "enableActivities")
+    private Boolean enableActivities;
+    @XmlElement(name = "enableBulkApi")
+    private Boolean enableBulkApi;
+    @XmlElement(name = "enableDivisions")
+    private Boolean enableDivisions;
     @XmlElement(name = "enableEnhancedLookup")
     private Boolean enableEnhancedLookup;
     @XmlElement(name = "enableFeeds")
     private Boolean enableFeeds;
     @XmlElement(name = "enableHistory")
     private Boolean enableHistory;
+    @XmlElement(name = "enableReports")
+    private Boolean enableReports;
+    @XmlElement(name = "enableSearch")
+    private Boolean enableSearch;
+    @XmlElement(name = "enableSharing")
+    private Boolean enableSharing;
+    @XmlElement(name = "enableStreamingApi")
+    private Boolean enableStreamingApi;
+    @XmlElement(name = "eventType")
+    private String eventType; // HighVolume, StandardVolume
+    @XmlElement(name = "externalDataSource")
+    private String externalDataSource;
+    @XmlElement(name = "externalName")
+    private String externalName;
+    @XmlElement(name = "externalRepository")
+    private String externalRepository;
     @XmlElement(name = "externalSharingModel")
     private String externalSharingModel;
     @XmlElement(name = "fieldSets")
     private List<FieldSet> fieldSets;
     @XmlElement(name = "fields")
     private List<Field> fields;
+    @XmlElement(name = "fullName")
+    private String fullName;
+    @XmlElement(name = "gender")
+    private String gender;
+    @XmlElement(name = "household")
+    private String household;
+    @XmlElement(name = "historyRetentionPolicy")
+    private HistoryRetentionPolicy historyRetentionPolicy;
+    @XmlElement(name = "indexes")
+    private List<Index> indexes;
+    @XmlElement(name = "label")
+    private String lebel;
     @XmlElement(name = "listViews")
     private List<ListView> listViews;
+    @XmlElement(name = "namedFilter")
+    private List<NamedFilter> namedFilter;
+    @XmlElement(name = "nameField")
+    private Field nameField;
+    @XmlElement(name = "pluralLabel")
+    private String pluralLabel;
+    @XmlElement(name = "profileSearchLayouts")
+    private ProfileSearchLayouts profileSearchLayouts;
+    @XmlElement(name = "publishBehavior")
+    private String publishBehavior;
+    @XmlElement(name = "recordTypes")
+    private List<RecordType> recordTypes;
     @XmlElement(name = "recordTypeTrackFeedHistory")
     private Boolean recordTypeTrackFeedHistory;
     @XmlElement(name = "recordTypeTrackHistory")
     private Boolean recordTypeTrackHistory;
-    @XmlElement(name = "recordTypes")
-    private List<RecordType> recordTypes;
     @XmlElement(name = "searchLayouts")
     private SearchLayout searchLayouts;
     @XmlElement(name = "sharingModel")
     private String sharingModel;
+    @XmlElement(name = "sharingReasons")
+    private List<SharingReason> sharingReasons;
+    @XmlElement(name = "sharingRecalculations")
+    private List<SharingRecalculation> sharingRecalculations;
+    @XmlElement(name = "startsWith")
+    private String startsWith;
     @XmlElement(name = "validationRules")
     private ValidationRule validationRules;
+    @XmlElement(name = "visibility")
+    private String visibility;
     @XmlElement(name = "webLinks")
     private WebLink webLinks;
 
@@ -208,8 +289,8 @@ public class CustomObject {
 
     @Override
     public int hashCode() {
-        final int prime = 31;
-        int result = 1;
+        final Integer prime = 31;
+        Integer result = 1;
         result = prime * result + ((actionOverrides == null) ? 0 : actionOverrides.hashCode());
         result = prime * result + ((compactLayoutAssignment == null) ? 0 : compactLayoutAssignment.hashCode());
         result = prime * result + ((compactLayouts == null) ? 0 : compactLayouts.hashCode());

@@ -57,8 +57,8 @@ public class LookupFilter {
 
     @Override
     public int hashCode() {
-        final int prime = 31;
-        int result = 1;
+        final Integer prime = 31;
+        Integer result = 1;
         result = prime * result + ((active == null) ? 0 : active.hashCode());
         result = prime * result + ((filterItems == null) ? 0 : filterItems.hashCode());
         result = prime * result + ((infoMessage == null) ? 0 : infoMessage.hashCode());

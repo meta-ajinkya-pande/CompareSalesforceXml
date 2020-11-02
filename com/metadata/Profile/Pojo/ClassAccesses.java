@@ -66,8 +66,8 @@ public class ClassAccesses implements Serializable {
 
     @Override
     public int hashCode() {
-        final int prime = 31;
-        int result = 1;
+        final Integer prime = 31;
+        Integer result = 1;
         result = prime * result + ((apexClass == null) ? 0 : apexClass.hashCode());
         result = prime * result + ((enabled == null) ? 0 : enabled.hashCode());
         return result;

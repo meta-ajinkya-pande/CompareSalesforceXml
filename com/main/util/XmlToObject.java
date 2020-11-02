@@ -30,7 +30,7 @@ public class XmlToObject<T> {
             objectMap = new TreeMap<String, T>();
             JAXBContext jaxbContext = JAXBContext.newInstance(getMyType());
             jaxbUnmarshaller = jaxbContext.createUnmarshaller();
-            for (int i = 0; i < fileContents.length; i++) {
+            for (Integer i = 0; i < fileContents.length; i++) {
                 System.out.println(fileContents[i]);
                 FileInputStream is = new FileInputStream(fileContents[i]);
                 T object = (T) jaxbUnmarshaller.unmarshal(is);

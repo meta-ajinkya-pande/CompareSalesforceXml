@@ -45,8 +45,8 @@ public class DisplayedField {
 
     @Override
     public int hashCode() {
-        final int prime = 31;
-        int result = 1;
+        final Integer prime = 31;
+        Integer result = 1;
         result = prime * result + ((field == null) ? 0 : field.hashCode());
         result = prime * result + ((isFieldManaged == null) ? 0 : isFieldManaged.hashCode());
         result = prime * result + ((isRequired == null) ? 0 : isRequired.hashCode());

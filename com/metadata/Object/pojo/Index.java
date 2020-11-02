@@ -1,6 +1,7 @@
 package com.metadata.Object.pojo;
 
 import java.util.List;
+
 import javax.xml.bind.annotation.XmlAccessOrder;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorOrder;
@@ -8,38 +9,37 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement(name = "picklistValue")
+@XmlRootElement(name = "indexes")
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlAccessorOrder(XmlAccessOrder.ALPHABETICAL)
-public class PicklistValue {
-    
-    @XmlElement(name = "picklist")
-    private String picklist;
-    @XmlElement(name = "values")
-    private List<Value> values;
+public class Index {
+    @XmlElement(name = "label")
+    private String label;
+    @XmlElement(name = "fields")
+    private List<IndexField> fields;
 
-    public String getPicklist() {
-        return picklist;
+    public String getLabel() {
+        return label;
     }
 
-    public void setPicklist(String picklist) {
-        this.picklist = picklist;
+    public void setLabel(String label) {
+        this.label = label;
     }
 
-    public List<Value> getValues() {
-        return values;
+    public List<IndexField> getFields() {
+        return fields;
     }
 
-    public void setValues(List<Value> values) {
-        this.values = values;
+    public void setFields(List<IndexField> fields) {
+        this.fields = fields;
     }
 
     @Override
     public int hashCode() {
         final Integer prime = 31;
         Integer result = 1;
-        result = prime * result + ((picklist == null) ? 0 : picklist.hashCode());
-        result = prime * result + ((values == null) ? 0 : values.hashCode());
+        result = prime * result + ((fields == null) ? 0 : fields.hashCode());
+        result = prime * result + ((label == null) ? 0 : label.hashCode());
         return result;
     }
 
@@ -51,22 +51,22 @@ public class PicklistValue {
             return false;
         if (getClass() != obj.getClass())
             return false;
-        PicklistValue other = (PicklistValue) obj;
-        if (picklist == null) {
-            if (other.picklist != null)
+        Index other = (Index) obj;
+        if (fields == null) {
+            if (other.fields != null)
                 return false;
-        } else if (!picklist.equals(other.picklist))
+        } else if (!fields.equals(other.fields))
             return false;
-        if (values == null) {
-            if (other.values != null)
+        if (label == null) {
+            if (other.label != null)
                 return false;
-        } else if (!values.equals(other.values))
+        } else if (!label.equals(other.label))
             return false;
         return true;
     }
 
     @Override
     public String toString() {
-        return "PicklistValue [picklist=" + picklist + ", values=" + values + "]";
+        return "Index [fields=" + fields + ", label=" + label + "]";
     }
 }

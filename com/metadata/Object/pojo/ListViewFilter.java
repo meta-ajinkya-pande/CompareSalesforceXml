@@ -10,7 +10,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement(name = "filter")
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlAccessorOrder(XmlAccessOrder.ALPHABETICAL)
-public class Filter {
+public class ListViewFilter {
 
     @XmlElement(name = "field")
     private String field;
@@ -45,8 +45,8 @@ public class Filter {
 
     @Override
     public int hashCode() {
-        final int prime = 31;
-        int result = 1;
+        final Integer prime = 31;
+        Integer result = 1;
         result = prime * result + ((field == null) ? 0 : field.hashCode());
         result = prime * result + ((operation == null) ? 0 : operation.hashCode());
         result = prime * result + ((value == null) ? 0 : value.hashCode());
@@ -61,7 +61,7 @@ public class Filter {
             return false;
         if (getClass() != obj.getClass())
             return false;
-        Filter other = (Filter) obj;
+        ListViewFilter other = (ListViewFilter) obj;
         if (field == null) {
             if (other.field != null)
                 return false;

@@ -66,8 +66,8 @@ public class ValueSet {
 
     @Override
     public int hashCode() {
-        final int prime = 31;
-        int result = 1;
+        final Integer prime = 31;
+        Integer result = 1;
         result = prime * result + ((controllingField == null) ? 0 : controllingField.hashCode());
         result = prime * result + ((restricted == null) ? 0 : restricted.hashCode());
         result = prime * result + ((valueSetDefinition == null) ? 0 : valueSetDefinition.hashCode());

@@ -76,8 +76,8 @@ public class ApplicationVisibilities implements Serializable {
 
     @Override
     public int hashCode() {
-        final int prime = 31;
-        int result = 1;
+        final Integer prime = 31;
+        Integer result = 1;
         result = prime * result + ((application == null) ? 0 : application.hashCode());
         result = prime * result + ((defaultTag == null) ? 0 : defaultTag.hashCode());
         result = prime * result + ((visible == null) ? 0 : visible.hashCode());

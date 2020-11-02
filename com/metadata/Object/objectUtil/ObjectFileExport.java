@@ -39,10 +39,10 @@ public class ObjectFileExport {
         exportExcelFile.exportFile(outputFileName, workbookMap);
     }
 
-    public void exportXmlFile(Collection<CustomObject> customObjectCollection) throws Exception {
+    public void exportXmlFile(Collection<CustomObject> customObjectCollection, String outputFolder) throws Exception {
         ObjectToXML objectToXML = new ObjectToXML();
         for (CustomObject tempObject : customObjectCollection) {
-            objectToXML.setFileOutputStream("Result/BitbucketObjectTemp/" + tempObject.getObjectName());
+            objectToXML.setFileOutputStream("Result/"+outputFolder+"/" + tempObject.getObjectName());
             objectToXML.convertObjecttoXml(tempObject);
         }
     }

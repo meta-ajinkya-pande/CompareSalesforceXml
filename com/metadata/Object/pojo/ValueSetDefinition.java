@@ -36,8 +36,8 @@ public class ValueSetDefinition {
 
     @Override
     public int hashCode() {
-        final int prime = 31;
-        int result = 1;
+        final Integer prime = 31;
+        Integer result = 1;
         result = prime * result + ((sorted == null) ? 0 : sorted.hashCode());
         result = prime * result + ((values == null) ? 0 : values.hashCode());
         return result;

@@ -41,13 +41,13 @@ public class Field {
     @XmlElement(name = "formula")
     private String formula;
     @XmlElement(name = "precision")
-    private int precision;
+    private Integer precision;
     @XmlElement(name = "scale")
-    private int scale;
+    private Integer scale;
     @XmlElement(name = "length")
-    private int length;
+    private Integer length;
     @XmlElement(name = "visibleLines")
-    private int visibleLines;
+    private Integer visibleLines;
     @XmlElement(name = "deleteConstraint")
     private String deleteConstraint;
     @XmlElement(name = "lookupFilter")
@@ -58,7 +58,10 @@ public class Field {
     private String relationshipLabel;
     @XmlElement(name = "relationshipName")
     private String relationshipName;
-    
+    @XmlElement(name = "displayFormat")
+    private String displayFormat;
+    @XmlElement(name = "trackTrending")
+    private Boolean trackTrending;
 
     public String getFullName() {
         return fullName;
@@ -155,26 +158,28 @@ public class Field {
         result = prime * result + ((deleteConstraint == null) ? 0 : deleteConstraint.hashCode());
         result = prime * result + ((deprecated == null) ? 0 : deprecated.hashCode());
         result = prime * result + ((description == null) ? 0 : description.hashCode());
+        result = prime * result + ((displayFormat == null) ? 0 : displayFormat.hashCode());
         result = prime * result + ((externalId == null) ? 0 : externalId.hashCode());
         result = prime * result + ((formula == null) ? 0 : formula.hashCode());
         result = prime * result + ((formulaTreatBlanksAs == null) ? 0 : formulaTreatBlanksAs.hashCode());
         result = prime * result + ((fullName == null) ? 0 : fullName.hashCode());
         result = prime * result + ((inlineHelpText == null) ? 0 : inlineHelpText.hashCode());
         result = prime * result + ((label == null) ? 0 : label.hashCode());
-        result = prime * result + length;
+        result = prime * result + ((length == null) ? 0 : length.hashCode());
         result = prime * result + ((lookupFilter == null) ? 0 : lookupFilter.hashCode());
-        result = prime * result + precision;
+        result = prime * result + ((precision == null) ? 0 : precision.hashCode());
         result = prime * result + ((referenceTo == null) ? 0 : referenceTo.hashCode());
         result = prime * result + ((relationshipLabel == null) ? 0 : relationshipLabel.hashCode());
         result = prime * result + ((relationshipName == null) ? 0 : relationshipName.hashCode());
         result = prime * result + ((required == null) ? 0 : required.hashCode());
-        result = prime * result + scale;
+        result = prime * result + ((scale == null) ? 0 : scale.hashCode());
         result = prime * result + ((trackFeedHistory == null) ? 0 : trackFeedHistory.hashCode());
         result = prime * result + ((trackHistory == null) ? 0 : trackHistory.hashCode());
+        result = prime * result + ((trackTrending == null) ? 0 : trackTrending.hashCode());
         result = prime * result + ((type == null) ? 0 : type.hashCode());
         result = prime * result + ((unique == null) ? 0 : unique.hashCode());
         result = prime * result + ((valueSet == null) ? 0 : valueSet.hashCode());
-        result = prime * result + visibleLines;
+        result = prime * result + ((visibleLines == null) ? 0 : visibleLines.hashCode());
         return result;
     }
 
@@ -201,6 +206,11 @@ public class Field {
             if (other.description != null)
                 return false;
         } else if (!description.equals(other.description))
+            return false;
+        if (displayFormat == null) {
+            if (other.displayFormat != null)
+                return false;
+        } else if (!displayFormat.equals(other.displayFormat))
             return false;
         if (externalId == null) {
             if (other.externalId != null)
@@ -232,14 +242,20 @@ public class Field {
                 return false;
         } else if (!label.equals(other.label))
             return false;
-        if (length != other.length)
+        if (length == null) {
+            if (other.length != null)
+                return false;
+        } else if (!length.equals(other.length))
             return false;
         if (lookupFilter == null) {
             if (other.lookupFilter != null)
                 return false;
         } else if (!lookupFilter.equals(other.lookupFilter))
             return false;
-        if (precision != other.precision)
+        if (precision == null) {
+            if (other.precision != null)
+                return false;
+        } else if (!precision.equals(other.precision))
             return false;
         if (referenceTo == null) {
             if (other.referenceTo != null)
@@ -261,7 +277,10 @@ public class Field {
                 return false;
         } else if (!required.equals(other.required))
             return false;
-        if (scale != other.scale)
+        if (scale == null) {
+            if (other.scale != null)
+                return false;
+        } else if (!scale.equals(other.scale))
             return false;
         if (trackFeedHistory == null) {
             if (other.trackFeedHistory != null)
@@ -272,6 +291,11 @@ public class Field {
             if (other.trackHistory != null)
                 return false;
         } else if (!trackHistory.equals(other.trackHistory))
+            return false;
+        if (trackTrending == null) {
+            if (other.trackTrending != null)
+                return false;
+        } else if (!trackTrending.equals(other.trackTrending))
             return false;
         if (type == null) {
             if (other.type != null)
@@ -288,7 +312,10 @@ public class Field {
                 return false;
         } else if (!valueSet.equals(other.valueSet))
             return false;
-        if (visibleLines != other.visibleLines)
+        if (visibleLines == null) {
+            if (other.visibleLines != null)
+                return false;
+        } else if (!visibleLines.equals(other.visibleLines))
             return false;
         return true;
     }
@@ -296,13 +323,14 @@ public class Field {
     @Override
     public String toString() {
         return "Field [deleteConstraint=" + deleteConstraint + ", deprecated=" + deprecated + ", description="
-                + description + ", externalId=" + externalId + ", formula=" + formula + ", formulaTreatBlanksAs="
-                + formulaTreatBlanksAs + ", fullName=" + fullName + ", inlineHelpText=" + inlineHelpText + ", label="
-                + label + ", length=" + length + ", lookupFilter=" + lookupFilter + ", precision=" + precision
-                + ", referenceTo=" + referenceTo + ", relationshipLabel=" + relationshipLabel + ", relationshipName="
-                + relationshipName + ", required=" + required + ", scale=" + scale + ", trackFeedHistory="
-                + trackFeedHistory + ", trackHistory=" + trackHistory + ", type=" + type + ", unique=" + unique
-                + ", valueSet=" + valueSet + ", visibleLines=" + visibleLines + "]";
+                + description + ", displayFormat=" + displayFormat + ", externalId=" + externalId + ", formula="
+                + formula + ", formulaTreatBlanksAs=" + formulaTreatBlanksAs + ", fullName=" + fullName
+                + ", inlineHelpText=" + inlineHelpText + ", label=" + label + ", length=" + length + ", lookupFilter="
+                + lookupFilter + ", precision=" + precision + ", referenceTo=" + referenceTo + ", relationshipLabel="
+                + relationshipLabel + ", relationshipName=" + relationshipName + ", required=" + required + ", scale="
+                + scale + ", trackFeedHistory=" + trackFeedHistory + ", trackHistory=" + trackHistory
+                + ", trackTrending=" + trackTrending + ", type=" + type + ", unique=" + unique + ", valueSet="
+                + valueSet + ", visibleLines=" + visibleLines + "]";
     }
 
     public Boolean getUnique() {
@@ -329,35 +357,35 @@ public class Field {
         this.formula = formula;
     }
 
-    public int getPrecision() {
+    public Integer getPrecision() {
         return precision;
     }
 
-    public void setPrecision(int precision) {
+    public void setPrecision(Integer precision) {
         this.precision = precision;
     }
 
-    public int getScale() {
+    public Integer getScale() {
         return scale;
     }
 
-    public void setScale(int scale) {
+    public void setScale(Integer scale) {
         this.scale = scale;
     }
 
-    public int getLength() {
+    public Integer getLength() {
         return length;
     }
 
-    public void setLength(int length) {
+    public void setLength(Integer length) {
         this.length = length;
     }
 
-    public int getVisibleLines() {
+    public Integer getVisibleLines() {
         return visibleLines;
     }
 
-    public void setVisibleLines(int visibleLines) {
+    public void setVisibleLines(Integer visibleLines) {
         this.visibleLines = visibleLines;
     }
 
@@ -399,5 +427,21 @@ public class Field {
 
     public void setRelationshipName(String relationshipName) {
         this.relationshipName = relationshipName;
+    }
+
+    public String getDisplayFormat() {
+        return displayFormat;
+    }
+
+    public void setDisplayFormat(String displayFormat) {
+        this.displayFormat = displayFormat;
+    }
+
+    public Boolean getTrackTrending() {
+        return trackTrending;
+    }
+
+    public void setTrackTrending(Boolean trackTrending) {
+        this.trackTrending = trackTrending;
     }
 }

@@ -7,7 +7,7 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement(name = "actionOverrides")
+@XmlRootElement(name = "webLinks")
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlAccessorOrder(XmlAccessOrder.ALPHABETICAL)
 public class WebLink {
@@ -29,7 +29,7 @@ public class WebLink {
     @XmlElement(name = "hasToolbar")
     private Boolean hasToolbar;
     @XmlElement(name = "height")
-    private int height;
+    private Integer height;
     @XmlElement(name = "isResizable")
     private Boolean isResizable;
     @XmlElement(name = "linkType")
@@ -117,11 +117,11 @@ public class WebLink {
         this.hasToolbar = hasToolbar;
     }
 
-    public int getHeight() {
+    public Integer getHeight() {
         return height;
     }
 
-    public void setHeight(int height) {
+    public void setHeight(Integer height) {
         this.height = height;
     }
 
@@ -215,8 +215,8 @@ public class WebLink {
 
     @Override
     public int hashCode() {
-        final int prime = 31;
-        int result = 1;
+        final Integer prime = 31;
+        Integer result = 1;
         result = prime * result + ((availability == null) ? 0 : availability.hashCode());
         result = prime * result + ((description == null) ? 0 : description.hashCode());
         result = prime * result + ((displayType == null) ? 0 : displayType.hashCode());

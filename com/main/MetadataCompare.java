@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
+import java.util.TreeMap;
 
 import com.main.util.FileHandling;
 import com.main.util.ReadExcelFile;
@@ -37,6 +38,11 @@ public class MetadataCompare {
 			for(String key : bitbucketObjectMap.keySet()) {
 				bitbucketObjectMap.get(key).setObjectName(key);
 			}
+			Map<String, CustomObject> orgObjectMap = objectXmlToObject.convertXMLsToObjects("compareFolder/org/objects");
+			for(String key : orgObjectMap.keySet()) {
+				orgObjectMap.get(key).setObjectName(key);
+			}
+			Map<String, CustomObject> customObjectNotInRepoMap = new TreeMap<String, CustomObject>();
 			if(IS_OBJECT_EXTERNAL_CHANGE) {
 				Map<String, List<Object>> sheetDataMap;
 				ReadExcelFile readExcelFile = new ReadExcelFile();
@@ -44,10 +50,14 @@ public class MetadataCompare {
 				for(String objectName : sheetDataMap.keySet()) {
 					if(bitbucketObjectMap.containsKey(objectName+".object")) {
 						bitbucketObjectMap.get(objectName+".object").setExternalSharingModel((String)sheetDataMap.get(objectName).get(0));
+					} else if(orgObjectMap.containsKey(objectName+".object")) {
+						CustomObject temp = orgObjectMap.get(objectName+".object");
+						temp.setExternalSharingModel((String)sheetDataMap.get(objectName).get(0));
+						customObjectNotInRepoMap.put(objectName+".object", temp);
 					}
 				}
 			}
-			exportObjectExcelFiles(bitbucketObjectMap);
+			exportObjectExcelFiles(bitbucketObjectMap, customObjectNotInRepoMap);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -82,16 +92,21 @@ public class MetadataCompare {
 		profileFileExport.exportExcelFile(profileCompare.getProfileFieldPermissionMap());
 	}
 
-	public static void exportObjectExcelFiles(Map<String, CustomObject> bitbucketObjectMap) throws Exception {
+	public static void exportObjectExcelFiles(Map<String, CustomObject> bitbucketObjectMap, Map<String, CustomObject> orgObjectNotInRepoMap) throws Exception {
 		ObjectFileExport objectFileExport = new ObjectFileExport();
 		if(IS_OBJECT_EXTERNAL_ACCESS) {
 			objectFileExport.exportExternalSharingExcelFile(bitbucketObjectMap);
 		} else if(IS_OBJECT_EXTERNAL_CHANGE) {
-			Collection<CustomObject> objectMapCollection = new ArrayList<CustomObject>();
+			Collection<CustomObject> objectMapCollectionBitbucket = new ArrayList<CustomObject>();
+			Collection<CustomObject> objectMapCollectionOrg = new ArrayList<CustomObject>();
 			for(String objectName : bitbucketObjectMap.keySet()) {
-				objectMapCollection.add(bitbucketObjectMap.get(objectName));
+				objectMapCollectionBitbucket.add(bitbucketObjectMap.get(objectName));
 			}
-			objectFileExport.exportXmlFile(objectMapCollection);
+			for(String objectName : orgObjectNotInRepoMap.keySet()) {
+				objectMapCollectionOrg.add(orgObjectNotInRepoMap.get(objectName));
+			}
+			objectFileExport.exportXmlFile(objectMapCollectionBitbucket,"BitbucketObjectTemp");
+			objectFileExport.exportXmlFile(objectMapCollectionOrg,"OrgObjectNotInRepoTemp");
 		}
 	}
 }

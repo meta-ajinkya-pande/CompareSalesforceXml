@@ -75,8 +75,8 @@ public class ValidationRule {
 
     @Override
     public int hashCode() {
-        final int prime = 31;
-        int result = 1;
+        final Integer prime = 31;
+        Integer result = 1;
         result = prime * result + ((active == null) ? 0 : active.hashCode());
         result = prime * result + ((description == null) ? 0 : description.hashCode());
         result = prime * result + ((errorConditionFormula == null) ? 0 : errorConditionFormula.hashCode());

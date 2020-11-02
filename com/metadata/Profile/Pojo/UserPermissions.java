@@ -56,8 +56,8 @@ public class UserPermissions implements Serializable {
 
     @Override
     public int hashCode() {
-        final int prime = 31;
-        int result = 1;
+        final Integer prime = 31;
+        Integer result = 1;
         result = prime * result + ((enabled == null) ? 0 : enabled.hashCode());
         result = prime * result + ((name == null) ? 0 : name.hashCode());
         return result;

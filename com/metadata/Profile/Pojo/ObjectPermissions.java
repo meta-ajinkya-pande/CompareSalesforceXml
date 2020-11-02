@@ -107,8 +107,8 @@ public class ObjectPermissions implements Serializable {
 
     @Override
     public int hashCode() {
-        final int prime = 31;
-        int result = 1;
+        final Integer prime = 31;
+        Integer result = 1;
         result = prime * result + ((allowCreate == null) ? 0 : allowCreate.hashCode());
         result = prime * result + ((allowDelete == null) ? 0 : allowDelete.hashCode());
         result = prime * result + ((allowEdit == null) ? 0 : allowEdit.hashCode());

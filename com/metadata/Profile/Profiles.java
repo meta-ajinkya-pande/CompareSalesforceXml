@@ -184,8 +184,8 @@ public class Profiles implements Serializable {
 
 	@Override
 	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
+		final Integer prime = 31;
+		Integer result = 1;
 		result = prime * result + ((applicationVisibilities == null) ? 0 : applicationVisibilities.hashCode());
 		result = prime * result + ((classAccesses == null) ? 0 : classAccesses.hashCode());
 		result = prime * result + ((custom == null) ? 0 : custom.hashCode());

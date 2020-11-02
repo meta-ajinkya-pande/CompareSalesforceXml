@@ -38,10 +38,10 @@ public class ExportExcelFile {
             modifiedSheetData = sheetData;
         }
         XSSFSheet sheet = workbook.createSheet(sheetName);
-        int rowNum = 0;
+        Integer rowNum = 0;
         for(List<Object> rows : modifiedSheetData) {
             Row row = sheet.createRow(rowNum++);
-            int colNum = 0;
+            Integer colNum = 0;
             for(Object field : rows) {
                 Cell cell = row.createCell(colNum++);
                 if (field instanceof String) {
@@ -57,8 +57,8 @@ public class ExportExcelFile {
     private <T> List<List<T>> singleLine(List<List<T>> table) {
         List<List<T>> ret = new ArrayList<List<T>>();
         List<T> ret1 = new ArrayList<T>();
-        for(int i=0;i<table.size();i++) {
-            for(int j=0;j<table.get(i).size(); j++) {
+        for(Integer i=0;i<table.size();i++) {
+            for(Integer j=0;j<table.get(i).size(); j++) {
                 ret1.add(table.get(i).get(j));
             }
             ret1.add((T) "");
@@ -76,15 +76,15 @@ public class ExportExcelFile {
     @SuppressWarnings("unchecked")
     private <T> List<List<T>> transpose(List<List<T>> table) {
         List<List<T>> ret = new ArrayList<List<T>>();
-        int maxSize = 0;
-        for(int i = 0; i < table.size(); i++) {
+        Integer maxSize = 0;
+        for(Integer i = 0; i < table.size(); i++) {
             if(maxSize < table.get(i).size()) {
                 maxSize = table.get(i).size();
             }
         }
-        for (int i = 0; i < maxSize; i++) {
+        for (Integer i = 0; i < maxSize; i++) {
             List<T> col = new ArrayList<T>();
-            for (int j=0; j < table.size(); j++) {
+            for (Integer j=0; j < table.size(); j++) {
                 if(table.get(j).size() > i) {
                     col.add(table.get(j).get(i));
                 } else {

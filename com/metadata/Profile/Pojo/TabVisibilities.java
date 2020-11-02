@@ -56,8 +56,8 @@ public class TabVisibilities implements Serializable {
 
     @Override
     public int hashCode() {
-        final int prime = 31;
-        int result = 1;
+        final Integer prime = 31;
+        Integer result = 1;
         result = prime * result + ((tab == null) ? 0 : tab.hashCode());
         result = prime * result + ((visibility == null) ? 0 : visibility.hashCode());
         return result;

@@ -50,8 +50,8 @@ public class ActionOverride {
 
     @Override
     public int hashCode() {
-        final int prime = 31;
-        int result = 1;
+        final Integer prime = 31;
+        Integer result = 1;
         result = prime * result + ((actionName == null) ? 0 : actionName.hashCode());
         result = prime * result + ((formFactor == null) ? 0 : formFactor.hashCode());
         result = prime * result + ((type == null) ? 0 : type.hashCode());

@@ -45,8 +45,8 @@ public class Value {
 
     @Override
     public int hashCode() {
-        final int prime = 31;
-        int result = 1;
+        final Integer prime = 31;
+        Integer result = 1;
         result = prime * result + ((defaultt == null) ? 0 : defaultt.hashCode());
         result = prime * result + ((fullName == null) ? 0 : fullName.hashCode());
         result = prime * result + ((label == null) ? 0 : label.hashCode());

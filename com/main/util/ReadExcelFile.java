@@ -29,7 +29,7 @@ public class ReadExcelFile {
             while (iterator.hasNext()) {
                 Row currentRow = iterator.next();
                 Iterator<Cell> cellIterator = currentRow.iterator();
-                int i = 0;
+                Integer i = 0;
                 String objectName = "";
                 List<Object> objectValues = new ArrayList<Object>();
                 while (cellIterator.hasNext()) {

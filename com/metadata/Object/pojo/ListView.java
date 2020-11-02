@@ -13,18 +13,24 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlAccessorOrder(XmlAccessOrder.ALPHABETICAL)
 public class ListView {
     
-    @XmlElement(name = "fullName")
-    private String fullName;
+    @XmlElement(name = "booleanFilter")
+    private String booleanFilter;
     @XmlElement(name = "columns")
     private List<String> columns;
+    @XmlElement(name = "division")
+    private String division;
     @XmlElement(name = "filterScope")
     private String filterScope;
     @XmlElement(name = "filters")
-    private List<Filter> filters;
+    private List<ListViewFilter> filters;
+    @XmlElement(name = "fullName")
+    private String fullName;
     @XmlElement(name = "label")
     private String label;
     @XmlElement(name = "language")
     private String language;
+    @XmlElement(name = "queue")
+    private String queue;
     @XmlElement(name = "sharedTo")
     private SharedTo sharedTo;
 
@@ -52,11 +58,11 @@ public class ListView {
         this.filterScope = filterScope;
     }
 
-    public List<Filter> getFilters() {
+    public List<ListViewFilter> getFilters() {
         return filters;
     }
 
-    public void setFilters(List<Filter> filters) {
+    public void setFilters(List<ListViewFilter> filters) {
         this.filters = filters;
     }
 
@@ -86,8 +92,8 @@ public class ListView {
 
     @Override
     public int hashCode() {
-        final int prime = 31;
-        int result = 1;
+        final Integer prime = 31;
+        Integer result = 1;
         result = prime * result + ((columns == null) ? 0 : columns.hashCode());
         result = prime * result + ((filterScope == null) ? 0 : filterScope.hashCode());
         result = prime * result + ((filters == null) ? 0 : filters.hashCode());

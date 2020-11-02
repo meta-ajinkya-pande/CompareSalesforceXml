@@ -1,6 +1,7 @@
 package com.metadata.Object.pojo;
 
 import java.util.List;
+
 import javax.xml.bind.annotation.XmlAccessOrder;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorOrder;
@@ -8,21 +9,21 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement(name = "fieldSet")
+@XmlRootElement(name = "businessProcesses")
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlAccessorOrder(XmlAccessOrder.ALPHABETICAL)
-public class FieldSet {
-
+public class BusinessProcess {
+    
     @XmlElement(name = "fullName")
     private String fullName;
     @XmlElement(name = "description")
     private String description;
-    @XmlElement(name = "displayedFields")
-    private List<DisplayedField> displayedFields;
-    @XmlElement(name = "availableFields")
-    private List<AvailableField> availableFields;
-    @XmlElement(name = "label")
-    private String label;
+    @XmlElement(name = "isActive")
+    private boolean isActive;
+    @XmlElement(name = "namespacePrefix")
+    private String namespacePrefix;
+    @XmlElement(name = "values")
+    private List<Value> values;
 
     public String getFullName() {
         return fullName;
@@ -40,31 +41,39 @@ public class FieldSet {
         this.description = description;
     }
 
-    public List<DisplayedField> getDisplayedFields() {
-        return displayedFields;
+    public boolean isActive() {
+        return isActive;
     }
 
-    public void setDisplayedFields(List<DisplayedField> displayedFields) {
-        this.displayedFields = displayedFields;
+    public void setActive(boolean isActive) {
+        this.isActive = isActive;
     }
 
-    public String getLabel() {
-        return label;
+    public String getNamespacePrefix() {
+        return namespacePrefix;
     }
 
-    public void setLabel(String label) {
-        this.label = label;
+    public void setNamespacePrefix(String namespacePrefix) {
+        this.namespacePrefix = namespacePrefix;
+    }
+
+    public List<Value> getValues() {
+        return values;
+    }
+
+    public void setValues(List<Value> values) {
+        this.values = values;
     }
 
     @Override
     public int hashCode() {
         final Integer prime = 31;
         Integer result = 1;
-        result = prime * result + ((availableFields == null) ? 0 : availableFields.hashCode());
         result = prime * result + ((description == null) ? 0 : description.hashCode());
-        result = prime * result + ((displayedFields == null) ? 0 : displayedFields.hashCode());
         result = prime * result + ((fullName == null) ? 0 : fullName.hashCode());
-        result = prime * result + ((label == null) ? 0 : label.hashCode());
+        result = prime * result + (isActive ? 1231 : 1237);
+        result = prime * result + ((namespacePrefix == null) ? 0 : namespacePrefix.hashCode());
+        result = prime * result + ((values == null) ? 0 : values.hashCode());
         return result;
     }
 
@@ -76,46 +85,35 @@ public class FieldSet {
             return false;
         if (getClass() != obj.getClass())
             return false;
-        FieldSet other = (FieldSet) obj;
-        if (availableFields == null) {
-            if (other.availableFields != null)
-                return false;
-        } else if (!availableFields.equals(other.availableFields))
-            return false;
+        BusinessProcess other = (BusinessProcess) obj;
         if (description == null) {
             if (other.description != null)
                 return false;
         } else if (!description.equals(other.description))
-            return false;
-        if (displayedFields == null) {
-            if (other.displayedFields != null)
-                return false;
-        } else if (!displayedFields.equals(other.displayedFields))
             return false;
         if (fullName == null) {
             if (other.fullName != null)
                 return false;
         } else if (!fullName.equals(other.fullName))
             return false;
-        if (label == null) {
-            if (other.label != null)
+        if (isActive != other.isActive)
+            return false;
+        if (namespacePrefix == null) {
+            if (other.namespacePrefix != null)
                 return false;
-        } else if (!label.equals(other.label))
+        } else if (!namespacePrefix.equals(other.namespacePrefix))
+            return false;
+        if (values == null) {
+            if (other.values != null)
+                return false;
+        } else if (!values.equals(other.values))
             return false;
         return true;
     }
 
     @Override
     public String toString() {
-        return "FieldSet [availableFields=" + availableFields + ", description=" + description + ", displayedFields="
-                + displayedFields + ", fullName=" + fullName + ", label=" + label + "]";
-    }
-
-    public List<AvailableField> getAvailableFields() {
-        return availableFields;
-    }
-
-    public void setAvailableFields(List<AvailableField> availableFields) {
-        this.availableFields = availableFields;
+        return "BusinessProcess [description=" + description + ", fullName=" + fullName + ", isActive=" + isActive
+                + ", namespacePrefix=" + namespacePrefix + ", values=" + values + "]";
     }
 }
